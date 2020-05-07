@@ -1,0 +1,132 @@
+[
+  {
+    "id": 17,
+    "nom": "ADJECTIUS",
+    "classificacio": 1
+  },
+  {
+    "id": 48,
+    "nom": "ADVERBIS",
+    "classificacio": 1
+  },
+  {
+    "id": 34,
+    "nom": "ALIMENTS",
+    "classificacio": 3
+  },
+  {
+    "id": 35,
+    "nom": "ANIMALS",
+    "classificacio": 3
+  },
+  {
+    "id": 42,
+    "nom": "BOTIGA",
+    "classificacio": 3
+  },
+  {
+    "id": 30,
+    "nom": "CASA",
+    "classificacio": 3
+  },
+  {
+    "id": 45,
+    "nom": "CIUTAT",
+    "classificacio": 3
+  },
+  {
+    "id": 27,
+    "nom": "CONSTRUCCIONS GRAMATICALS",
+    "classificacio": 1
+  },
+  {
+    "id": 40,
+    "nom": "COS",
+    "classificacio": 3
+  },
+  {
+    "id": 28,
+    "nom": "ESCOLA",
+    "classificacio": 3
+  },
+  {
+    "id": 29,
+    "nom": "ESPORT",
+    "classificacio": 3
+  },
+  {
+    "id": 46,
+    "nom": "FAMÍLIA",
+    "classificacio": 3
+  },
+  {
+    "id": 37,
+    "nom": "FANTASIA",
+    "classificacio": 3
+  },
+  {
+    "id": 44,
+    "nom": "FESTES",
+    "classificacio": 3
+  },
+  {
+    "id": 43,
+    "nom": "GRAMATICALS",
+    "classificacio": 3
+  },
+  {
+    "id": 33,
+    "nom": "JOCS I JOGUINES",
+    "classificacio": 3
+  },
+  {
+    "id": 41,
+    "nom": "MÚSICA",
+    "classificacio": 3
+  },
+  {
+    "id": 39,
+    "nom": "NATURA",
+    "classificacio": 3
+  },
+  {
+    "id": 19,
+    "nom": "NOMS",
+    "classificacio": 1
+  },
+  {
+    "id": 47,
+    "nom": "NUMERACIÓ I ABECEDARI",
+    "classificacio": 3
+  },
+  {
+    "id": 36,
+    "nom": "OFICIS",
+    "classificacio": 3
+  },
+  {
+    "id": 20,
+    "nom": "PRONOMS",
+    "classificacio": 1
+  },
+  {
+    "id": 31,
+    "nom": "TEMPS",
+    "classificacio": 3
+  },
+  {
+    "id": 38,
+    "nom": "TRANSPORTS",
+    "classificacio": 3
+  },
+  {
+    "id": 21,
+    "nom": "VERBS",
+    "classificacio": 1
+  },
+  {
+    "id": 32,
+    "nom": "VESTIT",
+    "classificacio": 3
+  }
+]
