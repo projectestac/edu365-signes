@@ -1122,7 +1122,7 @@
       "id": 48,
       "paraula": "ABRAÇAR",
       "so": "abra_car.mp3",
-      "imatge": "",
+      "imatge": "abraçar.png",
       "repeticio": "",
       "videos": [
         "abra_carproc.mp4"
@@ -1301,7 +1301,7 @@
       "id": 3050,
       "paraula": "ACORDIÓ",
       "so": "acordio.mp3",
-      "imatge": "",
+      "imatge": "acordió.png",
       "repeticio": "",
       "videos": [
         "acordioproc.mp4"
@@ -1547,7 +1547,7 @@
       "id": 3509,
       "paraula": "ÀFRICA",
       "so": "_frica.mp3",
-      "imatge": "",
+      "imatge": "Àfrica.png",
       "repeticio": "",
       "videos": [
         "africa1.mp4",
@@ -1667,7 +1667,7 @@
       "id": 77,
       "paraula": "AGÈNCIA DE VIATGES",
       "so": "ag_ncia_de_viatges.mp3",
-      "imatge": "",
+      "imatge": "agència de viatges.png",
       "repeticio": "",
       "videos": [
         "agenciaviatgesproc.mp4"
@@ -2175,7 +2175,7 @@
       "id": 107,
       "paraula": "ALBERGINIA",
       "so": "alberginia.mp3",
-      "imatge": "",
+      "imatge": "albergínia.png",
       "repeticio": "",
       "videos": [
         "alberginia.mp4"
@@ -2189,7 +2189,7 @@
       "id": 3611,
       "paraula": "ALBUM",
       "so": "album.mp3",
-      "imatge": "",
+      "imatge": "àlbum.png",
       "repeticio": "",
       "videos": [
         "album.mp4"
@@ -2265,7 +2265,7 @@
     {
       "id": 111,
       "paraula": "ALGÚ",
-      "so": "",
+      "so": "algú.mp3",
       "imatge": "alguns_1.png",
       "repeticio": "",
       "videos": [
@@ -2337,7 +2337,7 @@
       "id": 115,
       "paraula": "ALLÀ",
       "so": "alla.mp3",
-      "imatge": "",
+      "imatge": "allà.png",
       "repeticio": "",
       "videos": [
         "allalentm.mp4"
@@ -2529,7 +2529,7 @@
       "id": 130,
       "paraula": "AMBULÀNCIA",
       "so": "ambulancia.mp3",
-      "imatge": "",
+      "imatge": "ambulància.png",
       "repeticio": "",
       "videos": [
         "ambulanciaproc.mp4"
@@ -2545,7 +2545,7 @@
       "id": 3491,
       "paraula": "AMÈRICA",
       "so": "am_rica.mp3",
-      "imatge": "",
+      "imatge": "Amèrica.png",
       "repeticio": "",
       "videos": [
         "americalent.mp4"
@@ -2889,7 +2889,7 @@
       "id": 152,
       "paraula": "ÀNEC",
       "so": "anec.mp3",
-      "imatge": "",
+      "imatge": "ànec.png",
       "repeticio": "",
       "videos": [
         "anecproc.mp4"
@@ -2933,7 +2933,7 @@
       "id": 154,
       "paraula": "ANGELET",
       "so": "angelet.mp3",
-      "imatge": "",
+      "imatge": "àngel.png",
       "repeticio": "",
       "videos": [
         "angelets.mp4"
@@ -3075,7 +3075,7 @@
       "id": 162,
       "paraula": "ANTIFAÇ",
       "so": "antifa_c.mp3",
-      "imatge": "",
+      "imatge": "antifaç.png",
       "repeticio": "",
       "videos": [
         "antifas.mp4"
@@ -3366,7 +3366,7 @@
       "id": 182,
       "paraula": "AQUÍ",
       "so": "aqui.mp3",
-      "imatge": "",
+      "imatge": "aquí.png",
       "repeticio": "",
       "videos": [
         "aqui.mp4"
@@ -3401,7 +3401,7 @@
       "id": 3494,
       "paraula": "ARAGÓ",
       "so": "arag_.mp3",
-      "imatge": "",
+      "imatge": "Aragó.png",
       "repeticio": "",
       "videos": [
         "arago.mp4"
@@ -3461,7 +3461,7 @@
       "id": 187,
       "paraula": "ARC DE SANT MARTÍ",
       "so": "arc_de_sanmarti.mp3",
-      "imatge": "",
+      "imatge": "arc de Sant Martí.png",
       "repeticio": "",
       "videos": [
         "arcstmarti.mp4"
@@ -3851,7 +3851,7 @@
       "id": 207,
       "paraula": "ARRÒS",
       "so": "arros.mp3",
-      "imatge": "",
+      "imatge": "arròs.png",
       "repeticio": "",
       "videos": [
         "arros.mp4"
@@ -4127,7 +4127,7 @@
       "id": 227,
       "paraula": "ASSECAR EL CABELL",
       "so": "assecar_se_el_cabell.mp3",
-      "imatge": "",
+      "imatge": "assecar el pèl.png",
       "repeticio": "",
       "videos": [
         "assecarcabellproc.mp4"
@@ -4237,7 +4237,7 @@
       "id": 3497,
       "paraula": "ASTÚRIES",
       "so": "ast_ries.mp3",
-      "imatge": "",
+      "imatge": "Astúries.png",
       "repeticio": "",
       "videos": [
         "asturies.mp4"
@@ -4425,7 +4425,7 @@
       "id": 246,
       "paraula": "AUTOBÚS",
       "so": "autobus.mp3",
-      "imatge": "",
+      "imatge": "autobús.png",
       "repeticio": "",
       "videos": [
         "autobusproc.mp4",
@@ -4488,7 +4488,7 @@
       "id": 3724,
       "paraula": "AVANÇAR",
       "so": "avan_car.mp3",
-      "imatge": "",
+      "imatge": "avançar.png",
       "repeticio": "",
       "videos": [
         "avan_carproc.mp4"
@@ -4594,7 +4594,7 @@
       "id": 256,
       "paraula": "AVIA",
       "so": "avia.mp3",
-      "imatge": "",
+      "imatge": "àvia.png",
       "repeticio": "",
       "videos": [
         "avia.mp4"
@@ -4669,7 +4669,7 @@
       "id": 261,
       "paraula": "AVIÓ",
       "so": "avio.mp3",
-      "imatge": "",
+      "imatge": "avió.png",
       "repeticio": "",
       "videos": [
         "avioproc.mp4"
@@ -4945,7 +4945,7 @@
       "id": 278,
       "paraula": "BALANÇA",
       "so": "balan_ca.mp3",
-      "imatge": "",
+      "imatge": "balança.png",
       "repeticio": "",
       "videos": [
         "balan_caproc.mp4",
@@ -4962,7 +4962,7 @@
       "id": 280,
       "paraula": "BALANCÍ",
       "so": "balanci.mp3",
-      "imatge": "",
+      "imatge": "balancí.png",
       "repeticio": "",
       "videos": [
         "balanci.mp4"
@@ -4977,7 +4977,7 @@
       "id": 281,
       "paraula": "BALCÓ",
       "so": "balco.mp3",
-      "imatge": "",
+      "imatge": "balcó.png",
       "repeticio": "",
       "videos": [
         "balcoproc.mp4"
@@ -5302,7 +5302,7 @@
       "id": 298,
       "paraula": "BARALLA DE CARTES",
       "so": "baralla_de_cartes.mp3",
-      "imatge": "",
+      "imatge": "baralla de pòker.png",
       "repeticio": "",
       "videos": [
         "baralladecartes.mp4"
@@ -5507,7 +5507,7 @@
       "id": 311,
       "paraula": "BARNÚS",
       "so": "barnus.mp3",
-      "imatge": "",
+      "imatge": "barnús.png",
       "repeticio": "",
       "videos": [
         "bernus.mp4"
@@ -5594,7 +5594,7 @@
       "id": 318,
       "paraula": "BÀSCULA",
       "so": "bascula.mp3",
-      "imatge": "",
+      "imatge": "bàscula.png",
       "repeticio": "",
       "videos": [
         "basculaproc.mp4"
@@ -5609,7 +5609,7 @@
       "id": 319,
       "paraula": "BÀSQUET",
       "so": "basquet.mp3",
-      "imatge": "",
+      "imatge": "bàsquet.png",
       "repeticio": "",
       "videos": [
         "basquetproc.mp4"
@@ -5653,7 +5653,7 @@
       "id": 322,
       "paraula": "BASTÓ",
       "so": "basto.mp3",
-      "imatge": "",
+      "imatge": "bastó.png",
       "repeticio": "",
       "videos": [
         "bastoopastor.mp4"
@@ -5950,7 +5950,7 @@
     {
       "id": 339,
       "paraula": "BENJAMÍ",
-      "so": "",
+      "so": "benjamí.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -6110,7 +6110,7 @@
       "id": 347,
       "paraula": "BIBERÓ",
       "so": "bibero.mp3",
-      "imatge": "",
+      "imatge": "biberó.png",
       "repeticio": "",
       "videos": [
         "bibero.mp4"
@@ -6278,7 +6278,7 @@
       "id": 360,
       "paraula": "BISÓ",
       "so": "viso.mp3",
-      "imatge": "",
+      "imatge": "bisó.png",
       "repeticio": "",
       "videos": [
         "viso1.mp4",
@@ -6474,7 +6474,7 @@
       "id": 3086,
       "paraula": "BO",
       "so": "bo.mp3",
-      "imatge": "",
+      "imatge": "bò.png",
       "repeticio": "ALIMENT",
       "videos": [
         "bodefamilia.mp4"
@@ -6618,7 +6618,7 @@
       "id": 384,
       "paraula": "BOLÍGRAF",
       "so": "bol_graf.mp3",
-      "imatge": "",
+      "imatge": "bolígraf.png",
       "repeticio": "",
       "videos": [
         "boligrafproc.mp4"
@@ -6705,7 +6705,7 @@
       "id": 390,
       "paraula": "BOMBÓ",
       "so": "bombo.mp3",
-      "imatge": "",
+      "imatge": "bombó.png",
       "repeticio": "",
       "videos": [
         "bomboalim.mp4"
@@ -6994,7 +6994,7 @@
       "id": 407,
       "paraula": "BOTIFARRA NEGRA",
       "so": "botifarra_negra.mp3",
-      "imatge": "",
+      "imatge": "botifarró.png",
       "repeticio": "",
       "videos": [
         "butifarranegra.mp4"
@@ -7121,7 +7121,7 @@
       "id": 416,
       "paraula": "BOTÓ",
       "so": "boto.mp3",
-      "imatge": "",
+      "imatge": "botó.png",
       "repeticio": "",
       "videos": [
         "botobo.mp4"
@@ -7182,7 +7182,7 @@
       "id": 422,
       "paraula": "BRAÇ",
       "so": "bras.mp3",
-      "imatge": "",
+      "imatge": "braç.png",
       "repeticio": "",
       "videos": [
         "bra_cproc.mp4"
@@ -7211,7 +7211,7 @@
       "id": 424,
       "paraula": "BRAÇALET",
       "so": "bra_calet.mp3",
-      "imatge": "",
+      "imatge": "braçalet.png",
       "repeticio": "",
       "videos": [
         "bra_calet.mp4"
@@ -7462,7 +7462,7 @@
       "id": 441,
       "paraula": "BUFÓ",
       "so": "bufo.mp3",
-      "imatge": "",
+      "imatge": "bufó.png",
       "repeticio": "",
       "videos": [
         "bufodefesta.mp4",
@@ -7602,7 +7602,7 @@
       "id": 448,
       "paraula": "BÚSTIA",
       "so": "b_stia.mp3",
-      "imatge": "",
+      "imatge": "bústia.png",
       "repeticio": "",
       "videos": [
         "bustiaproc.mp4"
@@ -7617,7 +7617,7 @@
       "id": 449,
       "paraula": "BUTÀ",
       "so": "buta.mp3",
-      "imatge": "",
+      "imatge": "butà.png",
       "repeticio": "",
       "videos": [
         "butaproc.mp4"
@@ -7751,7 +7751,7 @@
       "id": 456,
       "paraula": "CABINA DE TELÈFON",
       "so": "cabina_de_telefon.mp3",
-      "imatge": "",
+      "imatge": "cabina de telèfon.png",
       "repeticio": "",
       "videos": [
         "cabinatelefonica.mp4"
@@ -7793,7 +7793,7 @@
       "id": 460,
       "paraula": "CAÇADOR",
       "so": "ca_cador.mp3",
-      "imatge": "",
+      "imatge": "caçador.png",
       "repeticio": "",
       "videos": [
         "ca_cadorproc.mp4"
@@ -7810,7 +7810,7 @@
       "id": 461,
       "paraula": "CAÇADORA",
       "so": "ca_cadora.mp3",
-      "imatge": "",
+      "imatge": "caçadora.png",
       "repeticio": "ROBA",
       "videos": [
         "ca_cadora.mp4"
@@ -7840,7 +7840,7 @@
       "id": 463,
       "paraula": "CAÇAR",
       "so": "ca_car.mp3",
-      "imatge": "",
+      "imatge": "caçar.png",
       "repeticio": "",
       "videos": [
         "ca_caralim.mp4"
@@ -7918,7 +7918,7 @@
       "id": 467,
       "paraula": "CAFÈ",
       "so": "cafe.mp3",
-      "imatge": "",
+      "imatge": "cafè.png",
       "repeticio": "",
       "videos": [
         "cafe.mp4"
@@ -7946,7 +7946,7 @@
       "id": 3581,
       "paraula": "CAFETERA EXPRÉS",
       "so": "cafetera_expr_s.mp3",
-      "imatge": "",
+      "imatge": "cafetera exprés.png",
       "repeticio": "",
       "videos": [
         "cafeteraexpres.mp4"
@@ -8175,7 +8175,7 @@
       "id": 481,
       "paraula": "CALÇOTETS",
       "so": "cal_cotets.mp3",
-      "imatge": "",
+      "imatge": "calçotets.png",
       "repeticio": "",
       "videos": [
         "cal_cotets.mp4"
@@ -8346,7 +8346,7 @@
       "id": 491,
       "paraula": "CAMALEÓ",
       "so": "camaleo.mp3",
-      "imatge": "",
+      "imatge": "camaleó.png",
       "repeticio": "",
       "videos": [
         "camaleo.mp4"
@@ -8374,7 +8374,7 @@
       "id": 1722,
       "paraula": "CÀMARA DE FOTOS",
       "so": "c_mera_de_fotos.mp3",
-      "imatge": "",
+      "imatge": "càmera de fotos.png",
       "repeticio": "",
       "videos": [
         "maquinadefotos.mp4"
@@ -8433,7 +8433,7 @@
       "id": 499,
       "paraula": "CAMÍ",
       "so": "cami.mp3",
-      "imatge": "",
+      "imatge": "camí.png",
       "repeticio": "",
       "videos": [
         "camiproc.mp4"
@@ -8482,7 +8482,7 @@
       "id": 501,
       "paraula": "CAMIÓ",
       "so": "camio.mp3",
-      "imatge": "",
+      "imatge": "camió.png",
       "repeticio": "",
       "videos": [
         "camio1proc.mp4",
@@ -8638,7 +8638,7 @@
       "id": 3516,
       "paraula": "CANÀRIES",
       "so": "can_ries.mp3",
-      "imatge": "",
+      "imatge": "Canàries.png",
       "repeticio": "",
       "videos": [
         "canaries.mp4"
@@ -8647,6 +8647,22 @@
         19,
         28,
         45
+      ]
+    },
+    {
+      "id": 511,
+      "paraula": "CANÇÓ",
+      "so": "can_co.mp3",
+      "imatge": "cançó.png",
+      "repeticio": "",
+      "videos": [
+        "cansóproc.mp4"
+      ],
+      "families": [
+        19,
+        28,
+        41,
+        44
       ]
     },
     {
@@ -9088,7 +9104,7 @@
       "id": 537,
       "paraula": "CARÀCTER",
       "so": "caracter.mp3",
-      "imatge": "",
+      "imatge": "caràcter.png",
       "repeticio": "",
       "videos": [
         "caractefamili.mp4"
@@ -9164,7 +9180,7 @@
       "id": 542,
       "paraula": "CARBASSÓ",
       "so": "carbasso.mp3",
-      "imatge": "",
+      "imatge": "carbassó.png",
       "repeticio": "",
       "videos": [
         "carbasso.mp4"
@@ -9178,7 +9194,7 @@
       "id": 543,
       "paraula": "CARBÓ",
       "so": "carbo.mp3",
-      "imatge": "",
+      "imatge": "carbó.png",
       "repeticio": "",
       "videos": [
         "carboproc.mp4"
@@ -9409,7 +9425,7 @@
       "id": 558,
       "paraula": "CÀRREC",
       "so": "carrec.mp3",
-      "imatge": "",
+      "imatge": "càrrec.png",
       "repeticio": "",
       "videos": [
         "carrecproc.mp4"
@@ -9516,7 +9532,7 @@
       "id": 565,
       "paraula": "CARRETÓ",
       "so": "carreto.mp3",
-      "imatge": "",
+      "imatge": "carretó.png",
       "repeticio": "",
       "videos": [
         "carretoproc.mp4"
@@ -10007,7 +10023,7 @@
       "id": 3519,
       "paraula": "CASTELLA-LLEÓ",
       "so": "castella_lle_.mp3",
-      "imatge": "",
+      "imatge": "Castella Lleó.png",
       "repeticio": "",
       "videos": [
         "castellalleo.mp4"
@@ -10670,7 +10686,7 @@
       "id": 641,
       "paraula": "CINTURÓ",
       "so": "cinturo.mp3",
-      "imatge": "",
+      "imatge": "cinturó.png",
       "repeticio": "",
       "videos": [
         "cinturo.mp4"
@@ -10684,7 +10700,7 @@
       "id": 642,
       "paraula": "CINTURÓ DE SEGURETAT",
       "so": "cinturo_de_seguretat.mp3",
-      "imatge": "",
+      "imatge": "cinturó de seguretat.png",
       "repeticio": "",
       "videos": [
         "cinturosegurproc.mp4"
@@ -11058,7 +11074,7 @@
       "id": 3584,
       "paraula": "CLOÏSES",
       "so": "cloises.mp3",
-      "imatge": "",
+      "imatge": "cloïssa.png",
       "repeticio": "",
       "videos": [
         "cloises.mp4"
@@ -11312,7 +11328,7 @@
       "id": 682,
       "paraula": "COIXÍ",
       "so": "coixi.mp3",
-      "imatge": "",
+      "imatge": "coixí.png",
       "repeticio": "",
       "videos": [
         "coixiproc.mp4"
@@ -11430,7 +11446,7 @@
       "id": 691,
       "paraula": "COLÒNIA",
       "so": "colonia.mp3",
-      "imatge": "",
+      "imatge": "colònia.png",
       "repeticio": "",
       "videos": [
         "coloniaolor.mp4"
@@ -11523,7 +11539,7 @@
       "id": 686,
       "paraula": "COL·LOCAR",
       "so": "collocar.mp3",
-      "imatge": "",
+      "imatge": "col·locar.png",
       "repeticio": "",
       "videos": [
         "colocaralim.mp4"
@@ -11584,10 +11600,24 @@
       ]
     },
     {
+      "id": 700,
+      "paraula": "COMBINACIÓ",
+      "so": "combinacio.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "combinacióbisu.mp4"
+      ],
+      "families": [
+        19,
+        32
+      ]
+    },
+    {
       "id": 701,
       "paraula": "COMENÇAR",
       "so": "comen_ar.mp3",
-      "imatge": "",
+      "imatge": "començar.png",
       "repeticio": "",
       "videos": [
         "comen_carproc.mp4"
@@ -11765,7 +11795,7 @@
       "id": 3523,
       "paraula": "COMUNITAT VALENCIANA",
       "so": "comunitat_valenciana.mp3",
-      "imatge": "",
+      "imatge": "comunitat autònoma_18.png",
       "repeticio": "",
       "videos": [
         "comunitatvalenciana.mp4"
@@ -11780,7 +11810,7 @@
       "id": 3522,
       "paraula": "COMUNITATA AUTÒNOMA",
       "so": "comunitat_aut_noma.mp3",
-      "imatge": "",
+      "imatge": "comunitat autònoma_1.png",
       "repeticio": "",
       "videos": [
         "comunitatautonoma1.mp4",
@@ -11902,7 +11932,7 @@
       "id": 719,
       "paraula": "CONÈIXER",
       "so": "coneixer.mp3",
-      "imatge": "",
+      "imatge": "conèixer.png",
       "repeticio": "",
       "videos": [
         "coneixerproc.mp4"
@@ -12101,7 +12131,7 @@
       "id": 732,
       "paraula": "CONTAMINACIÓ",
       "so": "contaminacio.mp3",
-      "imatge": "",
+      "imatge": "contaminació.png",
       "repeticio": "",
       "videos": [
         "contaminacioproc.mp4"
@@ -12464,7 +12494,7 @@
       "id": 758,
       "paraula": "CÓRRER",
       "so": "c_rrer.mp3",
-      "imatge": "",
+      "imatge": "córrer.png",
       "repeticio": "",
       "videos": [
         "correrproc.mp4"
@@ -12780,8 +12810,8 @@
     {
       "id": 775,
       "paraula": "CRÉIXER",
-      "so": "",
-      "imatge": "",
+      "so": "crèixer.mp3",
+      "imatge": "créixer.png",
       "repeticio": "",
       "videos": [
         "creixercosproc.mp4",
@@ -13132,7 +13162,7 @@
       "id": 3047,
       "paraula": "CRÒTALS",
       "so": "cr_tals.mp3",
-      "imatge": "",
+      "imatge": "cròtals.png",
       "repeticio": "",
       "videos": [
         "crotalser.mp4"
@@ -13668,7 +13698,7 @@
       "id": 693,
       "paraula": "DE COLORAINES",
       "so": "de_coloraines.mp3",
-      "imatge": "",
+      "imatge": "de quin color és.png",
       "repeticio": "",
       "videos": [
         "decoloraines.mp4"
@@ -13872,7 +13902,7 @@
       "id": 835,
       "paraula": "DEMÀ",
       "so": "dema.mp3",
-      "imatge": "",
+      "imatge": "demà.png",
       "repeticio": "",
       "videos": [
         "dema.mp4"
@@ -14052,7 +14082,7 @@
       "id": 846,
       "paraula": "DESAPARÈIXER",
       "so": "desapareixer.mp3",
-      "imatge": "",
+      "imatge": "desaparèixer.png",
       "repeticio": "",
       "videos": [
         "desapareixeraniml.mp4"
@@ -14095,7 +14125,7 @@
       "id": 848,
       "paraula": "DESCALÇ",
       "so": "descals.mp3",
-      "imatge": "",
+      "imatge": "descalç.png",
       "repeticio": "",
       "videos": [
         "descal_cproc.mp4"
@@ -14416,7 +14446,7 @@
       "id": 872,
       "paraula": "DESPRÉS",
       "so": "despres.mp3",
-      "imatge": "",
+      "imatge": "després de.png",
       "repeticio": "",
       "videos": [
         "despres.mp4"
@@ -14847,7 +14877,7 @@
       "id": 898,
       "paraula": "DIFÍCIL",
       "so": "dificil.mp3",
-      "imatge": "",
+      "imatge": "difícil.png",
       "repeticio": "",
       "videos": [
         "dificilproc.mp4"
@@ -14876,7 +14906,7 @@
     {
       "id": 900,
       "paraula": "DIJIMON",
-      "so": "",
+      "so": "dígimon.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -15552,7 +15582,7 @@
       "id": 947,
       "paraula": "DOFÍ",
       "so": "dofi.mp3",
-      "imatge": "",
+      "imatge": "dofí.png",
       "repeticio": "",
       "videos": [
         "dofi.mp4"
@@ -15566,7 +15596,7 @@
       "id": 948,
       "paraula": "DOLÇ",
       "so": "dol_.mp3",
-      "imatge": "",
+      "imatge": "dolç.png",
       "repeticio": "",
       "videos": [
         "dol_calim.mp4"
@@ -16004,7 +16034,7 @@
       "id": 983,
       "paraula": "EDUCACIÓ",
       "so": "educacio.mp3",
-      "imatge": "",
+      "imatge": "educació.png",
       "repeticio": "",
       "videos": [
         "educacioproc.mp4"
@@ -16476,7 +16506,7 @@
       "id": 1009,
       "paraula": "EMBARÀS",
       "so": "embaras.mp3",
-      "imatge": "",
+      "imatge": "embaràs.png",
       "repeticio": "",
       "videos": [
         "embarasproc.mp4"
@@ -16570,7 +16600,7 @@
       "id": 1015,
       "paraula": "EMPÈNYER",
       "so": "empenyer.mp3",
-      "imatge": "",
+      "imatge": "empènyer.png",
       "repeticio": "",
       "videos": [
         "empenyer.mp4",
@@ -16614,6 +16644,20 @@
       ]
     },
     {
+      "id": 1020,
+      "paraula": "EMPREMTA",
+      "so": "empremta.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "empremtalnt.mp4"
+      ],
+      "families": [
+        19,
+        40
+      ]
+    },
+    {
       "id": 1021,
       "paraula": "EMPREMTA DIGITAL",
       "so": "empremta_digital.mp3",
@@ -16650,6 +16694,7 @@
       "imatge": "",
       "repeticio": "",
       "videos": [
+        "emprovar.mp4",
         "emprovarproc.mp4"
       ],
       "families": [
@@ -16827,7 +16872,7 @@
       "id": 3588,
       "paraula": "ENDIVIES",
       "so": "endivies.mp3",
-      "imatge": "",
+      "imatge": "endívia.png",
       "repeticio": "",
       "videos": [
         "endivia.mp4"
@@ -17091,7 +17136,7 @@
       "id": 1056,
       "paraula": "ENSAIMADA",
       "so": "ensaimada.mp3",
-      "imatge": "",
+      "imatge": "ensaïmada.png",
       "repeticio": "",
       "videos": [
         "ensaimada.mp4"
@@ -17188,7 +17233,7 @@
       "id": 1064,
       "paraula": "ENTREPÀ",
       "so": "entrepa.mp3",
-      "imatge": "",
+      "imatge": "entrepà.png",
       "repeticio": "",
       "videos": [
         "entrepa.mp4"
@@ -17268,7 +17313,7 @@
       "id": 1070,
       "paraula": "EQUIP DE MÚSICA",
       "so": "equip_musica.mp3",
-      "imatge": "",
+      "imatge": "equip de música.png",
       "repeticio": "",
       "videos": [
         "equipdemusica.mp4"
@@ -17285,7 +17330,7 @@
       "id": 1071,
       "paraula": "EQUITACIÓ",
       "so": "equitacio.mp3",
-      "imatge": "",
+      "imatge": "equitació.png",
       "repeticio": "",
       "videos": [
         "equitacioproc.mp4"
@@ -17513,7 +17558,7 @@
       "id": 1085,
       "paraula": "ESCAMARLÀ",
       "so": "escamarla.mp3",
-      "imatge": "",
+      "imatge": "escamarlà.png",
       "repeticio": "",
       "videos": [
         "escamarlaaniml.mp4"
@@ -17820,7 +17865,7 @@
       "id": 1102,
       "paraula": "ESCORPÍ",
       "so": "escorpi.mp3",
-      "imatge": "",
+      "imatge": "escorpí.png",
       "repeticio": "",
       "videos": [
         "escorpinimr.mp4"
@@ -18000,7 +18045,7 @@
       "id": 1113,
       "paraula": "ESGLÉSIA",
       "so": "esglesia.mp3",
-      "imatge": "",
+      "imatge": "església.png",
       "repeticio": "",
       "videos": [
         "esglesialent.mp4"
@@ -18094,7 +18139,7 @@
       "id": 1117,
       "paraula": "ESPÀRRECS",
       "so": "esparrecs.mp3",
-      "imatge": "",
+      "imatge": "espàrrecs.png",
       "repeticio": "",
       "videos": [
         "esparrecs.mp4"
@@ -18157,7 +18202,7 @@
       "id": 1121,
       "paraula": "ESPÀTULA",
       "so": "esp_tula.mp3",
-      "imatge": "",
+      "imatge": "espàtula.png",
       "repeticio": "",
       "videos": [
         "espatulaproc.mp4"
@@ -18222,6 +18267,20 @@
         38,
         42,
         45
+      ]
+    },
+    {
+      "id": 1126,
+      "paraula": "ESPERMATOZOO",
+      "so": "espermatozoo.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "espermatozoidecr.mp4"
+      ],
+      "families": [
+        19,
+        40
       ]
     },
     {
@@ -18401,7 +18460,7 @@
       "id": 1143,
       "paraula": "ESQUINÇAR",
       "so": "esquinzar.mp3",
-      "imatge": "",
+      "imatge": "esguinçar.png",
       "repeticio": "ROBA",
       "videos": [
         "esguinzatroba.mp4"
@@ -18432,7 +18491,7 @@
       "id": 1137,
       "paraula": "ESQUÍS",
       "so": "esaquis.mp3",
-      "imatge": "",
+      "imatge": "esquí_1.png",
       "repeticio": "",
       "videos": [
         "esquiestrier.mp4"
@@ -18519,7 +18578,7 @@
       "id": 1148,
       "paraula": "ESTACIÓ DE TREN",
       "so": "estacio_de_tren.mp3",
-      "imatge": "",
+      "imatge": "estació de tren.png",
       "repeticio": "",
       "videos": [
         "estaciotren2proc.mp4",
@@ -18713,7 +18772,7 @@
       "id": 1161,
       "paraula": "ESTÀTUA",
       "so": "estatua.mp3",
-      "imatge": "",
+      "imatge": "estàtua.png",
       "repeticio": "",
       "videos": [
         "estatua.mp4"
@@ -19009,7 +19068,7 @@
       "id": 1180,
       "paraula": "ESTRUÇ",
       "so": "estru_c.mp3",
-      "imatge": "",
+      "imatge": "estruç.png",
       "repeticio": "",
       "videos": [
         "estru_c.mp4"
@@ -19054,7 +19113,7 @@
       "id": 1183,
       "paraula": "ESTUFA",
       "so": "estufa.mp3",
-      "imatge": "",
+      "imatge": "estufa elèctrica.png",
       "repeticio": "",
       "videos": [
         "estufaproc.mp4"
@@ -19137,7 +19196,8 @@
       "imatge": "",
       "repeticio": "",
       "videos": [
-        "evacuacioer.mp4"
+        "evacuacioer.mp4",
+        "focevacuacióer.mp4"
       ],
       "families": [
         19,
@@ -19224,7 +19284,7 @@
       "id": 1192,
       "paraula": "EXPLOTAR",
       "so": "explotar.mp3",
-      "imatge": "",
+      "imatge": "explosió.png",
       "repeticio": "",
       "videos": [
         "explotarproc.mp4"
@@ -19241,7 +19301,7 @@
       "id": 1193,
       "paraula": "EXPOSICIÓ",
       "so": "exposicio.mp3",
-      "imatge": "",
+      "imatge": "exposició.png",
       "repeticio": "",
       "videos": [
         "exposicioproc.mp4"
@@ -19319,7 +19379,7 @@
       "id": 1197,
       "paraula": "FÀBRICA",
       "so": "fabrica.mp3",
-      "imatge": "",
+      "imatge": "fàbrica.png",
       "repeticio": "",
       "videos": [
         "fabricaproc.mp4"
@@ -19334,7 +19394,7 @@
       "id": 1198,
       "paraula": "FÀCIL",
       "so": "facil.mp3",
-      "imatge": "",
+      "imatge": "fàcil.png",
       "repeticio": "",
       "videos": [
         "facilproc.mp4"
@@ -19496,7 +19556,7 @@
       "id": 1206,
       "paraula": "FAMÍLIA",
       "so": "familia.mp3",
-      "imatge": "",
+      "imatge": "família.png",
       "repeticio": "",
       "videos": [
         "familia.mp4"
@@ -19648,7 +19708,7 @@
       "id": 1216,
       "paraula": "FARMACÈUTIC",
       "so": "farmaceutic.mp3",
-      "imatge": "",
+      "imatge": "farmacèutic.png",
       "repeticio": "",
       "videos": [
         "farmaceuticproc.mp4"
@@ -19676,7 +19736,7 @@
       "id": 1218,
       "paraula": "FARMÀCIA",
       "so": "farmacia.mp3",
-      "imatge": "",
+      "imatge": "farmàcia.png",
       "repeticio": "",
       "videos": [
         "farmaciaproc.mp4"
@@ -19798,7 +19858,7 @@
       "id": 1226,
       "paraula": "FELIÇ",
       "so": "feli_c.mp3",
-      "imatge": "",
+      "imatge": "feliç.png",
       "repeticio": "",
       "videos": [
         "feli_caniml.mp4"
@@ -19815,7 +19875,7 @@
       "id": 1227,
       "paraula": "FEMENÍ",
       "so": "femeni.mp3",
-      "imatge": "",
+      "imatge": "femení.png",
       "repeticio": "",
       "videos": [
         "femeniproc.mp4"
@@ -20341,7 +20401,7 @@
     {
       "id": 1268,
       "paraula": "FILL MITJÀ",
-      "so": "",
+      "so": "fill_mitjà.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -20373,7 +20433,7 @@
     {
       "id": 1270,
       "paraula": "FILL ÚNIC",
-      "so": "",
+      "so": "fill_únic.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -20419,7 +20479,7 @@
     {
       "id": 1276,
       "paraula": "FILLA ÚNICA",
-      "so": "",
+      "so": "filla_única.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -20529,7 +20589,7 @@
       "id": 1283,
       "paraula": "FISIOTERÀPIA",
       "so": "fisioter_pia.mp3",
-      "imatge": "",
+      "imatge": "fisioteràpia.png",
       "repeticio": "",
       "videos": [
         "fisioterapialnt.mp4"
@@ -20768,7 +20828,7 @@
       "id": 1297,
       "paraula": "FOGONS",
       "so": "fogons.mp3",
-      "imatge": "",
+      "imatge": "fogó.png",
       "repeticio": "",
       "videos": [
         "fogoalim.mp4"
@@ -21163,7 +21223,7 @@
       "id": 1320,
       "paraula": "FOTOCÒPIA",
       "so": "fotoc_pia.mp3",
-      "imatge": "",
+      "imatge": "fotocòpia.png",
       "repeticio": "",
       "videos": [
         "fotocopiaproc.mp4"
@@ -21193,7 +21253,7 @@
       "id": 3628,
       "paraula": "FOTÒGRAF",
       "so": "fot_graf.mp3",
-      "imatge": "",
+      "imatge": "fotògraf.png",
       "repeticio": "",
       "videos": [
         "fotografor2.mp4"
@@ -21223,7 +21283,7 @@
       "id": 3528,
       "paraula": "FRANÇA",
       "so": "fransa.mp3",
-      "imatge": "",
+      "imatge": "França.png",
       "repeticio": "",
       "videos": [
         "fran_calent.mp4"
@@ -21818,7 +21878,7 @@
       "id": 1359,
       "paraula": "GÀBIA",
       "so": "gabia.mp3",
-      "imatge": "",
+      "imatge": "gàbia.png",
       "repeticio": "",
       "videos": [
         "gabia.mp4"
@@ -21876,7 +21936,7 @@
       "id": 3529,
       "paraula": "GALICIA",
       "so": "gal_cia.mp3",
-      "imatge": "",
+      "imatge": "Galícia.png",
       "repeticio": "",
       "videos": [
         "galicia.mp4"
@@ -22456,7 +22516,7 @@
       "id": 1400,
       "paraula": "GERMÀ",
       "so": "germa.mp3",
-      "imatge": "",
+      "imatge": "germà.png",
       "repeticio": "",
       "videos": [
         "germa.mp4"
@@ -22531,7 +22591,7 @@
       "id": 1407,
       "paraula": "GIMNÀS",
       "so": "gimnas.mp3",
-      "imatge": "",
+      "imatge": "gimnàs.png",
       "repeticio": "",
       "videos": [
         "gimnasproc.mp4"
@@ -22547,7 +22607,7 @@
       "id": 3471,
       "paraula": "GIMNÀSTICA",
       "so": "gimn_stica.mp3",
-      "imatge": "",
+      "imatge": "gimnàstica_1.png",
       "repeticio": "",
       "videos": [
         "gimnasticaritmicaproc.mp4"
@@ -22563,7 +22623,7 @@
       "id": 1408,
       "paraula": "GIMNÀSTICA RÍTMICA",
       "so": "gimnastica_ritmica.mp3",
-      "imatge": "",
+      "imatge": "gimnàstica.png",
       "repeticio": "",
       "videos": [
         "gimnasticaritmica2proc.mp4"
@@ -22704,7 +22764,7 @@
       "id": 3216,
       "paraula": "GLOBUS TRANSPORT",
       "so": "globus.mp3",
-      "imatge": "",
+      "imatge": "globus aerostàtic.png",
       "repeticio": "",
       "videos": [
         "globusproc.mp4"
@@ -22842,7 +22902,7 @@
       "id": 1422,
       "paraula": "GORIL·LA",
       "so": "gorila.mp3",
-      "imatge": "",
+      "imatge": "goril·la.png",
       "repeticio": "",
       "videos": [
         "gorila.mp4"
@@ -23407,7 +23467,7 @@
       "id": 3337,
       "paraula": "GUARDIA",
       "so": "gu_rdia.mp3",
-      "imatge": "",
+      "imatge": "guàrdia_2.png",
       "repeticio": "",
       "videos": [
         "guardiaproc.mp4",
@@ -23486,7 +23546,7 @@
       "id": 3049,
       "paraula": "GUITARRA ELÈCTRICA",
       "so": "guitarra_electrica.mp3",
-      "imatge": "",
+      "imatge": "guitarra elèctrica.png",
       "repeticio": "",
       "videos": [
         "guitarraelectricaproc.mp4"
@@ -23621,7 +23681,7 @@
       "id": 3053,
       "paraula": "HARMÒNICA",
       "so": "harmonica.mp3",
-      "imatge": "",
+      "imatge": "harmònica.png",
       "repeticio": "",
       "videos": [
         "harmonicaproc.mp4"
@@ -23653,7 +23713,7 @@
       "id": 1476,
       "paraula": "HELICÒPTER",
       "so": "helicopter.mp3",
-      "imatge": "",
+      "imatge": "helicòpter.png",
       "repeticio": "",
       "videos": [
         "elicopterproc.mp4",
@@ -23786,7 +23846,7 @@
       "id": 1484,
       "paraula": "HEXÀGON",
       "so": "hex_gon.mp3",
-      "imatge": "",
+      "imatge": "hexàgon.png",
       "repeticio": "",
       "videos": [
         "hexagonproc.mp4"
@@ -23819,7 +23879,7 @@
       "id": 1486,
       "paraula": "HIPOPÒTAM",
       "so": "hipopotam.mp3",
-      "imatge": "",
+      "imatge": "hipopòtam.png",
       "repeticio": "",
       "videos": [
         "hipopotam.mp4"
@@ -24129,7 +24189,7 @@
       "id": 1502,
       "paraula": "IL·LUMINAR",
       "so": "illuminar.mp3",
-      "imatge": "",
+      "imatge": "il·luminar.png",
       "repeticio": "",
       "videos": [
         "iluminar.mp4",
@@ -24252,6 +24312,21 @@
       ]
     },
     {
+      "id": 3218,
+      "paraula": "INDICACIÓ",
+      "so": "indicaci_.mp3",
+      "imatge": "indicar.png",
+      "repeticio": "",
+      "videos": [
+        "indicacióproc.mp4"
+      ],
+      "families": [
+        19,
+        38,
+        45
+      ]
+    },
+    {
       "id": 1511,
       "paraula": "INFECCIÓ",
       "so": "infecci_.mp3",
@@ -24314,7 +24389,7 @@
       "id": 1516,
       "paraula": "INFORMÀTIC",
       "so": "informatic.mp3",
-      "imatge": "",
+      "imatge": "informàtic.png",
       "repeticio": "",
       "videos": [
         "informaticproc.mp4"
@@ -24561,7 +24636,7 @@
       "id": 3533,
       "paraula": "ITÀLIA",
       "so": "it_lia.mp3",
-      "imatge": "",
+      "imatge": "Itàlia.png",
       "repeticio": "",
       "videos": [
         "italia.mp4",
@@ -24666,7 +24741,7 @@
       "id": 1541,
       "paraula": "JARDÍ",
       "so": "jardi.mp3",
-      "imatge": "",
+      "imatge": "jardí.png",
       "repeticio": "",
       "videos": [
         "jardi.mp4"
@@ -25119,7 +25194,7 @@
       "id": 1567,
       "paraula": "JÚPITER",
       "so": "jupiter.mp3",
-      "imatge": "",
+      "imatge": "Júpiter.png",
       "repeticio": "",
       "videos": [
         "jupiterlnt.mp4"
@@ -25457,7 +25532,7 @@
       "id": 1583,
       "paraula": "LAMPADA",
       "so": "lampara.mp3",
-      "imatge": "",
+      "imatge": "làmpara_1.png",
       "repeticio": "",
       "videos": [
         "lamparaproc.mp4"
@@ -25594,7 +25669,7 @@
       "id": 1594,
       "paraula": "LÍNIA",
       "so": "linia.mp3",
-      "imatge": "",
+      "imatge": "línia.png",
       "repeticio": "",
       "videos": [
         "lineaproc.mp4"
@@ -25638,7 +25713,7 @@
       "id": 1597,
       "paraula": "LLAÇ",
       "so": "lla_c.mp3",
-      "imatge": "",
+      "imatge": "llaç.png",
       "repeticio": "",
       "videos": [
         "lla_cdefestes.mp4"
@@ -26007,7 +26082,7 @@
       "id": 1620,
       "paraula": "LLENÇOL",
       "so": "llen_col.mp3",
-      "imatge": "",
+      "imatge": "llençol.png",
       "repeticio": "",
       "videos": [
         "llen_colproc.mp4"
@@ -26095,7 +26170,7 @@
       "id": 1626,
       "paraula": "LLEÓ",
       "so": "lleo.mp3",
-      "imatge": "",
+      "imatge": "lleó.png",
       "repeticio": "",
       "videos": [
         "lleoaniml.mp4"
@@ -26564,7 +26639,7 @@
       "id": 1656,
       "paraula": "LLUÇ",
       "so": "llu_c.mp3",
-      "imatge": "",
+      "imatge": "lluç.png",
       "repeticio": "",
       "videos": [
         "llu_calim.mp4"
@@ -26737,7 +26812,7 @@
       "id": 1665,
       "paraula": "LOGOPÈDIA",
       "so": "logopedia.mp3",
-      "imatge": "",
+      "imatge": "logopèdia.png",
       "repeticio": "",
       "videos": [
         "logopedialnt.mp4"
@@ -26866,7 +26941,7 @@
       "id": 1672,
       "paraula": "MÀ",
       "so": "ma.mp3",
-      "imatge": "",
+      "imatge": "mà.png",
       "repeticio": "",
       "videos": [
         "maproc.mp4"
@@ -26894,7 +26969,7 @@
       "id": 1674,
       "paraula": "MACEDÒNIA",
       "so": "macedonia.mp3",
-      "imatge": "",
+      "imatge": "macedònia.png",
       "repeticio": "",
       "videos": [
         "macedonia.mp4"
@@ -27083,7 +27158,7 @@
       "id": 1684,
       "paraula": "MÀGIA",
       "so": "magia.mp3",
-      "imatge": "",
+      "imatge": "màgia.png",
       "repeticio": "",
       "videos": [
         "magiaproc.mp4"
@@ -27247,7 +27322,7 @@
       "id": 1697,
       "paraula": "MAMÍFER",
       "so": "mamifer.mp3",
-      "imatge": "",
+      "imatge": "mamífer.png",
       "repeticio": "",
       "videos": [
         "mamifer.mp4"
@@ -27321,7 +27396,7 @@
       "id": 1703,
       "paraula": "MÀNEGA",
       "so": "manega.mp3",
-      "imatge": "",
+      "imatge": "mànega.png",
       "repeticio": "",
       "videos": [
         "manegalnt.mp4"
@@ -27577,7 +27652,7 @@
       "id": 1721,
       "paraula": "MÀQUINA DE COSIR",
       "so": "maquina_de_cosir.mp3",
-      "imatge": "",
+      "imatge": "màquina de cosir.png",
       "repeticio": "",
       "videos": [
         "maquinadecosirproc.mp4"
@@ -27686,7 +27761,7 @@
       "id": 1728,
       "paraula": "MARÇ",
       "so": "mar_c.mp3",
-      "imatge": "",
+      "imatge": "Març.png",
       "repeticio": "",
       "videos": [
         "mar_c.mp4"
@@ -27815,7 +27890,7 @@
       "id": 1738,
       "paraula": "MARRÓ",
       "so": "marro.mp3",
-      "imatge": "",
+      "imatge": "marró.png",
       "repeticio": "",
       "videos": [
         "marroproc.mp4"
@@ -27876,7 +27951,7 @@
       "id": 1744,
       "paraula": "MÀSCARA",
       "so": "mascara.mp3",
-      "imatge": "",
+      "imatge": "màscara.png",
       "repeticio": "",
       "videos": [
         "mascara.mp4"
@@ -27908,7 +27983,7 @@
       "id": 1745,
       "paraula": "MASCULÍ",
       "so": "mascul_.mp3",
-      "imatge": "",
+      "imatge": "masculí.png",
       "repeticio": "",
       "videos": [
         "masculiproc.mp4"
@@ -27993,7 +28068,7 @@
       "id": 1750,
       "paraula": "MATALÀS",
       "so": "matalas.mp3",
-      "imatge": "",
+      "imatge": "matalàs.png",
       "repeticio": "",
       "videos": [
         "matalasproc.mp4"
@@ -28036,7 +28111,7 @@
       "id": 1752,
       "paraula": "MATEMÀTIQUES",
       "so": "matematiques.mp3",
-      "imatge": "",
+      "imatge": "matemàtiques.png",
       "repeticio": "",
       "videos": [
         "matematiquesproc.mp4"
@@ -28128,7 +28203,7 @@
       "id": 1758,
       "paraula": "MECÀNIC",
       "so": "mecanic.mp3",
-      "imatge": "",
+      "imatge": "mecànic.png",
       "repeticio": "",
       "videos": [
         "mecanicproc.mp4"
@@ -28297,7 +28372,7 @@
       "id": 1770,
       "paraula": "MELÓ",
       "so": "melo.mp3",
-      "imatge": "",
+      "imatge": "meló.png",
       "repeticio": "",
       "videos": [
         "melo.mp4"
@@ -28524,7 +28599,7 @@
       "id": 1784,
       "paraula": "MENÚ",
       "so": "men_.mp3",
-      "imatge": "",
+      "imatge": "menú.png",
       "repeticio": "",
       "videos": [
         "menu.mp4",
@@ -28942,6 +29017,20 @@
       ]
     },
     {
+      "id": 1813,
+      "paraula": "MIRALL MÀGIC",
+      "so": "mirall_magic.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "mirallmàgicproc.mp4"
+      ],
+      "families": [
+        19,
+        37
+      ]
+    },
+    {
       "id": 1814,
       "paraula": "MIRAR",
       "so": "mirar.mp3",
@@ -29013,10 +29102,24 @@
       ]
     },
     {
+      "id": 3480,
+      "paraula": "MITJÀ",
+      "so": "mitjaa.mp3",
+      "imatge": "mitjà.png",
+      "repeticio": "",
+      "videos": [
+        "mitjàproc.mp4"
+      ],
+      "families": [
+        17,
+        28
+      ]
+    },
+    {
       "id": 1820,
       "paraula": "MITJÓ",
       "so": "mitjo.mp3",
-      "imatge": "",
+      "imatge": "mitjó.png",
       "repeticio": "",
       "videos": [
         "mitjo.mp4"
@@ -29336,7 +29439,7 @@
       "id": 1846,
       "paraula": "MONOPATÍ",
       "so": "monopat_.mp3",
-      "imatge": "",
+      "imatge": "monopatí.png",
       "repeticio": "",
       "videos": [
         "monopatiproc.mp4",
@@ -29380,7 +29483,7 @@
       "id": 1849,
       "paraula": "MÓRA",
       "so": "mora.mp3",
-      "imatge": "",
+      "imatge": "móra.png",
       "repeticio": "",
       "videos": [
         "mora.mp4"
@@ -29797,7 +29900,7 @@
       "id": 1881,
       "paraula": "MÚSIC",
       "so": "music.mp3",
-      "imatge": "",
+      "imatge": "músic.png",
       "repeticio": "",
       "videos": [
         "musicproc.mp4"
@@ -29813,7 +29916,7 @@
       "id": 1882,
       "paraula": "MÚSICA",
       "so": "musica.mp3",
-      "imatge": "",
+      "imatge": "música.png",
       "repeticio": "",
       "videos": [
         "musicaproc.mp4",
@@ -29958,7 +30061,7 @@
       "id": 3273,
       "paraula": "NADÓ",
       "so": "nado.mp3",
-      "imatge": "",
+      "imatge": "nadó.png",
       "repeticio": "",
       "videos": [
         "nadofamilia.mp4"
@@ -30352,7 +30455,7 @@
       "id": 1916,
       "paraula": "NÉIXER",
       "so": "neixer.mp3",
-      "imatge": "",
+      "imatge": "néixer.png",
       "repeticio": "",
       "videos": [
         "neixerfamili.mp4"
@@ -30418,7 +30521,7 @@
       "id": 1919,
       "paraula": "NEPTÚ",
       "so": "nept_.mp3",
-      "imatge": "",
+      "imatge": "Neptú.png",
       "repeticio": "",
       "videos": [
         "neptulnt.mp4"
@@ -30467,7 +30570,7 @@
       "id": 1922,
       "paraula": "NÉT",
       "so": "netf.mp3",
-      "imatge": "",
+      "imatge": "nét.png",
       "repeticio": "FAMILIA",
       "videos": [
         "netdefamilia.mp4"
@@ -30481,7 +30584,7 @@
       "id": 1924,
       "paraula": "NÉTA",
       "so": "netaf.mp3",
-      "imatge": "",
+      "imatge": "néta.png",
       "repeticio": "FAMILIA",
       "videos": [
         "netadefamilia.mp4"
@@ -30749,7 +30852,7 @@
       "id": 1942,
       "paraula": "NO SABER",
       "so": "no_saber.mp3",
-      "imatge": "",
+      "imatge": "no ho sé.png",
       "repeticio": "",
       "videos": [
         "nosaberaniml.mp4"
@@ -30961,6 +31064,21 @@
       ]
     },
     {
+      "id": 1960,
+      "paraula": "NUMERACIÓ",
+      "so": "numeracio.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "numeracióproc.mp4"
+      ],
+      "families": [
+        19,
+        28,
+        47
+      ]
+    },
+    {
       "id": 1961,
       "paraula": "NUS",
       "so": "nus.mp3",
@@ -30997,7 +31115,7 @@
       "id": 1963,
       "paraula": "NÚVIA",
       "so": "nuvia.mp3",
-      "imatge": "",
+      "imatge": "núvia.png",
       "repeticio": "",
       "videos": [
         "nuvia.mp4"
@@ -31011,7 +31129,7 @@
       "id": 1964,
       "paraula": "NÚVOL",
       "so": "nuvol.mp3",
-      "imatge": "",
+      "imatge": "núvol.png",
       "repeticio": "",
       "videos": [
         "nubol.mp4"
@@ -31351,7 +31469,7 @@
       "id": 3648,
       "paraula": "ÒLIBA",
       "so": "oliba.mp3",
-      "imatge": "",
+      "imatge": "òliba.png",
       "repeticio": "",
       "videos": [
         "oliba.mp4"
@@ -31524,7 +31642,7 @@
       "id": 2000,
       "paraula": "ON ETS?",
       "so": "on_ets.mp3",
-      "imatge": "",
+      "imatge": "on està.png",
       "repeticio": "",
       "videos": [
         "onetsproc.mp4"
@@ -31744,7 +31862,7 @@
       "id": 2012,
       "paraula": "ÓS",
       "so": "os_animal.mp3",
-      "imatge": "",
+      "imatge": "ós.png",
       "repeticio": "ANI",
       "videos": [
         "oso.mp4"
@@ -31915,7 +32033,7 @@
     {
       "id": 2020,
       "paraula": "PA DE PAGÈS",
-      "so": "",
+      "so": "pa de pagès.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -32060,7 +32178,7 @@
       "id": 2028,
       "paraula": "PAGÈS",
       "so": "pages.mp3",
-      "imatge": "",
+      "imatge": "pagès.png",
       "repeticio": "",
       "videos": [
         "pagesproc.mp4",
@@ -32094,7 +32212,7 @@
       "id": 2029,
       "paraula": "PAÍS",
       "so": "pais.mp3",
-      "imatge": "",
+      "imatge": "país.png",
       "repeticio": "",
       "videos": [
         "pais.mp4"
@@ -32109,7 +32227,7 @@
       "id": 3545,
       "paraula": "PAÍS BASC",
       "so": "pais_basc.mp3",
-      "imatge": "",
+      "imatge": "País Basc.png",
       "repeticio": "",
       "videos": [
         "paisbasc.mp4"
@@ -32558,7 +32676,7 @@
       "id": 2058,
       "paraula": "PAPER WC",
       "so": "paper_de_water.mp3",
-      "imatge": "",
+      "imatge": "paper higiènic.png",
       "repeticio": "",
       "videos": [
         "paperwcproc.mp4"
@@ -32988,8 +33106,8 @@
     {
       "id": 2086,
       "paraula": "PARXÍS",
-      "so": "",
-      "imatge": "",
+      "so": "parxís.mp3",
+      "imatge": "parxís.png",
       "repeticio": "",
       "videos": [
         "parxis.mp4"
@@ -33225,7 +33343,7 @@
       "id": 2101,
       "paraula": "PASTÍS",
       "so": "pastis.mp3",
-      "imatge": "",
+      "imatge": "pastís.png",
       "repeticio": "",
       "videos": [
         "pastis.mp4"
@@ -33439,7 +33557,7 @@
     {
       "id": 2115,
       "paraula": "PATINATGE ARTÍSTIC",
-      "so": "",
+      "so": "patinatge_artístic.mp3",
       "imatge": "patinar sobre gel_1.png",
       "repeticio": "",
       "videos": [
@@ -33704,7 +33822,7 @@
       "id": 2136,
       "paraula": "PÈL",
       "so": "pel.mp3",
-      "imatge": "",
+      "imatge": "pèl.png",
       "repeticio": "",
       "videos": [
         "pelproc.mp4"
@@ -33718,7 +33836,7 @@
       "id": 2141,
       "paraula": "PEL-ROIG",
       "so": "pelroig.mp3",
-      "imatge": "",
+      "imatge": "pèl-roig.png",
       "repeticio": "",
       "videos": [
         "pelroiglnt.mp4"
@@ -33823,7 +33941,7 @@
       "id": 2137,
       "paraula": "PEL·LÍCULA",
       "so": "pelicula.mp3",
-      "imatge": "",
+      "imatge": "pel·lícula.png",
       "repeticio": "",
       "videos": [
         "peliculaproc.mp4"
@@ -33926,7 +34044,7 @@
       "id": 2148,
       "paraula": "PENTÀGON",
       "so": "pent_gon.mp3",
-      "imatge": "",
+      "imatge": "pentàgon.png",
       "repeticio": "",
       "videos": [
         "pentagonproc.mp4"
@@ -34138,7 +34256,7 @@
       "id": 2159,
       "paraula": "PERNIL DOLÇ",
       "so": "pernil_dol_c.mp3",
-      "imatge": "",
+      "imatge": "pernil dolç.png",
       "repeticio": "",
       "videos": [
         "pernildol_c.mp4"
@@ -34356,7 +34474,7 @@
       "id": 2174,
       "paraula": "PÈSOLS",
       "so": "pesols.mp3",
-      "imatge": "",
+      "imatge": "pèsols.png",
       "repeticio": "",
       "videos": [
         "pesols.mp4"
@@ -34478,7 +34596,8 @@
       "imatge": "",
       "repeticio": "",
       "videos": [
-        "petoooproc.mp4"
+        "petoooproc.mp4",
+        "petóproc.mp4"
       ],
       "families": [
         19,
@@ -34831,7 +34950,7 @@
       "id": 2203,
       "paraula": "PILOTA DE BÀSQUET",
       "so": "pilota_de_basquet.mp3",
-      "imatge": "",
+      "imatge": "pilota de bàsquet.png",
       "repeticio": "",
       "videos": [
         "pilotabasquetproc.mp4"
@@ -34913,7 +35032,7 @@
       "id": 2208,
       "paraula": "PINÇA",
       "so": "pin_a.mp3",
-      "imatge": "",
+      "imatge": "pinça.png",
       "repeticio": "",
       "videos": [
         "pin_caproc.mp4"
@@ -34962,7 +35081,7 @@
       "id": 2212,
       "paraula": "PINGU",
       "so": "pingu.mp3",
-      "imatge": "",
+      "imatge": "pingüí_1.png",
       "repeticio": "",
       "videos": [
         "pinguconteproc.mp4",
@@ -34979,7 +35098,7 @@
       "id": 3164,
       "paraula": "PINGUÍ",
       "so": "pingue_.mp3",
-      "imatge": "",
+      "imatge": "pingüí.png",
       "repeticio": "",
       "videos": [
         "pinguifr.mp4"
@@ -35499,7 +35618,7 @@
       "id": 2248,
       "paraula": "PLAÇA",
       "so": "pla_ca.mp3",
-      "imatge": "",
+      "imatge": "plaça.png",
       "repeticio": "",
       "videos": [
         "pla_calent.mp4"
@@ -35661,7 +35780,7 @@
       "id": 2258,
       "paraula": "PLÀSTIC",
       "so": "plastic.mp3",
-      "imatge": "",
+      "imatge": "plàstic.png",
       "repeticio": "",
       "videos": [
         "plasticproc.mp4"
@@ -35751,7 +35870,7 @@
       "id": 2266,
       "paraula": "PLÀTAN",
       "so": "platan.mp3",
-      "imatge": "",
+      "imatge": "plàtan.png",
       "repeticio": "",
       "videos": [
         "platan.mp4"
@@ -35940,7 +36059,7 @@
       "id": 2275,
       "paraula": "PLUTÓ",
       "so": "plut_.mp3",
-      "imatge": "",
+      "imatge": "Plutó.png",
       "repeticio": "",
       "videos": [
         "plutodeplanetaproc.mp4"
@@ -36064,7 +36183,7 @@
       "id": 2284,
       "paraula": "PÒDIUM",
       "so": "podium.mp3",
-      "imatge": "",
+      "imatge": "pòdium.png",
       "repeticio": "",
       "videos": [
         "podiumproc.mp4",
@@ -36110,7 +36229,7 @@
       "id": 2287,
       "paraula": "POLÍTIC",
       "so": "politic.mp3",
-      "imatge": "",
+      "imatge": "polític.png",
       "repeticio": "",
       "videos": [
         "politicproc.mp4"
@@ -36908,7 +37027,7 @@
       "id": 2337,
       "paraula": "PRESÓ",
       "so": "preso.mp3",
-      "imatge": "",
+      "imatge": "presó.png",
       "repeticio": "",
       "videos": [
         "preso.mp4",
@@ -36923,7 +37042,7 @@
       "id": 2338,
       "paraula": "PRÉSSEC",
       "so": "pressec.mp3",
-      "imatge": "",
+      "imatge": "préssec.png",
       "repeticio": "",
       "videos": [
         "pressec.mp4"
@@ -36937,7 +37056,7 @@
       "id": 2339,
       "paraula": "PRÉSSEC AMB ALMIVAR",
       "so": "pr_ssec_amb_alm_bar.mp3",
-      "imatge": "",
+      "imatge": "préssec en almívar.png",
       "repeticio": "",
       "videos": [
         "pressecalmivar.mp4"
@@ -37120,7 +37239,7 @@
       "id": 2351,
       "paraula": "PRÍNCEP",
       "so": "princep.mp3",
-      "imatge": "",
+      "imatge": "príncep.png",
       "repeticio": "",
       "videos": [
         "princep.mp4"
@@ -37168,7 +37287,7 @@
       "id": 2355,
       "paraula": "PROCESSÓ",
       "so": "process_.mp3",
-      "imatge": "",
+      "imatge": "processó.png",
       "repeticio": "",
       "videos": [
         "procesion.mp4"
@@ -37182,7 +37301,7 @@
     {
       "id": 2357,
       "paraula": "PROMÈS",
-      "so": "",
+      "so": "promès.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -37353,7 +37472,7 @@
       "id": 2366,
       "paraula": "PSICÒLEG",
       "so": "psicoleg.mp3",
-      "imatge": "",
+      "imatge": "psicòleg.png",
       "repeticio": "",
       "videos": [
         "psicolegproc.mp4"
@@ -37397,7 +37516,7 @@
       "id": 3166,
       "paraula": "PUÇA",
       "so": "pu_a.mp3",
-      "imatge": "",
+      "imatge": "puça.png",
       "repeticio": "",
       "videos": [
         "pu_ca.mp4"
@@ -37604,6 +37723,21 @@
       ]
     },
     {
+      "id": 2385,
+      "paraula": "PUNXÓ",
+      "so": "punxo.mp3",
+      "imatge": "punxó.png",
+      "repeticio": "",
+      "videos": [
+        "punxóproc.mp4"
+      ],
+      "families": [
+        19,
+        28,
+        36
+      ]
+    },
+    {
       "id": 2386,
       "paraula": "PUNY",
       "so": "puny.mp3",
@@ -37621,7 +37755,7 @@
       "id": 2387,
       "paraula": "PURÉ",
       "so": "pure.mp3",
-      "imatge": "",
+      "imatge": "puré.png",
       "repeticio": "",
       "videos": [
         "purepatata.mp4"
@@ -37886,7 +38020,7 @@
       "id": 2402,
       "paraula": "RADIO",
       "so": "radio.mp3",
-      "imatge": "",
+      "imatge": "ràdio.png",
       "repeticio": "",
       "videos": [
         "radioaparellproc.mp4"
@@ -37903,7 +38037,7 @@
       "id": 2403,
       "paraula": "RAÏM",
       "so": "ra_m.mp3",
-      "imatge": "",
+      "imatge": "raïms.png",
       "repeticio": "",
       "videos": [
         "raimalim2.mp4"
@@ -37979,7 +38113,7 @@
       "id": 2409,
       "paraula": "RÀPID",
       "so": "rapid.mp3",
-      "imatge": "",
+      "imatge": "ràpid.png",
       "repeticio": "",
       "videos": [
         "rapidvingaproc.mp4",
@@ -38116,7 +38250,7 @@
       "id": 2418,
       "paraula": "RASPALL DE SABATES",
       "so": "raspall_de_sabates.mp3",
-      "imatge": "",
+      "imatge": "raspall de mà_1.png",
       "repeticio": "",
       "videos": [
         "raspallsabates.mp4"
@@ -38177,7 +38311,7 @@
       "id": 2425,
       "paraula": "RATOLÍ",
       "so": "ratol_.mp3",
-      "imatge": "",
+      "imatge": "ratolí.png",
       "repeticio": "ANI",
       "videos": [
         "rata.mp4"
@@ -38191,7 +38325,7 @@
       "id": 3698,
       "paraula": "RATOLÍ INFORMÀTIC",
       "so": "ratol__inform_tic.mp3",
-      "imatge": "",
+      "imatge": "ratolí de joystick.png",
       "repeticio": "",
       "videos": [
         "rata.mp4"
@@ -39019,7 +39153,7 @@
       "id": 2474,
       "paraula": "RÈPTILS",
       "so": "reptils.mp3",
-      "imatge": "",
+      "imatge": "rèptils.png",
       "repeticio": "",
       "videos": [
         "reptilsembla.mp4"
@@ -39245,7 +39379,7 @@
       "id": 2490,
       "paraula": "REUNIÓ",
       "so": "reunio.mp3",
-      "imatge": "",
+      "imatge": "reunió.png",
       "repeticio": "",
       "videos": [
         "reuniofamili.mp4"
@@ -40024,7 +40158,7 @@
       "id": 2707,
       "paraula": "SABATES DE TALÓ",
       "so": "sabates_de_tal_.mp3",
-      "imatge": "",
+      "imatge": "sabates de taló.png",
       "repeticio": "",
       "videos": [
         "talosabata.mp4"
@@ -40061,6 +40195,24 @@
         21,
         28,
         33,
+        36,
+        40
+      ]
+    },
+    {
+      "id": 2536,
+      "paraula": "SABÓ",
+      "so": "sabo.mp3",
+      "imatge": "sabó.png",
+      "repeticio": "",
+      "videos": [
+        "sabó.mp4"
+      ],
+      "families": [
+        19,
+        28,
+        30,
+        32,
         36,
         40
       ]
@@ -40271,7 +40423,7 @@
       "id": 2551,
       "paraula": "SALMÓ",
       "so": "salm_.mp3",
-      "imatge": "",
+      "imatge": "salmó.png",
       "repeticio": "",
       "videos": [
         "salmoaniml.mp4"
@@ -40514,7 +40666,7 @@
       "id": 2562,
       "paraula": "SANDALIES",
       "so": "sandalies.mp3",
-      "imatge": "",
+      "imatge": "sandàlies.png",
       "repeticio": "",
       "videos": [
         "xancletes.mp4"
@@ -40856,8 +41008,8 @@
     {
       "id": 2584,
       "paraula": "SECRETÀRIA",
-      "so": "",
-      "imatge": "",
+      "so": "secretària.mp3",
+      "imatge": "secretària.png",
       "repeticio": "",
       "videos": [
         "secretariaproc.mp4"
@@ -41091,7 +41243,7 @@
       "id": 2599,
       "paraula": "SEMÀFOR",
       "so": "semafor.mp3",
-      "imatge": "",
+      "imatge": "semàfor.png",
       "repeticio": "",
       "videos": [
         "semaforproc.mp4"
@@ -41121,7 +41273,7 @@
       "id": 2601,
       "paraula": "SEMÀFOR VERD",
       "so": "semafor_verd.mp3",
-      "imatge": "",
+      "imatge": "semàfor obert.png",
       "repeticio": "",
       "videos": [
         "semafoverdproc.mp4"
@@ -41136,7 +41288,7 @@
       "id": 2602,
       "paraula": "SEMÀFOR VERMELL",
       "so": "semafor_vermell.mp3",
-      "imatge": "",
+      "imatge": "semàfor tancat.png",
       "repeticio": "",
       "videos": [
         "semafvermellproc.mp4"
@@ -41764,7 +41916,7 @@
       "id": 2648,
       "paraula": "SIMPÀTIC",
       "so": "simpatic.mp3",
-      "imatge": "",
+      "imatge": "simpàtic.png",
       "repeticio": "",
       "videos": [
         "simpaticproc.mp4"
@@ -41811,7 +41963,7 @@
       "id": 2651,
       "paraula": "SÍNDRIA",
       "so": "sindria.mp3",
-      "imatge": "",
+      "imatge": "síndria.png",
       "repeticio": "",
       "videos": [
         "sindria.mp4"
@@ -41946,7 +42098,7 @@
       "id": 2659,
       "paraula": "SOFÀ",
       "so": "sof_.mp3",
-      "imatge": "",
+      "imatge": "sofà.png",
       "repeticio": "",
       "videos": [
         "sofaproc.mp4"
@@ -42460,7 +42612,7 @@
       "id": 2688,
       "paraula": "SUBMARÍ",
       "so": "submari.mp3",
-      "imatge": "",
+      "imatge": "submarí.png",
       "repeticio": "",
       "videos": [
         "submari.mp4"
@@ -42811,7 +42963,7 @@
       "id": 3744,
       "paraula": "TALO DE PEU",
       "so": "talo.mp3",
-      "imatge": "",
+      "imatge": "taló.png",
       "repeticio": "",
       "videos": [
         "talopeuproc.mp4"
@@ -42857,7 +43009,7 @@
       "id": 2710,
       "paraula": "TAMPAX",
       "so": "tampax.mp3",
-      "imatge": "",
+      "imatge": "tampó.png",
       "repeticio": "",
       "videos": [
         "tampax.mp4"
@@ -43020,7 +43172,7 @@
       "id": 2720,
       "paraula": "TARGETA DE CRÈDIT",
       "so": "targeta_de_cr_dit.mp3",
-      "imatge": "",
+      "imatge": "tarjeta de crèdit.png",
       "repeticio": "",
       "videos": [
         "tarjacreditproc.mp4"
@@ -43244,7 +43396,7 @@
       "id": 2734,
       "paraula": "TAURÓ",
       "so": "tauro.mp3",
-      "imatge": "",
+      "imatge": "tauró.png",
       "repeticio": "",
       "videos": [
         "tauroaniml.mp4"
@@ -43401,7 +43553,7 @@
       "id": 2746,
       "paraula": "TELÈFON",
       "so": "telefon.mp3",
-      "imatge": "",
+      "imatge": "telèfon.png",
       "repeticio": "",
       "videos": [
         "telefonproc.mp4"
@@ -43453,7 +43605,7 @@
       "id": 2750,
       "paraula": "TELEVISIÓ",
       "so": "televisio.mp3",
-      "imatge": "",
+      "imatge": "televisió.png",
       "repeticio": "",
       "videos": [
         "televisorproc.mp4"
@@ -43807,7 +43959,7 @@
       "id": 2775,
       "paraula": "TERMÒMETRE",
       "so": "termometre.mp3",
-      "imatge": "",
+      "imatge": "termòmetre.png",
       "repeticio": "",
       "videos": [
         "termometreproc.mp4"
@@ -43855,7 +44007,7 @@
       "id": 2778,
       "paraula": "TERRATRÈMOL",
       "so": "terratremol.mp3",
-      "imatge": "",
+      "imatge": "terratrèmol.png",
       "repeticio": "",
       "videos": [
         "terratremolproc.mp4"
@@ -44353,7 +44505,7 @@
       "id": 2809,
       "paraula": "TOMÀQUET",
       "so": "tomaquet.mp3",
-      "imatge": "",
+      "imatge": "tomàquet.png",
       "repeticio": "",
       "videos": [
         "tomaquet.mp4"
@@ -44367,7 +44519,7 @@
       "id": 2810,
       "paraula": "TOMBOLA",
       "so": "tombola.mp3",
-      "imatge": "",
+      "imatge": "tómbola.png",
       "repeticio": "",
       "videos": [
         "tombola.mp4"
@@ -44527,7 +44679,7 @@
       "id": 2818,
       "paraula": "TORNAVÍS",
       "so": "tornav_s.mp3",
-      "imatge": "",
+      "imatge": "tornavís.png",
       "repeticio": "",
       "videos": [
         "tornabisor.mp4"
@@ -44588,8 +44740,8 @@
     {
       "id": 2823,
       "paraula": "TORRÓ",
-      "so": "",
-      "imatge": "",
+      "so": "torró.mp3",
+      "imatge": "torró.png",
       "repeticio": "",
       "videos": [
         "turrodenadalbo.mp4",
@@ -44698,7 +44850,7 @@
       "id": 2836,
       "paraula": "TOVALLÓ",
       "so": "tovallo.mp3",
-      "imatge": "",
+      "imatge": "tovalló.png",
       "repeticio": "",
       "videos": [
         "tovallobr.mp4"
@@ -45368,7 +45520,7 @@
       "id": 3025,
       "paraula": "TROMBÓ",
       "so": "trombo.mp3",
-      "imatge": "",
+      "imatge": "trombó.png",
       "repeticio": "",
       "videos": [
         "tromboinstrumentproc.mp4"
@@ -45522,7 +45674,7 @@
       "id": 2886,
       "paraula": "TÚNEL",
       "so": "tunel.mp3",
-      "imatge": "",
+      "imatge": "túnel.png",
       "repeticio": "",
       "videos": [
         "tunel.mp4"
@@ -45732,7 +45884,7 @@
       "id": 2901,
       "paraula": "URÀ",
       "so": "ura.mp3",
-      "imatge": "",
+      "imatge": "Urà.png",
       "repeticio": "",
       "videos": [
         "uraproc.mp4"
@@ -45741,6 +45893,22 @@
         19,
         28,
         39
+      ]
+    },
+    {
+      "id": 2902,
+      "paraula": "URBANITZACIÓ",
+      "so": "urbanitzacio.mp3",
+      "imatge": "",
+      "repeticio": "",
+      "videos": [
+        "urbanitzacióproc.mp4"
+      ],
+      "families": [
+        19,
+        30,
+        39,
+        45
       ]
     },
     {
@@ -45927,7 +46095,7 @@
       "id": 3558,
       "paraula": "VALÈNCIA",
       "so": "val_ncia.mp3",
-      "imatge": "",
+      "imatge": "València.png",
       "repeticio": "",
       "videos": [
         "valencia.mp4"
@@ -46018,7 +46186,7 @@
       "id": 2917,
       "paraula": "VARETA MÀGICA",
       "so": "vareta-magica.mp3",
-      "imatge": "",
+      "imatge": "vareta màgica.png",
       "repeticio": "",
       "videos": [
         "varetamagicaproc.mp4"
@@ -46047,7 +46215,7 @@
       "id": 2919,
       "paraula": "VEÍ",
       "so": "vei.mp3",
-      "imatge": "",
+      "imatge": "veí.png",
       "repeticio": "",
       "videos": [
         "vei.mp4"
@@ -46062,7 +46230,7 @@
       "id": 2920,
       "paraula": "VEÏNA",
       "so": "veina.mp3",
-      "imatge": "",
+      "imatge": "veïns.png",
       "repeticio": "",
       "videos": [
         "veina.mp4"
@@ -46167,7 +46335,7 @@
       "id": 3651,
       "paraula": "VELOÇ",
       "so": "velo_c.mp3",
-      "imatge": "",
+      "imatge": "veloç.png",
       "repeticio": "",
       "videos": [
         "velo_caniml.mp4"
@@ -46389,7 +46557,7 @@
       "id": 2941,
       "paraula": "VERINÓS",
       "so": "verinos.mp3",
-      "imatge": "",
+      "imatge": "verí.png",
       "repeticio": "",
       "videos": [
         "verinosaniml.mp4"
@@ -46671,7 +46839,7 @@
       "id": 2959,
       "paraula": "VÍDEO",
       "so": "videu.mp3",
-      "imatge": "",
+      "imatge": "vídeo.png",
       "repeticio": "",
       "videos": [
         "videoproc.mp4"
@@ -46731,7 +46899,7 @@
       "id": 2963,
       "paraula": "VÍDUA",
       "so": "v_dua.mp3",
-      "imatge": "",
+      "imatge": "vídua.png",
       "repeticio": "",
       "videos": [
         "viduaafamilia.mp4"
@@ -46945,7 +47113,7 @@
       "id": 2979,
       "paraula": "VOLCÀ",
       "so": "volc_.mp3",
-      "imatge": "",
+      "imatge": "volcà.png",
       "repeticio": "",
       "videos": [
         "volcaproc.mp4"
@@ -47052,7 +47220,7 @@
       "id": 3570,
       "paraula": "VOSTÈ",
       "so": "vost_.mp3",
-      "imatge": "",
+      "imatge": "vostè.png",
       "repeticio": "",
       "videos": [
         "vostedefamilia.mp4"
@@ -47161,7 +47329,7 @@
       "id": 2993,
       "paraula": "XAMPÚ",
       "so": "xampu.mp3",
-      "imatge": "",
+      "imatge": "xampú.png",
       "repeticio": "",
       "videos": [
         "xampucabell.mp4"
@@ -47283,7 +47451,7 @@
       "id": 3045,
       "paraula": "XILÒFON",
       "so": "xilofon.mp3",
-      "imatge": "",
+      "imatge": "xilòfon.png",
       "repeticio": "",
       "videos": [
         "xilofonproc.mp4"
@@ -47425,7 +47593,7 @@
       "id": 3008,
       "paraula": "XORIÇ",
       "so": "xori_c.mp3",
-      "imatge": "",
+      "imatge": "xoriço.png",
       "repeticio": "",
       "videos": [
         "xori_co.mp4"

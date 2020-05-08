@@ -1,0 +1,167 @@
+[
+  {
+    "id": 511,
+    "paraula": "CANÇÓ",
+    "so": "can_co.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "cansóproc.mp4"
+    ],
+    "families": [
+      19,
+      28,
+      41,
+      44
+    ]
+  },
+  {
+    "id": 700,
+    "paraula": "COMBINACIÓ",
+    "so": "combinacio.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "combinacióbisu.mp4"
+    ],
+    "families": [
+      19,
+      32
+    ]
+  },
+  {
+    "id": 1020,
+    "paraula": "EMPREMTA",
+    "so": "empremta.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "empremtalnt.mp4"
+    ],
+    "families": [
+      19,
+      40
+    ]
+  },
+  {
+    "id": 1126,
+    "paraula": "ESPERMATOZOO",
+    "so": "espermatozoo.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "espermatozoidecr.mp4"
+    ],
+    "families": [
+      19,
+      40
+    ]
+  },
+  {
+    "id": 3218,
+    "paraula": "INDICACIÓ",
+    "so": "indicaci_.mp3",
+    "imatge": "indicar.png",
+    "repeticio": "",
+    "videos": [
+      "indicacióproc.mp4"
+    ],
+    "families": [
+      19,
+      38,
+      45
+    ]
+  },
+  {
+    "id": 1813,
+    "paraula": "MIRALL MÀGIC",
+    "so": "mirall_magic.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "mirallmàgicproc.mp4"
+    ],
+    "families": [
+      19,
+      37
+    ]
+  },
+  {
+    "id": 3480,
+    "paraula": "MITJÀ",
+    "so": "mitjaa.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "mitjàproc.mp4"
+    ],
+    "families": [
+      17,
+      28
+    ]
+  },
+  {
+    "id": 1960,
+    "paraula": "NUMERACIÓ",
+    "so": "numeracio.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "numeracióproc.mp4"
+    ],
+    "families": [
+      19,
+      28,
+      47
+    ]
+  },
+  {
+    "id": 2385,
+    "paraula": "PUNXÓ",
+    "so": "punxo.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "punxóproc.mp4"
+    ],
+    "families": [
+      19,
+      28,
+      36
+    ]
+  },
+  {
+    "id": 2536,
+    "paraula": "SABÓ",
+    "so": "sabo.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "sabó.mp4"
+    ],
+    "families": [
+      19,
+      28,
+      30,
+      32,
+      36,
+      40
+    ]
+  },
+  {
+    "id": 2902,
+    "paraula": "URBANITZACIÓ",
+    "so": "urbanitzacio.mp3",
+    "imatge": "",
+    "repeticio": "",
+    "videos": [
+      "urbanitzacióproc.mp4"
+    ],
+    "families": [
+      19,
+      30,
+      39,
+      45
+    ]
+  }
+]
