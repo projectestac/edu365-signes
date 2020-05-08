@@ -41,7 +41,7 @@ The page will reload if you make edits.<br>
 
 #### Build the main application:
 ```bash
-$ cd path/to/mapa-innovacio-edu
+$ cd path/to/signes
 $ npm run build
 ```
 Builds the app for production to the `dist` folder.<br>

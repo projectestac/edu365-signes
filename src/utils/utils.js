@@ -5,7 +5,7 @@ import queryString from 'query-string';
  * @param {string} key - The key to search for
  * @returns {string} - The value associated to the given key, or an empty string if none
  */
-export const getQueryParam = (key) => {
+export function getQueryParam(key) {
   return queryString.parse(location.search)[key] || '';
 }
 
@@ -14,8 +14,20 @@ export const getQueryParam = (key) => {
  * @param {Response} response - The [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) object returned by [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
  * @returns {object} - The object obtained when parsing the response as JSON
  */
-export const checkFetchJsonResponse = response => {
+export function checkFetchJsonResponse(response) {
   if (!response.ok)
     throw new Error(`"${response.status} ${response.statusText}" en intentar llegir ${response.url}`);
   return response.json();
 };
+
+export function fetchBinaryData(url) {
+  return fetch(url, {})
+    .then(response => {
+      if (!response.ok)
+        throw new Error(`"${response.status} ${response.statusText}" en intentar llegir ${response.url}`);
+      return response.blob();
+    })
+    .then(blob => {
+      return URL.createObjectURL(blob);
+    });
+}

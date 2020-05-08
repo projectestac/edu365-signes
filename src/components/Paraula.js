@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { fetchBinaryData } from '../utils/utils';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
@@ -9,14 +10,40 @@ const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
 const IMG_BASE = 'data/imatges';
 
+let currentVideoPath = null;
 
 function Paraula({ paraula: paraulaObj }) {
 
   const { paraula, so, imatge, repeticio, videos, families } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
-  useEffect(() => setCurrentVideo(0), [videos]);
   const videoRef = useRef(null);
   const audioRef = useRef(null);
+
+  const loadVideoBlob = (videoIndex = currentVideo) => {
+    if (videos && videoRef?.current) {
+      const videoPath = `${VIDEO_BASE}/${videos[videoIndex]}`;
+      if (videoPath !== currentVideoPath) {
+        currentVideoPath = videoPath;
+        const videoObj = videoRef.current;
+        fetchBinaryData(videoPath)
+          .then(url => {
+            const discardableUrl = videoObj.getAttribute('src');
+            videoObj.setAttribute('src', url);
+            if (discardableUrl)
+              URL.revokeObjectURL(discardableUrl);
+            window.setTimeout(() => videoObj.play(), 0);
+          })
+          .catch(err => console.log(err));
+      }
+    }
+  }
+
+  useEffect(() => {
+    setCurrentVideo(0);
+    loadVideoBlob(0);
+  }, [videos]);
+
+  useEffect(loadVideoBlob, [currentVideo]);
 
   const replay = () => {
     if (videoRef?.current) {
@@ -34,7 +61,6 @@ function Paraula({ paraula: paraulaObj }) {
     replay();
   }
 
-
   return (
     <div className="paraula-area">
       <div className="paraula-text">
@@ -44,7 +70,6 @@ function Paraula({ paraula: paraulaObj }) {
         <div className="paraula-video-box">
           <video
             className="paraula-video"
-            src={`${VIDEO_BASE}/${videos[currentVideo]}`}
             autoPlay={true}
             ref={videoRef}
           />
