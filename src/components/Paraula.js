@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { fetchBinaryData } from '../utils/utils';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
-import ToggleButton from '@material-ui/lab/ToggleButton';
-import ReplayIcon from '@material-ui/icons/Replay';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Button from 'react-bootstrap/Button';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
@@ -63,9 +60,7 @@ function Paraula({ paraula: paraulaObj }) {
 
   return (
     <div className="paraula-area">
-      <div className="paraula-text">
-        <Typography variant="h5">{paraula}</Typography>
-      </div>
+      <h5 className="paraula-text">{paraula}</h5>
       {videos &&
         <div className="paraula-video-box">
           <video
@@ -74,24 +69,19 @@ function Paraula({ paraula: paraulaObj }) {
             ref={videoRef}
           />
           {videos.length > 1 &&
-            <ToggleButtonGroup
-              value={currentVideo}
-              exclusive
-              onChange={(_ev, value) => changeCurrentVideo(value)}
-              aria-label="Selecciona un vídeo"
-            >
+            <ButtonGroup aria-label="Selecciona un vídeo">
               {videos.map((_v, n) =>
-                <ToggleButton
+                <Button
                   key={n}
                   value={n}
-                  variant="contained"
-                  color="primary"
+                  variant="primary"
+                  onClick={ev => changeCurrentVideo(n)}
                   aria-label={`Mostrar el vídeo #${n + 1}`}
                 >
                   {`Variant ${n + 1}`}
-                </ToggleButton>
+                </Button>
               )}
-            </ToggleButtonGroup>
+            </ButtonGroup>
           }
         </div>
       }
@@ -115,9 +105,8 @@ function Paraula({ paraula: paraulaObj }) {
       <div className="break" />
       {(videos || so) &&
         <Button
-          variant="contained"
+          variant="primary"
           color="primary"
-          startIcon={<ReplayIcon />}
           onClick={replay}
         >
           Torna a dir-ho

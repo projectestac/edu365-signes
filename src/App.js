@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { checkFetchJsonResponse, getQueryParam } from './utils/utils';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Spinner from 'react-bootstrap/Spinner';
+import Alert from 'react-bootstrap/Alert';
 import Diccionari from './components/Diccionari';
 
 const DATA_PATH = 'data';
@@ -29,20 +30,22 @@ function App() {
   }, []);
 
   return (
-    <Container maxWidth="md" className="root">
+    <Container fluid="md">
       <header>
-        <Typography variant="h3">Mira què dic</Typography>
-        <Typography variant="subtitle2">Diccionari Multimèdia de Signes de Catalunya</Typography>
+        <Jumbotron>
+          <h1 className="header">Mira què dic</h1>
+          <h2 className="sub-header">Diccionari Multimèdia de Signes de Catalunya</h2>
+        </Jumbotron>
       </header>
       {loading &&
         <div className="loading">
-          <CircularProgress size={40} />
-          <Typography variant="body1">S'estan carregant les dades...</Typography>
+          <Spinner animation="border" variant="primary"/>
+          <p>S'estan carregant les dades...</p>
         </div>
       }
       {error &&
         <div className="error">
-          <Typography variant="body1">{`${error}`}</Typography>
+          <Alert variant="warning">{error}</Alert>
         </div>
       }
       {!loading && !error && data && <Diccionari {...{ data, paraula, setParaula }} />}

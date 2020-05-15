@@ -1,11 +1,6 @@
-import React, { useState } from 'react';
-import Paper from '@material-ui/core/Paper';
-import FormControl from '@material-ui/core/FormControl';
-import InputLabel from '@material-ui/core/InputLabel';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import TextField from '@material-ui/core/TextField';
-import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
+import React, { useState, useEffect } from 'react';
+import { Typeahead } from 'react-bootstrap-typeahead';
+import Form from 'react-bootstrap/Form';
 
 function DiccSelect({ data, paraula, setParaula }) {
 
@@ -14,46 +9,46 @@ function DiccSelect({ data, paraula, setParaula }) {
   const [classificacio, setClassificacio] = useState(0);
   const [familia, setFamilia] = useState(0);
 
-  const filterOptions = createFilterOptions({
-    limit: 100,
-  });
-
   return (
-    <Paper className="dicc-select-area">
-      <FormControl margin="normal">
-        <InputLabel htmlFor="classificacions">Seleccioneu una classificació</InputLabel>
-        <Select
-          id="classificacions"
-          onChange={ev => setClassificacio(ev.target.value)}
+    <div className="dicc-select-area">
+
+      <Form.Group controlId="classificacions">
+        <Form.Label>Selecciona una classificació</Form.Label>
+        <Form.Control
+          as="select"
           value={classificacio}
+          onChange={ev => setClassificacio(Number(ev.target.value))}
         >
-          <MenuItem key={0} value={0}>Totes les classificacions</MenuItem>
-          {classificacions.map(({ id, nom }) => <MenuItem key={id} value={id}>{nom}</MenuItem>)}
-        </Select>
-      </FormControl>
-      <FormControl margin="normal">
-        <InputLabel htmlFor="families">Seleccioneu una família</InputLabel>
-        <Select
-          id="families"
-          onChange={ev => setFamilia(ev.target.value)}
+          <option key={0} value={0}>Totes les classificacions</option>
+          {classificacions.map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
+        </Form.Control>
+      </Form.Group>
+
+      <Form.Group controlId="families">
+        <Form.Label>Selecciona una família</Form.Label>
+        <Form.Control
+          as="select"
           value={familia}
+          onChange={ev => setFamilia(Number(ev.target.value))}
         >
-          <MenuItem key={0} value={0}>Totes les famílies</MenuItem>
-          {families.filter(f => !classificacio || f.classificacio == classificacio)
-            .map(({ id, nom }) => <MenuItem key={id} value={id}>{nom}</MenuItem>)}
-        </Select>
-      </FormControl>
-      <Autocomplete
+          <option key={0} value={0}>Totes les families</option>
+          {families
+            .filter(f => classificacio === 0 || f.classificacio === classificacio)
+            .map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
+        </Form.Control>
+      </Form.Group>
+
+      <Typeahead
         className="dicc-select-paraula"
-        margin="normal"
+        clearButton
+        id="select-paraula"
+        multiple={false}
+        labelKey="paraula"
+        onChange={values => setParaula(values && values.length > 0 ? values[0] : null)}
         options={paraules.filter(p => !familia || p.families.includes(familia))}
-        getOptionLabel={p => p.paraula}
-        value={paraula}
-        onChange={(_ev, newValue) => setParaula(newValue)}
-        renderInput={params => <TextField {...params} label="Seleccioneu una paraula" />}
-        filterOptions={filterOptions}
+        placeholder="Selecciona o escriu una paraula"
       />
-    </Paper>
+    </div>
   );
 }
 
