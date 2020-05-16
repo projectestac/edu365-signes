@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { fetchBinaryData } from '../utils/utils';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
@@ -60,7 +61,9 @@ function Paraula({ paraula: paraulaObj }) {
 
   return (
     <div className="paraula-area">
-      <h5 className="paraula-text">{paraula}</h5>
+      <Alert variant="primary" className="paraula-text">
+        {paraula}
+      </Alert>
       {videos &&
         <div className="paraula-video-box">
           <video
@@ -69,7 +72,11 @@ function Paraula({ paraula: paraulaObj }) {
             ref={videoRef}
           />
           {videos.length > 1 &&
-            <ButtonGroup aria-label="Selecciona un vídeo">
+            <ButtonGroup
+              className="select-video"
+              aria-label="Selecciona un vídeo"
+              toggle={true}
+            >
               {videos.map((_v, n) =>
                 <Button
                   key={n}

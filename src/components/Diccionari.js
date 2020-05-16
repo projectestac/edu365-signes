@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import DiccSelect from './DiccSelect';
 import Paraula from './Paraula';
 
-function Diccionari({ data, paraula, setParaula }) {
+function Diccionari({ data }) {
+  
+  const [paraula, setParaula] = useState(null);
 
   return (
     <main>
