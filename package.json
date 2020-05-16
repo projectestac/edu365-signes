@@ -14,7 +14,18 @@
     "dictionary",
     "diccionari"
   ],
-  "author": "Equip edu365.cat",
+  "author": {
+    "name": "Catalan Educational Telematic Network (XTEC)",
+    "email": "info@xtec.cat",
+    "url": "http://xtec.gencat.cat"
+  },
+  "contributors": [
+    {
+      "name": "Francesc Busquets",
+      "email": "francesc@gmail.com",
+      "url": "https://github.com/frncesc"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/projectestac/edu365-signes.git"
@@ -28,9 +39,9 @@
       "url": "https://spdx.org/licenses/EUPL-1.2.html"
     }
   ],
-  "license": "EUPL-1.2",  
+  "license": "EUPL-1.2",
   "readmeFilename": "README.md",
-  "homepage": "http://edu365.cat/signes",  
+  "homepage": "http://edu365.cat/signes",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",

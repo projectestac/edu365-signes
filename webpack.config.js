@@ -5,11 +5,11 @@ const TerserPlugin = require('terser-webpack-plugin');
 const date = new Date();
 
 const banner = `
-edu365-signes version ${pkg.version} (${date.toISOString().substr(0, 10)})
-Diccionari Multimèdia de Signes de Catalunya
+${pkg.name} version ${pkg.version} (${date.toISOString().substr(0, 10)})
+${pkg.description}
 ${pkg.homepage}
  
-(c) 2001-${date.getFullYear()} Catalan Educational Telematic Network (XTEC)
+(c) 2001-${date.getFullYear()} ${pkg.author.name || pkg.author}
 
 Licensed under the EUPL, Version 1.2 or -as soon they will be approved by
 the European Commission- subsequent versions of the EUPL (the "Licence");
@@ -26,11 +26,16 @@ under the Licence.
 
 For full license information of included components please see: components.LICENSE
 
-WARNING: This is a compressed version of edu365-signes. Full source code is freely available at:
+WARNING: This is a compressed version of "${pkg.name}". Full source code is freely available at:
 ${pkg.repository.url}
 `;
 
 module.exports = {
+  entry: './src',
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: 'main.js',
+  },
   module: {
     rules: [
       {

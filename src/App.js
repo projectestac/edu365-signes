@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Container fluid="md">
+    <Container fluid="sm">
       <header>
         <Jumbotron>
           <h1 className="header">Mira què dic</h1>
@@ -38,15 +38,13 @@ function App() {
         </Jumbotron>
       </header>
       {loading &&
-        <div className="loading">
-          <Spinner animation="border" variant="primary"/>
+        <div>
+          <Spinner animation="border" variant="primary" />
           <p>S'estan carregant les dades...</p>
         </div>
       }
       {error &&
-        <div className="error">
-          <Alert variant="warning">{error}</Alert>
-        </div>
+        <Alert variant="warning">{error}</Alert>
       }
       {!loading && !error && data && <Diccionari {...{ data, paraula, setParaula }} />}
     </Container>

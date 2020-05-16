@@ -1,37 +1,3 @@
-.root>* {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.root .title {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.error {
-  color: red;
-  font-weight: bold;
-}
-
-.loading {
-  color: blue;
-}
-
-main>div {
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-
-.dicc-select-area {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  max-width: 22rem;
-}
-
-.dicc-select-paraula {
-  margin-top: 1rem;
-}
 
 .paraula-area {
   margin-top: 2rem;
@@ -42,12 +8,6 @@ main>div {
 
 .paraula-text {
   flex-basis: 100%;
-  margin-bottom: 1rem;
-  max-width: 45rem;
-  padding: 0.5rem 2rem;
-  border: 2px solid lightgray;
-  border-radius: 0.5rem;
-  text-align: center;
 }
 
 .paraula-video-box {

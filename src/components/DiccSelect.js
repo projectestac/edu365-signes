@@ -10,8 +10,7 @@ function DiccSelect({ data, paraula, setParaula }) {
   const [familia, setFamilia] = useState(0);
 
   return (
-    <div className="dicc-select-area">
-
+    <div>
       <Form.Group controlId="classificacions">
         <Form.Label>Selecciona una classificació</Form.Label>
         <Form.Control
@@ -39,7 +38,6 @@ function DiccSelect({ data, paraula, setParaula }) {
       </Form.Group>
 
       <Typeahead
-        className="dicc-select-paraula"
         clearButton
         id="select-paraula"
         multiple={false}

@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+  <title>MIRA QUÈ DIC. Diccionari Multimèdia de Signes de Catalunya</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="signes_fitxers/edu365.css" rel="stylesheet">
+  <script src="signes_fitxers/social_edu365.js"></script>
+  <script src="signes_fitxers/jquery_002.js"></script>
+  <script src="signes_fitxers/bootstrap.js"></script>
+  <link href="signes_fitxers/prim_catala_lectures_v2.css" rel="stylesheet">
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+              if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+
+  </script>
+</head>
+
+<body id="page-top" class="index">
+  <div class="container-fluid contenidor">
+    <div class="row">
+      <div>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <div style="
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         padding: 10px;
+         background-color: white;">
+          <div>
+            <a href="http://www.edu365.cat/">
+              <img class="img-responsive" style="width:200px;padding-right:10px;" src="signes_fitxers/edu_logo.png"
+                alt="Edu365.cat" title="Edu365.cat">
+            </a>
+          </div>
+          <div>
+            <a href="http://ensenyament.gencat.cat/ca/inici/" target="_blank">
+              <img class="img-responsive" style="width:270px;margin-left:auto;padding-left: 30px;"
+                src="signes_fitxers/logo_educacio_cap.png" alt="Departament d'Educació / Generalitat de Catalunya"
+                title="Departament d'Educació / Generalitat de Catalunya">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="cc-slides">
+        <div id="titol_header">
+          <div class="titol_header_1 transversal">
+            <h2>Signes</h2>
+          </div>
+          <div class="titol_header_2"> </div>
+        </div>
+      </div>
+      <div>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <style>
+          /**** NEW MENU *********************************************************/
+          #edu-navbar {
+            font-size: 1.6rem;
+            font-weight: normal;
+          }
+
+          #edu-navbar .navbar-header {
+            display: none;
+          }
+
+          #edu-navbar #edu-navbar-container>div {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          #edu-navbar #edu-navbar-container>div>ul {
+            display: flex;
+          }
+
+          #edu-navbar #edu-navbar-container>div>ul>li>a,
+          #edu-navbar #edu-navbar-container>div>ul>li>span.edu-navbar-toggle {
+            display: flex;
+          }
+
+          #edu-navbar #edu-navbar-container>div>ul>li>a>.glyphicon,
+          #edu-navbar #edu-navbar-container>div>ul>li>span.edu-navbar-toggle>.glyphicon {
+            line-height: inherit;
+            font-weight: normal;
+            font-size: .5em;
+            margin-left: 3px;
+          }
+
+          #edu-navbar #large-screen-form,
+          #edu-navbar #large-screen-form>.form-group,
+          #edu-navbar #large-screen-form>.form-group>input {
+            width: 100%;
+          }
+
+          #edu-navbar #large-screen-form {
+            max-width: 400px;
+          }
+
+
+          #edu-navbar .collapse.in {
+            display: block !important;
+          }
+
+          #edu-navbar li a,
+          #edu-navbar li span.edu-navbar-toggle {
+            font-size: 1.6rem;
+            font-weight: normal;
+            color: #777;
+          }
+
+          #edu-navbar .dropdown-submenu>a:after,
+          #edu-navbar .dropdown-submenu>span.edu-navbar-toggle:after {
+            display: none;
+          }
+
+          #edu-navbar .dropdown-submenu .glyphicon {
+            font-size: .5em;
+            right: 5px;
+            top: 1.2em;
+            position: absolute;
+
+          }
+
+          #edu-navbar .dropdown-submenu:hover>.dropdown-menu {
+            display: none;
+          }
+
+          #edu-navbar .dropdown-submenu.open>.dropdown-menu {
+            display: block;
+          }
+
+          #edu-navbar .edu-menu-1+.edu-menu-1 {
+            padding-left: 5px;
+          }
+
+          #edu-navbar .edu-menu-1 a:focus,
+          #edu-navbar .edu-menu-1 span.edu-navbar-toggle:focus {
+            color: #777;
+            outline-color: rgb(77, 144, 254);
+            outline-offset: -2px;
+            outline-style: auto;
+            outline-width: 5px;
+          }
+
+          #edu-navbar .edu-menu-1>a,
+          #edu-navbar .edu-menu-1>span.edu-navbar-toggle {
+            border-bottom-width: 5px;
+            border-bottom-style: solid;
+            padding: 15px 15px;
+            line-height: 20px;
+          }
+
+          #edu-navbar .edu-menu-1:not(.first)>.dropdown-menu {
+            left: 5px;
+          }
+
+          #edu-navbar .dropdown-menu {
+            border-left-width: 5px;
+            border-bottom-style: solid;
+            margin: 0px;
+          }
+
+          #edu-navbar .dropdown-menu .destaquem {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 8px;
+            align-items: center;
+          }
+
+          #edu-navbar .dropdown-menu .destaquem:hover>.glyphicon {
+            color: white !important;
+          }
+
+          #edu-navbar .dropdown-submenu>span.edu-navbar-toggle {
+            display: block;
+            padding: 3px 20px;
+          }
+
+          #edu-navbar .dropdown-submenu>a,
+          #edu-navbar .dropdown-submenu>span {
+            white-space: nowrap;
+          }
+
+          /** Menu Inici - Color: #18BC9C **/
+          #edu-navbar #menu-home>a,
+          #edu-navbar #menu-home>span.edu-navbar-toggle {
+            font-size: 2em;
+            padding-left: 0;
+          }
+
+          #edu-navbar #menu-home>a:hover,
+          #edu-navbar #menu-home>span.edu-navbar-toggle:hover {
+            color: #1A6CA6;
+          }
+
+          #edu-navbar #menu-home .menu-icon-text {
+            display: none;
+          }
+
+          /** Menu Infantil - Color: #ECBD00 **/
+          #menu-infantil>a,
+          #menu-infantil>span.edu-navbar-toggle {
+            border-color: #ECBD00;
+          }
+
+          #menu-infantil.open>a,
+          #menu-infantil>a:hover,
+          #menu-infantil .dropdown-menu a:hover,
+          #menu-infantil .dropdown-submenu.open>a {
+            background-color: #ECBD00;
+            color: white !important;
+          }
+
+          #menu-infantil.open>span.edu-navbar-toggle,
+          #menu-infantil>span.edu-navbar-toggle:hover,
+          #menu-infantil .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-infantil .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #ECBD00;
+            color: white !important;
+          }
+
+          #menu-infantil .dropdown-menu {
+            border-left-color: #ECBD00;
+          }
+
+          #menu-infantil .destaquem .glyphicon {
+            color: #ECBD00;
+          }
+
+          /** Menu Primaria - Color: #18BC9C **/
+          #menu-primaria>a,
+          #menu-primaria>span.edu-navbar-toggle {
+            border-color: #18BC9C;
+          }
+
+          #menu-primaria.open>a,
+          #menu-primaria>a:hover,
+          #menu-primaria .dropdown-menu a:hover,
+          #menu-primaria .dropdown-submenu.open>a {
+            background-color: #18BC9C;
+            color: white !important;
+          }
+
+          #menu-primaria.open>span.edu-navbar-toggle,
+          #menu-primaria>span.edu-navbar-toggle:hover,
+          #menu-primaria .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-primaria .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #18BC9C;
+            color: white !important;
+          }
+
+          #menu-primaria .dropdown-menu {
+            border-left-color: #18BC9C;
+          }
+
+          #menu-primaria .destaquem .glyphicon {
+            color: #18BC9C;
+          }
+
+          /** Menu Eso - Color: #22ABE1 **/
+          #menu-eso>a,
+          #menu-eso>span.edu-navbar-toggle {
+            border-color: #22ABE1;
+          }
+
+          #menu-eso.open>a,
+          #menu-eso>a:hover,
+          #menu-eso .dropdown-menu a:hover,
+          #menu-eso .dropdown-submenu.open>a {
+            background-color: #22ABE1;
+            color: white !important;
+          }
+
+          #menu-eso.open>span.edu-navbar-toggle,
+          #menu-eso>span.edu-navbar-toggle:hover,
+          #menu-eso .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-eso .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #22ABE1;
+            color: white !important;
+          }
+
+          #menu-eso .dropdown-menu {
+            border-left-color: #22ABE1;
+          }
+
+          #menu-eso .destaquem .glyphicon {
+            color: #22ABE1;
+          }
+
+          /** Menu Batxillerat - Color: #79A3B0 **/
+          #menu-batxillerat>a,
+          #menu-batxillerat>span.edu-navbar-toggle {
+            border-color: #79A3B0;
+          }
+
+          #menu-batxillerat.open>a,
+          #menu-batxillerat>a:hover,
+          #menu-batxillerat .dropdown-menu a:hover,
+          #menu-batxillerat .dropdown-submenu.open>a {
+            background-color: #79A3B0;
+            color: white !important;
+          }
+
+          #menu-batxillerat.open>span.edu-navbar-toggle,
+          #menu-batxillerat>span.edu-navbar-toggle:hover,
+          #menu-batxillerat .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-batxillerat .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #79A3B0;
+            color: white !important;
+          }
+
+          #menu-batxillerat .dropdown-menu {
+            border-left-color: #79A3B0;
+          }
+
+          #menu-batxillerat .destaquem .glyphicon {
+            color: #79A3B0;
+          }
+
+          /** Menu FP - Color: #932E8F **/
+          #menu-fp>a,
+          #menu-fp>span.edu-navbar-toggle {
+            border-color: #932E8F;
+          }
+
+          #menu-fp.open>a,
+          #menu-fp>a:hover,
+          #menu-fp .dropdown-menu a:hover,
+          #menu-fp .dropdown-submenu.open>a {
+            background-color: #932E8F;
+            color: white !important;
+          }
+
+          #menu-fp.open>span.edu-navbar-toggle,
+          #menu-fp>span.edu-navbar-toggle:hover,
+          #menu-fp .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-fp .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #932E8F;
+            color: white !important;
+          }
+
+          #menu-fp .dropdown-menu {
+            border-left-color: #932E8F;
+          }
+
+          #menu-fp .destaquem .glyphicon {
+            color: #932E8F;
+          }
+
+          /** Menu Transversals - Color: #1A6BA3 **/
+          #menu-transversals>a,
+          #menu-transversals>span.edu-navbar-toggle {
+            border-color: #1A6BA3;
+          }
+
+          #menu-transversals.open>a,
+          #menu-transversals>a:hover,
+          #menu-transversals .dropdown-menu a:hover,
+          #menu-transversals .dropdown-submenu.open>a {
+            background-color: #1A6BA3;
+            color: white !important;
+          }
+
+          #menu-transversals.open>span.edu-navbar-toggle,
+          #menu-transversals>span.edu-navbar-toggle:hover,
+          #menu-transversals .dropdown-menu span.edu-navbar-toggle:hover,
+          #menu-transversals .dropdown-submenu.open>span.edu-navbar-toggle {
+            background-color: #1A6BA3;
+            color: white !important;
+          }
+
+          #menu-transversals .dropdown-menu {
+            border-left-color: #1A6BA3;
+          }
+
+          #menu-transversals .destaquem .glyphicon {
+            color: #1A6BA3;
+          }
+
+
+          /*****************/
+
+
+          @media (max-width: 1000px) {
+            #edu-navbar #large-screen-form {
+              display: none;
+            }
+
+            #edu-navbar #edu-navbar-container>div {
+              display: block;
+            }
+
+            #edu-navbar #edu-navbar-container>div>ul {
+              display: block;
+            }
+
+
+            #edu-navbar #edu-navbar-container>div>ul>li>a,
+            #edu-navbar #edu-navbar-container>div>ul>li>span.edu-navbar-toggle {
+              display: block;
+            }
+
+            #edu-navbar .navbar {
+              border-radius: 0;
+            }
+
+            #edu-navbar .navbar-default {
+              background-color: #f8f8f8;
+              border-color: #e7e7e7;
+            }
+
+            #edu-navbar .navbar-header {
+              display: flex;
+              float: none;
+            }
+
+            #edu-navbar .navbar-header form {
+              padding: 0 0 0 0;
+              margin: 8px;
+              border: 0;
+              width: 100%;
+            }
+
+            #edu-navbar .navbar-toggle {
+              display: inline-block;
+            }
+
+            #edu-navbar .navbar-collapse {
+              padding-right: 15px;
+              padding-left: 15px;
+              overflow-x: visible;
+              -webkit-overflow-scrolling: touch;
+              border-top: 1px solid transparent;
+              -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+              box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+              width: initial;
+            }
+
+            #edu-navbar .collapse {
+              display: none !important;
+            }
+
+            #edu-navbar .nav {
+              padding-left: 0;
+              margin-bottom: 0;
+              list-style: none;
+            }
+
+            #edu-navbar .navbar-nav {
+              margin: 7.5px -15px;
+              float: none;
+            }
+
+            #edu-navbar .nav>li {
+              position: relative;
+              display: block;
+              float: none;
+            }
+
+            #edu-navbar .navbar-nav>li>a,
+            #edu-navbar .navbar-nav>li>span.edu-navbar-toggle {
+              padding-top: 10px;
+              padding-bottom: 10px;
+              line-height: 20px;
+            }
+
+            #edu-navbar .nav>li>a,
+            #edu-navbar .nav>li>span.edu-navbar-toggle {
+              position: relative;
+              display: block;
+              padding: 10px 15px;
+            }
+
+            #edu-navbar .dropdown-menu {
+              position: static;
+              top: 100%;
+              left: 0;
+              z-index: 1000;
+              display: none;
+              float: none;
+              min-width: 160px;
+              width: auto;
+              padding: 5px 0;
+              margin: 0 0 0 10px;
+              font-size: 1.6rem;
+              text-align: left;
+              list-style: none;
+              background-color: transparent;
+              -webkit-background-clip: padding-box;
+              background-clip: padding-box;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              border-radius: 0;
+              border-top: 0;
+              border-bottom: 0;
+              border-right: 0;
+            }
+
+            #edu-navbar .open>.dropdown-menu {
+              display: block;
+            }
+
+            #edu-navbar .form-control {
+              display: block;
+              width: 100%;
+            }
+
+            #edu-navbar .navbar-form {
+              padding: 10px 15px;
+              margin-top: 8px;
+              margin-right: -15px;
+              margin-bottom: 8px;
+              margin-left: -15px;
+              border-top: 1px solid #e7e7e7;
+              border-bottom: 1px solid #e7e7e7;
+              -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+              box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+            }
+
+            #edu-navbar .navbar-right {
+              float: none !important;
+            }
+
+            #edu-navbar .form-group {
+              width: 100%;
+            }
+
+            #edu-navbar .form-group>input {
+              width: 100%;
+            }
+
+            #edu-navbar .edu-menu-1+.edu-menu-1 {
+              padding-left: 0;
+              padding-top: 5px;
+            }
+
+            #edu-navbar .edu-menu-1>a,
+            #edu-navbar .edu-menu-1>span.edu-navbar-toggle {
+              border-left-width: 5px;
+              border-left-style: solid;
+              border-bottom-width: 0;
+            }
+
+            #edu-navbar .dropdown-menu {
+              border-left-width: 5px;
+              border-left-style: solid;
+            }
+
+            #edu-navbar #menu-home>a,
+            #edu-navbar #menu-home>span.edu-navbar-toggle {
+              text-align: center;
+            }
+
+            #edu-navbar #menu-home .menu-icon-text {
+              display: inline;
+              font-size: 1.6rem;
+            }
+
+            #edu-navbar .edu-menu-1 .dropdown-submenu>span.edu-navbar-toggle {
+              padding: 5px 15px 5px 20px;
+              display: block;
+            }
+
+
+          }
+        </style>
+
+
+
+        <!-- INICI MENU -->
+        <div id="edu-navbar">
+          <div class="navbar navbar-default" roel="navigation">
+            <div class="navbar-header">
+              <form class="navbar-form navbar-right" method="get" action="http://www.edu365.cat/search.html">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Cerca..." title="Text a cercar" name="q"
+                    autocomplete="off" minlength="1" required="true">
+                </div>
+                <button type="submit" class="btn btn-default hidden">Submit</button>
+              </form>
+              <button id="burger" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#edu-navbar-container" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="edu-navbar-container">
+              <div>
+                <ul class="nav navbar-nav">
+                  <li id="menu-home">
+                    <a title="Portada" href="http://www.edu365.cat/">
+                      <span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span>
+                      <span class="menu-icon-text">Portada</span>
+                    </a>
+                  </li>
+                  <li class="edu-menu-1 dropdown first" id="menu-infantil">
+                    <span class="edu-navbar-toggle" role="button">
+                      <span>Infantil</span>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="http://www.edu365.cat/infantil/index.html" class="destaquem">
+                          <span>Destaquem</span>
+                          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </a>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.edu365.cat/infantil/jocs/index.html">Jocs</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/pinta/index.html">Dibuixa i pinta</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/musica/index.html">Música</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/angles/index.html">Anglès</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/cos/index.html">El cos</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/passos/index.html">Petits passos</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/llegir/index.html">Llegeix i escriu</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/mates/index.html">Matemàtiques</a></li>
+                      <li><a href="http://www.edu365.cat/infantil/entorn/index.html">Entorn</a></li>
+                    </ul>
+                  </li>
+                  <li class="edu-menu-1 dropdown" id="menu-primaria">
+                    <span class="edu-navbar-toggle" role="button">
+                      <span>Primària</span>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="http://www.edu365.cat/primaria/index.html" class="destaquem">
+                          <span>Destaquem</span>
+                          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </a>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-submenu">
+
+                        <span class="edu-navbar-toggle" role="button">
+                          Llengües
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/primaria/catala/index.html">Catalana</a></li>
+                          <li><a href="http://www.edu365.cat/primaria/castella/index.html">Castellana</a></li>
+                          <li><a href="http://www.edu365.cat/primaria/angles/index.html">Anglesa</a></li>
+                          <li><a href="http://www.edu365.cat/primaria/frances/index.html">Francesa</a></li>
+                          <li><a href="http://www.edu365.cat/primaria/aranes/index.html">Aranesa</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="http://www.edu365.cat/primaria/matematiques/index.html">Matemàtiques</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/socials/index.html">Medi Social</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/natural/index.html">Medi Natural</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/musica/index.html">Música</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/visual/index.html">Visual i plàstica</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/ed_fisica/index.html">Educació física</a></li>
+                      <li><a href="http://www.edu365.cat/primaria/religio/index.html">Religió</a></li>
+                    </ul>
+                  </li>
+                  <li class="edu-menu-1 dropdown" id="menu-eso">
+                    <span class="edu-navbar-toggle" role="button">
+                      <span>ESO</span>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="http://www.edu365.cat/eso/index.html" class="destaquem">
+                          <span>Destaquem</span>
+                          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </a>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Llengües
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/eso/catala/index.html">Catalana</a></li>
+                          <li><a href="http://www.edu365.cat/eso/castella/index.html">Castellana</a></li>
+                          <li><a href="http://www.edu365.cat/eso/angles/index.html">Anglesa</a></li>
+                          <li><a href="http://www.edu365.cat/eso/frances/index.html">Francesa</a></li>
+                          <li><a href="http://www.edu365.cat/eso/aranes/index.html">Aranesa</a></li>
+                          <li><a href="http://www.edu365.cat/eso/alemany/index.html">Alemanya</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="http://www.edu365.cat/eso/matematiques/index.html">Matemàtiques</a></li>
+                      <li><a href="http://www.edu365.cat/eso/tecnologia/index.html">Tecnologia</a></li>
+                      <li><a href="http://www.edu365.cat/eso/socials/index.html">Ciències Socials</a></li>
+                      <li><a href="http://www.edu365.cat/eso/bio_geo/index.html">Biologia i Geologia</a></li>
+                      <li><a href="http://www.edu365.cat/eso/fq/index.html">Física i Química</a></li>
+                      <li><a href="http://www.edu365.cat/eso/ed_fisica/index.html">Educació Física</a></li>
+                      <li><a href="http://www.edu365.cat/eso/visual/index.html">Visual i Plàstica</a></li>
+                      <li><a href="http://www.edu365.cat/eso/musica/index.html">Música</a></li>
+                      <li><a href="http://www.edu365.cat/eso/religio/index.html">Religió</a></li>
+                      <li><a href="http://www.edu365.cat/eso/cultura_valors/index.html">Cultura i Valors Ètics</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Matèries optatives
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/eso/llati/index.html">Llatí i Cultura clàssica</a></li>
+                          <li><a href="http://www.edu365.cat/eso/economia/index.html">Economia i Emprenedoria</a></li>
+                          <li><a href="http://www.edu365.cat/eso/caplicades/index.html">Ciències aplicades</a></li>
+                          <li><a href="http://www.edu365.cat/eso/informatica/index.html">Informàtica</a></li>
+                          <li><a href="http://www.edu365.cat/eso/filosofia/index.html">Filosofia</a></li>
+                          <li><a href="http://www.edu365.cat/eso/dansa/index.html">Arts escèniques i dansa</a></li>
+                          <li><a href="http://www.edu365.cat/eso/ccientifica/index.html">Cultura científica</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="edu-menu-1 dropdown" id="menu-batxillerat">
+                    <span class="edu-navbar-toggle" role="button">
+                      <span>Batxillerat</span>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="http://www.edu365.cat/batxillerat/index.html" class="destaquem">
+                          <span>Destaquem</span>
+                          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        </a>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Llengües
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/catala/index.html">Llengua Catalana i
+                              Literatura</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/castella/index.html">Llengua Castellana
+                              i Literatura</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/especifiques/occita/index.html">Llengua i
+                              cultura occitanes (IOC)</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/estrangeres/angles/index.html">Llengua
+                              Anglesa</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/estrangeres/frances/index.html">Llengua
+                              Francesa</a></li>
+                          <li><a
+                              href="http://www.edu365.cat/batxillerat/especifiques/2a_llengua/alemany/index.html">Llengua
+                              Alemanya</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Matèries comunes
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/filosofia/index.html">Filosofia</a>
+                          </li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/historia-filosofia/index.html">Història
+                              de la Filosofia</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/historia/index.html">Història</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/ed_fisica/index.html">Educació
+                              física</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/comunes/lectures/index.html">Lectures</a></li>
+                          <li><a
+                              href="http://www.edu365.cat/batxillerat/comunes/ciencies-mon-contemporani/index.html">Ciències
+                              del món contemporani</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Matèries de modalitat
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/batxillerat/modalitat/ciencies/index.html">Ciències i
+                              tecnologia</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/modalitat/humanitats/index.html">Humanitats i
+                              Ciències Socials</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/modalitat/arts/index.html">Arts</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Matèries de específiques
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/batxillerat/especifiques/musica_dansa/index.html">Història
+                              de la música i la dansa</a></li>
+                          <li><a
+                              href="http://www.edu365.cat/batxillerat/especifiques/psicologia/index.html">Psicologia</a>
+                          </li>
+                          <li><a
+                              href="http://www.edu365.cat/batxillerat/especifiques/sociologia/index.html">Sociologia</a>
+                          </li>
+                          <li><a
+                              href="http://www.edu365.cat/batxillerat/especifiques/graficoplastica/index.html">Tèniques
+                              d'expressió graficoplàstica</a></li>
+                          <li><a href="http://www.edu365.cat/batxillerat/especifiques/religio/index.html">Religió</a>
+                          </li>
+                          <li><a href="http://xtec.gencat.cat/ca/curriculum/batxillerat/estadaempresa/">Estada a
+                              l'empresa</a></li>
+                        </ul>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.edu365.cat/batxillerat/recerca/index.html">Treball de recerca</a></li>
+                    </ul>
+                  </li>
+                  <li class="edu-menu-1" id="menu-fp">
+                    <a href="http://queestudiar.gencat.cat/ca/estudis/fp/">FP</a>
+                  </li>
+                  <li class="edu-menu-1 dropdown" id="menu-transversals">
+                    <span class="edu-navbar-toggle" role="button">
+                      <span>+Edu</span>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://www.edu365.cat/capsa_eines/index.html">Capsa d'eines</a></li>
+                      <li><a href="http://www.edu365.cat/signes/index.html">Signes</a></li>
+                      <li><a href="http://www.edu365.cat/salut/index.html">Salut</a></li>
+                      <li><a href="http://www.edu365.cat/acollida/index.html">Acollida</a></li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Celebracions
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/celebracions/carnaval/index.html">Carnaval</a></li>
+                          <li><a href="http://www.edu365.cat/celebracions/castanyada/index.html">Viu la tardor</a></li>
+                          <li><a href="http://www.edu365.cat/celebracions/santjordi/index.html">Sant Jordi</a></li>
+                          <li><a href="http://www.edu365.cat/celebracions/nadal/index.html">Nadal</a></li>
+                          <li><a href="http://www.edu365.cat/celebracions/santjoan/index.html">Sant Joan</a></li>
+                          <li><a href="http://www.edu365.cat/celebracions/festes/index.html">Festes i tradicions</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.edu365.cat/internetsegura/index.html">Internet segura</a></li>
+                      <li><a href="http://www.edu365.cat/capsules/index.html">Càpsules</a></li>
+                      <li class="dropdown-submenu">
+                        <span class="edu-navbar-toggle" role="button">
+                          Workshops
+                          <span class="glyphicon glyphicon-triangle-right"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a href="http://www.edu365.cat/workshop/joc/index.html">Jocs</a></li>
+                          <li><a href="http://www.edu365.cat/workshop/animacio/index.html">Animació</a></li>
+                          <li><a href="http://www.edu365.cat/workshop/programacio/index.html">Programació</a></li>
+                          <li><a href="http://www.edu365.cat/workshop/narrativa/index.html">Narrativa</a></li>
+                          <li><a href="http://www.edu365.cat/workshop/box5/index.html">Box5</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form role="search" id="large-screen-form" class="navbar-form navbar-right" method="get"
+                  action="http://www.edu365.cat/search.html">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Cerca..." title="Text a cercar" name="q"
+                      autocomplete="off" minlength="1" required="true">
+                  </div>
+                  <button type="submit" class="btn btn-default hidden">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FI MENU -->
+
+
+      </div>
+
+      <!-- FINAL NAVEGACIÓ -->
+    </div>
+
+    <script>
+      function navegacio() {
+        var x = document.getElementById("navegacio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+    </script>
+
+    <!-- COS -->
+
+    <div id="portfolio" class="row">
+
+      <div id="container" class="col-md-12 contingut_flash">
+      </div>
+
+    </div>
+
+
+    <!-- FINAL COS -->
+    <!-- PEU -->
+
+    <div>
+      <footer class="row text-center peu">
+        <div class="footer-below">
+          <div class="row">
+            <div class="footer-col col-12">
+              <a href="http://xtec.gencat.cat/" id="xtec-link" target="_blank" class="btn-social btn-outline"
+                title="XTEC">
+                <span class="sr-only">XTEC</span>
+              </a>
+              <a href="https://clic.xtec.cat/" id="jclic-link" class="btn-social btn-outline" title="Zona Clic">
+                <span class="sr-only">Zona Clic</span>
+              </a>
+              <a href="https://twitter.com/edu365?lang=ca" class="btn-social btn-outline" style="color: white"
+                title="L'Edu365 al Twitter">
+                <span class="sr-only">Twitter</span>
+                <i class="fa fa-fw fa-twitter"></i>
+              </a>
+              <a href="mailto:infoedu@xtec.cat" class="btn-social btn-outline" style="color: white" title="Contacte">
+                <span class="sr-only">Contacte</span>
+                <i class="fa fa-fw fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row peu_pagina">
+            <p>
+              <a href="http://www.edu365.cat/condicions_us.html" target="_blank" title="Condicions d'ús">
+                Condicions d'ús
+              </a>
+              |
+              <a href="http://www.edu365.cat/sobre_web.html" title="Sobre el web" target="_blank">
+                Sobre el web
+              </a>
+              |
+              <a href="http://ensenyament.gencat.cat/ca/inici/" title="Departament d'Educació" target="_blank">
+                Departament d'Educació
+              </a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- FINAL PEU -->
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+      <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+    <!-- BOTONS COMPARTICIÓ -->
+    <div id="container-floating">
+      <div class="nd5 nds" data-toggle="tooltip" data-placement="left" data-original-title="Comparteix al Twitter">
+        <p class="letter">
+          <a href="#" title="Comparteix a twitter"
+            onclick="window.open(piula(),'piula','left=20,top=20,width=600,height=300,toolbar=0,resizable=1')">
+
+            <span class="fa fa-twitter" aria-hidden="true"></span>
+          </a>
+        </p>
+      </div>
+
+      <!-- <div class="nd3 nds" data-toggle="tooltip" data-placement="left" data-original-title="Comparteix al Pinterest">
+               <p class="letter">
+                  <a href="http://pinterest.com/pin/create/bookmarklet/?media=http://www.edu365.cat/img/pinterest/portada.jpg&url=http://www.edu365.cat&is_video=[true|false]&description=Edu365.cat" onclick="window.open(this.href, 'pinterestwindow','left=20,top=20,width=600,height=700,toolbar=0,resizable=1'); return false;">
+                  <i class="fa fa-pinterest" aria-hidden="true"></i>
+                  </a>
+               </p>
+            </div>-->
+      <div id="floating-button" data-toggle="tooltip" data-placement="left" data-original-title="Create"
+        onclick="newmail()">
+        <p class="plus">
+          <i class="fa fa-share-alt" aria-hidden="true">
+          </i>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="signes_fitxers/jquery.js"></script>
+  <script src="signes_fitxers/bootstrap.html"></script>
+  <script>
+    includeHTML();
+  </script>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
