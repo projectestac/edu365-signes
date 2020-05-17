@@ -6,7 +6,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import Diccionari from './components/Diccionari';
 import Recordem from './components/Recordem';
-
+import Ajuda from './components/Ajuda';
 
 const DATA_PATH = 'data';
 
@@ -54,6 +54,9 @@ function App() {
           </Tab>
           <Tab eventKey="recordem" title="Recordem">
             <Recordem {...{ data }} />
+          </Tab>
+          <Tab eventKey="credits" title="Ajuda">
+            <Ajuda />
           </Tab>
         </Tabs>
       }

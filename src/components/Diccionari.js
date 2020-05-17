@@ -9,14 +9,14 @@ function Diccionari({ data }) {
 
   useEffect(() => {
     const qp = getQueryParam('paraula').toUpperCase();
-    if (qp) {
+    if (!paraula && qp) {
       setParaula(data.paraules.find(p => p.paraula === qp));
     }
   })
 
   return (
     <main>
-      <DiccSelect {...{ data, paraula, setParaula }} />
+      <DiccSelect {...{ data, setParaula }} />
       {paraula && <Paraula {...{ paraula }} />}
     </main>
   );

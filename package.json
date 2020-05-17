@@ -62,7 +62,8 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-bootstrap-typeahead": "^4.2.3",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0"
   },
   "scripts": {
     "start": "webpack-dev-server --open --mode development --host 0.0.0.0 --useLocalIp",

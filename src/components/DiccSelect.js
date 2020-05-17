@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import Form from 'react-bootstrap/Form';
 
-function DiccSelect({ data, paraula, setParaula }) {
+function DiccSelect({ data, setParaula }) {
 
   const { classificacions, families, paraules } = data;
 
@@ -12,7 +12,7 @@ function DiccSelect({ data, paraula, setParaula }) {
   return (
     <div className="dicc-select">
       <Form.Group controlId="classificacions">
-        <Form.Label>Selecciona una classificació</Form.Label>
+        <Form.Label>Selecciona una classificació:</Form.Label>
         <Form.Control
           as="select"
           value={classificacio}
@@ -23,7 +23,7 @@ function DiccSelect({ data, paraula, setParaula }) {
         </Form.Control>
       </Form.Group>
       <Form.Group controlId="families">
-        <Form.Label>Selecciona una família</Form.Label>
+        <Form.Label>Selecciona una família:</Form.Label>
         <Form.Control
           as="select"
           value={familia}
@@ -36,7 +36,7 @@ function DiccSelect({ data, paraula, setParaula }) {
         </Form.Control>
       </Form.Group>
       <Form.Group controlId="paraula">
-        <Form.Label>Selecciona o escriu una paraula</Form.Label>
+        <Form.Label>Selecciona o escriu una paraula:</Form.Label>
         <Typeahead
           clearButton
           id="select-paraula"
@@ -45,6 +45,9 @@ function DiccSelect({ data, paraula, setParaula }) {
           onChange={values => setParaula(values && values.length > 0 ? values[0] : null)}
           options={paraules.filter(p => !familia || p.families.includes(familia))}
           placeholder="..."
+          emptyLabel="No hi ha res amb aquest text"
+          paginationText="Més paraules..."
+          selectHintOnEnter={true}
         />
       </Form.Group>
     </div>

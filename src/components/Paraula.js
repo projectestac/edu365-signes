@@ -3,6 +3,7 @@ import { fetchBinaryData } from '../utils/utils';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
+import { FaPlay as PlayIcon } from "react-icons/fa";
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
@@ -61,9 +62,21 @@ function Paraula({ paraula: paraulaObj }) {
 
   return (
     <div className="paraula-area">
-      <Alert variant="primary" className="paraula-text">
+      <Alert variant="info" className="paraula-text">
         {paraula}
       </Alert>
+      {(videos || so) &&
+        <Button
+          className="replay-button"
+          variant="primary"
+          color="primary"
+          onClick={replay}
+        >
+          <PlayIcon className="left-icon" />
+          Torna a dir-ho
+        </Button>
+      }
+      <div className="break" />
       {videos &&
         <div className="paraula-video-box">
           <video
@@ -81,7 +94,7 @@ function Paraula({ paraula: paraulaObj }) {
                 <Button
                   key={n}
                   value={n}
-                  variant="primary"
+                  variant={currentVideo === n ? 'primary' : 'outline-primary'}
                   onClick={ev => changeCurrentVideo(n)}
                   aria-label={`Mostrar el vídeo #${n + 1}`}
                 >
@@ -108,16 +121,6 @@ function Paraula({ paraula: paraulaObj }) {
           autoPlay={true}
           ref={audioRef}
         />
-      }
-      <div className="break" />
-      {(videos || so) &&
-        <Button
-          variant="primary"
-          color="primary"
-          onClick={replay}
-        >
-          Torna a dir-ho
-        </Button>
       }
     </div>
   );
