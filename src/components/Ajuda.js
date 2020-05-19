@@ -79,7 +79,7 @@ function Ajuda() {
           mostrant tota la informació multimèdia.
         </li>
         <li>
-          La modalitat <span classname="bold">Recordem</span>. La funcionalitat d’aquesta modalitat és avaluar a l’alumne. Mostra només
+          La modalitat <span className="bold">Recordem</span>. La funcionalitat d’aquesta modalitat és avaluar a l’alumne. Mostra només
           el vídeo de la paraula i l’alumne ha d’esbrinar de quina paraula es tracta. També pot donar pistes a l'alumne per ajudar-lo
           a esbrinar la paraula, activant el text, el so i/o la imatge polsant sobre els botons que apareixen a sobre del elements que
           volem mostrar.
