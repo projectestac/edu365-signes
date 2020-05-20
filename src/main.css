@@ -10,8 +10,41 @@
   margin-bottom: 1rem;
 }
 
-.dicc-select, .recordem-select {
+.dicc-select {
   max-width: 20rem;
+}
+
+.recordem-select {
+  display: grid;
+  max-width: 30rem;
+  grid-template-columns: 1fr auto;
+  grid-gap: 1rem;
+}
+
+.recordem-input-label {
+  grid-column: 1 / span 2;  
+}
+
+.recordem-input-random {
+  margin-bottom: 1rem;
+}
+
+.recordem-random-button {
+  background-image: url(assets/dau-blau.png);
+}
+
+.recordem-random-button :hover {
+  background-image: url(assets/dau-blau.png);
+}
+
+.recordem-select-button {
+  align-self: flex-end;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+
+.recordem-select-error{
+  grid-column: 1 / span 2;
 }
 
 .tab-pane {

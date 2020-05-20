@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getQueryParam } from '../utils/utils';
 import DiccSelect from './DiccSelect';
-import Paraula from './Paraula';
+import Paraula, { DICCIONARI } from './Paraula';
 
 function Diccionari({ data }) {
 
@@ -17,7 +17,7 @@ function Diccionari({ data }) {
   return (
     <main>
       <DiccSelect {...{ data, setParaula }} />
-      {paraula && <Paraula {...{ paraula }} />}
+      {paraula && <Paraula {...{ paraula, mode: DICCIONARI }} />}
     </main>
   );
 }

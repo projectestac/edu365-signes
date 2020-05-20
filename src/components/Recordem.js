@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import RecordemSelect from './RecordemSelect';
-import Paraula from './Paraula';
+import Paraula, { RECORDEM } from './Paraula';
 
 function Recordem({ data }) {
 
@@ -10,7 +10,7 @@ function Recordem({ data }) {
   return (
     <main>
       <RecordemSelect {...{ data, setParaula }} />
-      {paraula && <Paraula {...{ paraula }} />}
+      {paraula && <Paraula {...{ paraula, mode: RECORDEM }} />}
     </main>
   );
 }

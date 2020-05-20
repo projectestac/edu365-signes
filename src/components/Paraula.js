@@ -8,21 +8,28 @@ import { FaPlay as PlayIcon } from "react-icons/fa";
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
 const IMG_BASE = 'data/imatges';
+export const DICCIONARI = 'diccionari';
+export const RECORDEM = 'recordem';
 
 let currentVideoPath = null;
+let currentMode = null;
 
-function Paraula({ paraula: paraulaObj }) {
+function Paraula({ paraula: paraulaObj, mode }) {
 
   const { paraula, so, imatge, repeticio, videos, families } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
+  const [paraulaVisible, setParaulaVisible] = useState(mode === DICCIONARI);
+  const [imatgeVisible, setImatgeVisible] = useState(mode === DICCIONARI);
+  const [audioOn, setAudioOn] = useState(mode === DICCIONARI);
   const videoRef = useRef(null);
   const audioRef = useRef(null);
 
   const loadVideoBlob = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
       const videoPath = `${VIDEO_BASE}/${videos[videoIndex]}`;
-      if (videoPath !== currentVideoPath) {
+      if (videoPath !== currentVideoPath || mode !== currentMode) {
         currentVideoPath = videoPath;
+        currentMode = mode;
         const videoObj = videoRef.current;
         fetchBinaryData(videoPath)
           .then(url => {
@@ -49,7 +56,7 @@ function Paraula({ paraula: paraulaObj }) {
       videoRef.current.currentTime = 0;
       videoRef.current.play()
     }
-    if (audioRef?.current) {
+    if (audioOn && audioRef?.current) {
       audioRef.current.currentTime = 0;
       audioRef.current.play()
     }
@@ -62,19 +69,23 @@ function Paraula({ paraula: paraulaObj }) {
 
   return (
     <div className="paraula-area">
-      <Alert variant="info" className="paraula-text">
-        {paraula}
-      </Alert>
-      {(videos || so) &&
-        <Button
-          className="replay-button"
-          variant="primary"
-          color="primary"
-          onClick={replay}
-        >
-          <PlayIcon className="left-icon" />
-          Torna a dir-ho
-        </Button>
+      {paraulaVisible &&
+        <>
+          <Alert variant="info" className="paraula-text">
+            {paraula}
+          </Alert>
+          {(videos || so) &&
+            <Button
+              className="replay-button"
+              variant="primary"
+              color="primary"
+              onClick={replay}
+            >
+              <PlayIcon className="left-icon" />
+              Torna a dir-ho
+            </Button>
+          }
+        </>
       }
       <div className="break" />
       {videos &&
@@ -105,7 +116,7 @@ function Paraula({ paraula: paraulaObj }) {
           }
         </div>
       }
-      {imatge &&
+      {imatge && imatgeVisible &&
         <div className="img-box">
           <img
             className="paraula-imatge"
@@ -118,13 +129,12 @@ function Paraula({ paraula: paraulaObj }) {
         <audio
           className="paraula-audio"
           src={`${SO_BASE}/${so}`}
-          autoPlay={true}
+          autoPlay={audioOn}
           ref={audioRef}
         />
       }
     </div>
   );
-
 }
 
 export default Paraula;

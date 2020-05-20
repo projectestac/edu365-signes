@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import Form from 'react-bootstrap/Form';
 
-function DiccSelect({ data, setParaula }) {
-
-  const { classificacions, families, paraules } = data;
+function DiccSelect({ data: { classificacions, families, paraules }, setParaula }) {
 
   const [classificacio, setClassificacio] = useState(0);
   const [familia, setFamilia] = useState(0);

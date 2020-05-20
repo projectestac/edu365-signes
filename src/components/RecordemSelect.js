@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 const DEAD_KEYCODES = [13, 16, 17, 18, 19, 20, 27, 35, 36, 37, 38, 39, 40, 91, 93, 224];
 
-function RecordemSelect({ data, setParaula }) {
+function RecordemSelect({ data: { paraules }, setParaula }) {
 
   const [text, setText] = useState('');
   const [error, setError] = useState(null);
 
   const handleChange = (ev => {
-    setText(ev.target.value);
+    setText(ev.target.value.toUpperCase());
   });
 
   const handleKeyDown = ev => {
@@ -22,7 +24,6 @@ function RecordemSelect({ data, setParaula }) {
       setParaula(null);
       if (error)
         setError(null);
-
     }
   }
 
@@ -30,30 +31,56 @@ function RecordemSelect({ data, setParaula }) {
     if (!text)
       setError('Has d\'escriure una paraula');
     else {
-      const txMaj = text.toUpperCase();
-      const paraula = data.paraules.find(p => p.paraula === txMaj);
+      const paraula = paraules.find(p => p.paraula === text);
       if (paraula)
         setParaula(paraula);
       else
-        setError('Vaja! Aquesta paraula no la tenim encara al diccionari.')
+        setError('Ho sento, encara no tenim aquesta paraula al nostre diccionari.');
     }
+  }
+
+  const random = () => {
+    setParaula(null);
+    const index = Math.round(Math.random() * paraules.length);
+    const paraula = paraules[index];
+    console.log(paraula.paraula)
+    setText(paraula.paraula.toUpperCase());
   }
 
 
   return (
     <div className="recordem-select">
-      <Form.Group controlId="enterText">
-        <Form.Label>Escriviu una paraula o feu clic al botó per triar-ne una a l'atzar:</Form.Label>
+      <label htmlFor="recordem-enter-text" className="recordem-input-label">Escriu una paraula o fes clic al botó per triar-ne una a l'atzar:</label>
+      <InputGroup className="recordem-input-text" >
         <Form.Control
+          id="recordem-enter-text"
           type="password"
-          placeholder=""
+          placeholder="Escriu una paraula"
           value={text}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-      </Form.Group>
+        <InputGroup.Append className="recordem-input-random">
+          <Button
+            variant="outline-primary"
+            onClick={random}
+          >
+            <div className="recordem-random-button" style={{width:'21px', height:'22px'}}/>
+          </Button>
+        </InputGroup.Append>
+      </InputGroup>
+      <Button
+        className="recordem-select-button"
+        variant="primary"
+        onClick={checkParaula}
+      >
+        Endevina-ho!
+      </Button>
       {error &&
-        <Alert variant="danger">
+        <Alert
+          className="recordem-select-error"
+          variant="danger"
+        >
           {error}
         </Alert>
       }
