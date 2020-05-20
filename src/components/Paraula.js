@@ -3,6 +3,7 @@ import { fetchBinaryData } from '../utils/utils';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
+import Form from 'react-bootstrap/Form';
 import { FaPlay as PlayIcon } from "react-icons/fa";
 
 const VIDEO_BASE = 'data/videos';
@@ -18,11 +19,12 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
   const { paraula, so, imatge, repeticio, videos, families } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
-  const [paraulaVisible, setParaulaVisible] = useState(mode === DICCIONARI);
+  const paraulaVisible = mode === DICCIONARI;
   const [imatgeVisible, setImatgeVisible] = useState(mode === DICCIONARI);
-  const [audioOn, setAudioOn] = useState(mode === DICCIONARI);
+  const audioOn = mode === DICCIONARI;
   const videoRef = useRef(null);
   const audioRef = useRef(null);
+  const [resposta, setResposta] = useState('');
 
   const loadVideoBlob = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
@@ -51,12 +53,12 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
   useEffect(loadVideoBlob, [currentVideo]);
 
-  const replay = () => {
+  const replay = (_ev, audio = audioOn) => {
     if (videoRef?.current) {
       videoRef.current.currentTime = 0;
       videoRef.current.play()
     }
-    if (audioOn && audioRef?.current) {
+    if (audio && audioRef?.current) {
       audioRef.current.currentTime = 0;
       audioRef.current.play()
     }
@@ -67,10 +69,23 @@ function Paraula({ paraula: paraulaObj, mode }) {
     replay();
   }
 
+  const handleResposta = ev => {
+    setResposta(ev.target.value.toUpperCase());
+  }
+
+  const checkResposta = () => {
+    if (!resposta)
+      alert('Has d\'escriure una resposta!');
+    else if (resposta.toUpperCase() === paraula.toUpperCase())
+      alert('Molt bé!');
+    else
+      alert('No l\'has encertat!');
+  }
+
   return (
     <div className="paraula-area">
       {paraulaVisible &&
-        <>
+        <div className="paraula-text-box">
           <Alert variant="info" className="paraula-text">
             {paraula}
           </Alert>
@@ -85,15 +100,15 @@ function Paraula({ paraula: paraulaObj, mode }) {
               Torna a dir-ho
             </Button>
           }
-        </>
+        </div>
       }
-      <div className="break" />
       {videos &&
         <div className="paraula-video-box">
           <video
             className="paraula-video"
             autoPlay={true}
             ref={videoRef}
+            controls={mode === RECORDEM}
           />
           {videos.length > 1 &&
             <ButtonGroup
@@ -132,6 +147,46 @@ function Paraula({ paraula: paraulaObj, mode }) {
           autoPlay={audioOn}
           ref={audioRef}
         />
+      }
+      {mode === RECORDEM &&
+        <>
+          <Form.Group>
+            <Form.Label>Saps què estic dient? Escriu-ho aquí i comprova si ho has encertat:</Form.Label>
+            <div className="resposta">
+              <Form.Control
+                size="lg"
+                type="text"
+                placeholder="Crec que dius..."
+                value={resposta}
+                onChange={handleResposta}
+              />
+              <Button
+                className="recordem-check-button"
+                variant="primary"
+                onClick={checkResposta}
+              >
+                Comprova-ho
+              </Button>
+            </div>
+          </Form.Group>
+          <div className="paraula-pistes">
+            <label>Si no ho saps, demana ajuda:</label>
+            {imatge &&
+              <Button
+                onClick={() => setImatgeVisible(!imatgeVisible)}
+              >
+                {imatgeVisible ? 'Amaga' : 'Mostra'} la imatge
+              </Button>
+            }
+            {so &&
+              <Button
+                onClick={(ev) => replay(ev, true)}
+              >
+                Diges-ho amb veu
+              </Button>
+            }
+          </div>
+        </>
       }
     </div>
   );

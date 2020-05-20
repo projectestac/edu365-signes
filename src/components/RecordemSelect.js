@@ -11,9 +11,9 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
   const [text, setText] = useState('');
   const [error, setError] = useState(null);
 
-  const handleChange = (ev => {
+  const handleChange = ev => {
     setText(ev.target.value.toUpperCase());
-  });
+  };
 
   const handleKeyDown = ev => {
     if (ev.keyCode == 13) {
@@ -35,22 +35,20 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
       if (paraula)
         setParaula(paraula);
       else
-        setError('Ho sento, encara no tenim aquesta paraula al nostre diccionari.');
+        setError('Encara no tenim aquesta paraula!');
     }
   }
 
-  const random = () => {
+  const getRandom = () => {
     setParaula(null);
     const index = Math.round(Math.random() * paraules.length);
     const paraula = paraules[index];
-    console.log(paraula.paraula)
     setText(paraula.paraula.toUpperCase());
   }
 
-
   return (
     <div className="recordem-select">
-      <label htmlFor="recordem-enter-text" className="recordem-input-label">Escriu una paraula o fes clic al botó per triar-ne una a l'atzar:</label>
+      <label htmlFor="recordem-enter-text" className="recordem-input-label">Escriu una paraula o fes clic al botó del dau per triar-ne una a l'atzar:</label>
       <InputGroup className="recordem-input-text" >
         <Form.Control
           id="recordem-enter-text"
@@ -63,9 +61,10 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
         <InputGroup.Append className="recordem-input-random">
           <Button
             variant="outline-primary"
-            onClick={random}
+            onClick={getRandom}
+            title="Escull una paraula a l'atzar"
           >
-            <div className="recordem-random-button" style={{width:'21px', height:'22px'}}/>
+            <div style={{ width: '1rem' }} />
           </Button>
         </InputGroup.Append>
       </InputGroup>

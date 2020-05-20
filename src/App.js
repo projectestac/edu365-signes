@@ -29,7 +29,7 @@ function App() {
     <div className="root">
       <header>
         <Alert variant="primary">
-          <h2>Mira què dic</h2>
+          <h2>Mira què dic!</h2>
           Diccionari Multimèdia de Signes de Catalunya
         </Alert>
       </header>
