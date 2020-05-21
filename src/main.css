@@ -34,6 +34,10 @@
   grid-column: 1 / span 2;
 }
 
+.dotsfont {
+  font-family: dotsfont;
+}
+
 .recordem-input-random {
   margin-bottom: 1rem;
   background-image: url(assets/dau-blau.png);

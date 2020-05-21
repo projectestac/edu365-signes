@@ -52,9 +52,10 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
       <label htmlFor="recordem-enter-text" className="recordem-input-label">Demana a algú que t'escrigui una paraula o fes clic al dau per triar-ne una a l'atzar:</label>
       <InputGroup className="recordem-input-text" >
         <Form.Control
+          className="dotsfont"
           id="recordem-enter-text"
-          type="password"
-          placeholder="Escriu una paraula"
+          type="text"
+          placeholder=""
           value={text}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
