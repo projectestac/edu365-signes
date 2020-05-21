@@ -130,6 +130,7 @@
 }
 
 .ajuda {
+  padding: 1rem;
   max-height: 700px;
   overflow-y: auto;
 }

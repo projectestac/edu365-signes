@@ -48,7 +48,8 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
 
   return (
     <div className="recordem-select">
-      <label htmlFor="recordem-enter-text" className="recordem-input-label">Escriu una paraula o fes clic al botó del dau per triar-ne una a l'atzar:</label>
+      <label className="recordem-input-label">En aquesta activitat has d'endevinar la paraula amagada</label>
+      <label htmlFor="recordem-enter-text" className="recordem-input-label">Demana a algú que t'escrigui una paraula o fes clic al dau per triar-ne una a l'atzar:</label>
       <InputGroup className="recordem-input-text" >
         <Form.Control
           id="recordem-enter-text"

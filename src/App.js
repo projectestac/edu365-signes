@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { checkFetchJsonResponse } from './utils/utils';
+import { checkFetchJsonResponse, getQueryParam } from './utils/utils';
 import Spinner from 'react-bootstrap/Spinner';
 import Alert from 'react-bootstrap/Alert';
 import Tabs from 'react-bootstrap/Tabs';
@@ -17,6 +17,9 @@ function App() {
   const [mode, setMode] = useState('diccionari');
 
   useEffect(() => {
+    const qp = getQueryParam('mode');
+    if (qp === 'diccionari' || qp === 'recordem')
+      setMode(qp);
     setLoading(true);
     fetch(`${DATA_PATH}/data.json`)
       .then(checkFetchJsonResponse)

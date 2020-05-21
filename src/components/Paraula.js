@@ -3,8 +3,8 @@ import { fetchBinaryData } from '../utils/utils';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
-import Form from 'react-bootstrap/Form';
 import { FaPlay as PlayIcon } from "react-icons/fa";
+import ParaulaRecordem from './ParaulaRecordem';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
@@ -24,7 +24,6 @@ function Paraula({ paraula: paraulaObj, mode }) {
   const audioOn = mode === DICCIONARI;
   const videoRef = useRef(null);
   const audioRef = useRef(null);
-  const [resposta, setResposta] = useState('');
 
   const loadVideoBlob = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
@@ -53,7 +52,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
   useEffect(loadVideoBlob, [currentVideo]);
 
-  const replay = (_ev, audio = audioOn) => {
+  const replay = (audio = audioOn) => {
     if (videoRef?.current) {
       videoRef.current.currentTime = 0;
       videoRef.current.play()
@@ -69,19 +68,6 @@ function Paraula({ paraula: paraulaObj, mode }) {
     replay();
   }
 
-  const handleResposta = ev => {
-    setResposta(ev.target.value.toUpperCase());
-  }
-
-  const checkResposta = () => {
-    if (!resposta)
-      alert('Has d\'escriure una resposta!');
-    else if (resposta.toUpperCase() === paraula.toUpperCase())
-      alert('Molt bé!');
-    else
-      alert('No l\'has encertat!');
-  }
-
   return (
     <div className="paraula-area">
       {paraulaVisible &&
@@ -94,7 +80,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
               className="replay-button"
               variant="primary"
               color="primary"
-              onClick={replay}
+              onClick={() => replay()}
             >
               <PlayIcon className="left-icon" />
               Torna a dir-ho
@@ -149,44 +135,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
         />
       }
       {mode === RECORDEM &&
-        <>
-          <Form.Group>
-            <Form.Label>Saps què estic dient? Escriu-ho aquí i comprova si ho has encertat:</Form.Label>
-            <div className="resposta">
-              <Form.Control
-                size="lg"
-                type="text"
-                placeholder="Crec que dius..."
-                value={resposta}
-                onChange={handleResposta}
-              />
-              <Button
-                className="recordem-check-button"
-                variant="primary"
-                onClick={checkResposta}
-              >
-                Comprova-ho
-              </Button>
-            </div>
-          </Form.Group>
-          <div className="paraula-pistes">
-            <label>Si no ho saps, demana ajuda:</label>
-            {imatge &&
-              <Button
-                onClick={() => setImatgeVisible(!imatgeVisible)}
-              >
-                {imatgeVisible ? 'Amaga' : 'Mostra'} la imatge
-              </Button>
-            }
-            {so &&
-              <Button
-                onClick={(ev) => replay(ev, true)}
-              >
-                Diges-ho amb veu
-              </Button>
-            }
-          </div>
-        </>
+        <ParaulaRecordem {...{ paraulaObj, imatgeVisible, setImatgeVisible, replay }} />
       }
     </div>
   );
