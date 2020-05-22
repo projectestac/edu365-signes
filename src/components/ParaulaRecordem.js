@@ -56,12 +56,12 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
           <label>{`No saps què és? Aquí tens ${imatge && so ? 'dues pistes' : 'una pista'}:`}</label>
           {imatge &&
             <Button onClick={handleImatge}>
-              {imatgeVisible ? 'Amaga' : 'Mostra'} la imatge
+              {imatgeVisible ? 'AMAGA LA' : 'MOSTRA UNA'} IMATGE
             </Button>
           }
           {so &&
             <Button onClick={handleVeu}>
-              Diges-ho amb veu
+              DIGUES-HO AMB VEU
             </Button>
           }
         </div>
@@ -84,7 +84,7 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
             disabled={!checkRespostaEnabled}
             onClick={checkResposta}
           >
-            Comprova-ho
+            COMPROVA-HO
         </Button>
         </div>
       </Form.Group>
@@ -96,7 +96,7 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
         }
         {ok &&
           <Alert variant="success">
-            {`Molt bé! Has endevinat la resposta correcta ${intents === 1 ? 'a la primera' : `en ${intents} intents`} ${pistes === 0 ? 'i sense cap pista' : pistes === 3 ? 'amb dues pistes' : 'i amb només una pista'}!`}
+            {`Molt bé! Has endevinat la resposta correcta ${intents === 1 ? 'a la primera' : `en ${intents} intents`}, ${pistes === 0 ? 'sense cap pista' : pistes === 3 ? 'amb dues pistes' : 'amb només una pista'}!`}
           </Alert>
         }
       </div>

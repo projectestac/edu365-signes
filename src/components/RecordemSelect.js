@@ -75,7 +75,7 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
         variant="primary"
         onClick={checkParaula}
       >
-        Endevina-ho!
+        ENDEVINA-HO!
       </Button>
       {error &&
         <Alert

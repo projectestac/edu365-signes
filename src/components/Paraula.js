@@ -83,7 +83,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
               onClick={() => replay()}
             >
               <PlayIcon className="left-icon" />
-              Torna a dir-ho
+              TORNA A DIR-HO
             </Button>
           }
         </div>
@@ -110,7 +110,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
                   onClick={ev => changeCurrentVideo(n)}
                   aria-label={`Mostrar el vídeo #${n + 1}`}
                 >
-                  {`Variant ${n + 1}`}
+                  {`VARIANT ${n + 1}`}
                 </Button>
               )}
             </ButtonGroup>

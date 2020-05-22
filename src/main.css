@@ -12,7 +12,7 @@
 
 .dicc-select {
   padding: 1rem;
-  max-width: 20rem;
+  max-width: 30rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
@@ -25,7 +25,7 @@
 .recordem-select {
   padding: 1rem;
   display: grid;
-  max-width: 30rem;
+  max-width: 40rem;
   grid-template-columns: 1fr auto;
   grid-gap: 1rem;
 }
@@ -63,6 +63,10 @@
 
 .resposta {
   display: flex;
+}
+
+.resposta input {
+  font-weight: bold;
 }
 
 .resposta button {

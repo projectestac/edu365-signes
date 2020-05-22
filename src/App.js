@@ -32,7 +32,7 @@ function App() {
     <div className="root">
       <header>
         <Alert variant="primary">
-          <h2>Mira què dic!</h2>
+          <h2>MIRA QUÈ DIC!</h2>
           Diccionari Multimèdia de Signes de Catalunya
         </Alert>
       </header>
@@ -52,13 +52,13 @@ function App() {
           activeKey={mode}
           onSelect={setMode}
         >
-          <Tab eventKey="diccionari" title="Diccionari">
+          <Tab eventKey="diccionari" title="DICCIONARI">
             <Diccionari {...{ data }} />
           </Tab>
-          <Tab eventKey="recordem" title="Recordem">
+          <Tab eventKey="recordem" title="RECORDEM">
             <Recordem {...{ data }} />
           </Tab>
-          <Tab eventKey="credits" title="Ajuda">
+          <Tab eventKey="credits" title="AJUDA">
             <Ajuda />
           </Tab>
         </Tabs>

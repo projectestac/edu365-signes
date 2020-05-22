@@ -16,7 +16,7 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           value={classificacio}
           onChange={ev => setClassificacio(Number(ev.target.value))}
         >
-          <option key={0} value={0}>Totes les classificacions</option>
+          <option key={0} value={0}>TOTES LES CLASSIFICACIONS</option>
           {classificacions.map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
         </Form.Control>
       </Form.Group>
@@ -27,7 +27,7 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           value={familia}
           onChange={ev => setFamilia(Number(ev.target.value))}
         >
-          <option key={0} value={0}>Totes les families</option>
+          <option key={0} value={0}>TOTES LES FAMÍLIES</option>
           {families
             .filter(f => classificacio === 0 || f.classificacio === classificacio)
             .map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
