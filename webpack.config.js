@@ -67,8 +67,8 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
   },
   performance: {
-    maxEntrypointSize: 800000,
-    maxAssetSize: 800000,
+    maxEntrypointSize: 2000000,
+    maxAssetSize: 2000000,
   },
   optimization: {
     minimizer: [
