@@ -1,11 +1,25 @@
 # Signes
 
-https://edu365.cat/signes
-
+http://edu365.cat/signes
 
 ## Description
 
-...
+"Signes" (also known as "Mira què dic") is an interactive multimedia dictionary with video, image, sound and text support, which uses the Catalan Sign Language, supervised by the Institut de Llenguatge de Signes de Catalunya (ILLESCAT) and in collaboration with the [Department of Education of Catalonia](http://xtec.gencat.cat).
+
+Vocabulary can be consulted alphabetically or structured in different semantic fields or classifications. These, in turn, are structured into families.
+
+For each word there are:
+- One or more videos of the word represented in sign language.
+- A picture of the word
+- The sound locution of the word
+
+The app also incorporates a game of guessing a hidden word. The first clue presented to the player is the video where the word is represented in sign language. If only watching the video the player does not guess it can ask for two more clues: the image and / or the locution of the word.
+
+This application is intended for:
+- Girls and boys who use hand signs as a communication medium.
+- Deaf girls and boys who need to learn Sign Language.
+- Special education teachers and speech therapists.
+- Parents and guardians.
 
 ## Building the app
 
