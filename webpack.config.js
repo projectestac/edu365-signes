@@ -64,7 +64,17 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    host: 'localhost',
+    port: 9001,
+    open: true,
+    static: {
+      directory: path.join(__dirname, 'public'),
+      watch: true,
+    },
+    client: {
+      overlay: true,
+      progress: true,
+    },
   },
   performance: {
     maxEntrypointSize: 2000000,
