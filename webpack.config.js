@@ -5,7 +5,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const date = new Date();
 
 const banner = `
-${pkg.name} version ${pkg.version} (${date.toISOString().substr(0, 10)})
+${pkg.name} version ${pkg.version} (${date.toISOString().substring(0, 10)})
 ${pkg.description}
 ${pkg.homepage}
  
@@ -51,10 +51,6 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
-      {
-        test: /\.(jpg|png|svg)$/,
-        loader: 'file-loader',
-      },
     ]
   },
   plugins: [
@@ -81,11 +77,10 @@ module.exports = {
     maxAssetSize: 2000000,
   },
   optimization: {
+    minimize: true,
     minimizer: [
       new TerserPlugin({
-        cache: true,
         parallel: true,
-        sourceMap: true,
         extractComments: {
           //condition: /^\!/,
           filename: 'components.LICENSE',
