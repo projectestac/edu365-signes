@@ -49,7 +49,7 @@ $ cd path/to/signes
 $ npm start
 ```
 Runs the app in the development mode.<br>
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+Open [http://localhost:9001](http://localhost:9001) to view it in the browser.
 
 The page will reload if you make edits.<br>
 
