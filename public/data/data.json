@@ -1319,7 +1319,7 @@
       "id": 3576,
       "paraula": "ACOMPANYAR",
       "so": "acompanyar.mp3",
-      "imatge": "acompanyar.png",
+      "imatge": "",
       "repeticio": "ALIMENTS",
       "videos": [
         "acompanyar1alim.mp4",
@@ -1334,7 +1334,7 @@
       "id": 56,
       "paraula": "ACOMPANYAR",
       "so": "acompanyar.mp3",
-      "imatge": "",
+      "imatge": "acompanyar.png",
       "repeticio": "FAMÍLIA",
       "videos": [
         "acompanyardefamili.mp4"
@@ -8485,7 +8485,7 @@
       "paraula": "CAÇADORA",
       "so": "ca_cadora.mp3",
       "imatge": "caçadora.png",
-      "repeticio": "OFI",
+      "repeticio": "OFICI",
       "videos": [
         "casadorapersonproc.mp4"
       ],
@@ -10410,7 +10410,7 @@
       "paraula": "CARTA",
       "so": "carta.mp3",
       "imatge": "carta_restaurant.png",
-      "repeticio": "ALIMENTS",
+      "repeticio": "RESTAURANT",
       "videos": [
         "cartaalim2.mp4",
         "cartaalim1.mp4"
@@ -10454,7 +10454,7 @@
       "id": 571,
       "paraula": "CARTERA",
       "so": "cartera.mp3",
-      "imatge": "cartera.png",
+      "imatge": "",
       "repeticio": "ESCOLA",
       "videos": [
         "cartera.mp4"
@@ -11045,7 +11045,7 @@
       "id": 600,
       "paraula": "CAURE",
       "so": "caure_una_persona.mp3",
-      "imatge": "caure.png",
+      "imatge": "",
       "repeticio": "PERSONA",
       "videos": [
         "ccauregenl.mp4",
@@ -12067,7 +12067,7 @@
       "paraula": "CLIP",
       "so": "clip.mp3",
       "imatge": "clip.png",
-      "repeticio": "ESCOLA",
+      "repeticio": "DE PAPERS",
       "videos": [
         "clipproc.mp4"
       ],
@@ -14506,7 +14506,7 @@
       "id": 3410,
       "paraula": "CUA",
       "so": "cua.mp3",
-      "imatge": "cua.png",
+      "imatge": "",
       "repeticio": "FILERA",
       "videos": [
         "cuadegentcotxproc.mp4"
@@ -14802,7 +14802,7 @@
       "paraula": "CURT",
       "so": "curt.mp3",
       "imatge": "curt.png",
-      "repeticio": "ROBA",
+      "repeticio": "MIDA",
       "videos": [
         "curtroba.mp4"
       ],
@@ -16293,7 +16293,7 @@
       "id": 3457,
       "paraula": "DIARI",
       "so": "diari.mp3",
-      "imatge": "diari.png",
+      "imatge": "",
       "repeticio": "TEMPS",
       "videos": [
         "diariproc.mp4"
@@ -25582,8 +25582,8 @@
       "id": 3094,
       "paraula": "GRANOTA",
       "so": "granota.mp3",
-      "imatge": "granota.png",
-      "repeticio": "ROBA",
+      "imatge": "",
+      "repeticio": "VESTIT",
       "videos": [
         "ganotamono.mp4",
         "monogranota.mp4"
@@ -26064,7 +26064,7 @@
       "id": 1469,
       "paraula": "GUIXETA",
       "so": "guixeta.mp3",
-      "imatge": "guixeta_de_roba.png",
+      "imatge": "",
       "repeticio": "CORREUS",
       "videos": [
         "guixetacorreus.mp4"
@@ -27890,7 +27890,7 @@
       "id": 1544,
       "paraula": "JARDINERA",
       "so": "jardinera.mp3",
-      "imatge": "jardinera.png",
+      "imatge": "",
       "repeticio": "OFICI",
       "videos": [
         "jardinerapersonaproc.mp4"
@@ -27906,7 +27906,7 @@
       "id": 1543,
       "paraula": "JARDINERA",
       "so": "jardinera.mp3",
-      "imatge": "",
+      "imatge": "jardinera.png",
       "repeticio": "PLANTES",
       "videos": [
         "jardineraproc.mp4"
@@ -28367,7 +28367,7 @@
       "id": 1568,
       "paraula": "JUST",
       "so": "just.mp3",
-      "imatge": "just_mida.png",
+      "imatge": "",
       "repeticio": "PERSONA",
       "videos": [
         "justalim.mp4"
@@ -28382,7 +28382,7 @@
       "paraula": "JUST",
       "so": "just.mp3",
       "imatge": "just_mida.png",
-      "repeticio": "ROBA",
+      "repeticio": "MIDA",
       "videos": [
         "justroba.mp4"
       ],
@@ -30387,27 +30387,13 @@
       "paraula": "MADRASTRA",
       "so": "madrastra.mp3",
       "imatge": "madrastra.png",
-      "repeticio": "FAMILIA",
+      "repeticio": "",
       "videos": [
         "madrastra.mp4"
       ],
       "families": [
         19,
         46
-      ]
-    },
-    {
-      "id": 3764,
-      "paraula": "MADRASTRA",
-      "so": "madrastra.mp3",
-      "imatge": "",
-      "repeticio": "FANTASIA",
-      "videos": [
-        "madrastra.mp4"
-      ],
-      "families": [
-        19,
-        37
       ]
     },
     {
@@ -36121,7 +36107,7 @@
       "paraula": "OS",
       "so": "os.mp3",
       "imatge": "ossos.png",
-      "repeticio": "ANIMAL",
+      "repeticio": "COS",
       "videos": [
         "hueso.mp4"
       ],
@@ -38374,7 +38360,7 @@
       "paraula": "PELL",
       "so": "pell.mp3",
       "imatge": "pell_fruita.png",
-      "repeticio": "ALIMENT",
+      "repeticio": "FRUITA",
       "videos": [
         "pellfruita.mp4"
       ],
@@ -39849,8 +39835,8 @@
       "id": 3196,
       "paraula": "PINYA",
       "so": "pinya.mp3",
-      "imatge": "",
-      "repeticio": "ALIMENT",
+      "imatge": "pinya.png",
+      "repeticio": "ARBRE",
       "videos": [
         "pinyaalim.mp4"
       ],
@@ -39863,7 +39849,7 @@
       "id": 2221,
       "paraula": "PINYA",
       "so": "pinya.mp3",
-      "imatge": "pinya.png",
+      "imatge": "",
       "repeticio": "CASTELLERS",
       "videos": [
         "pinyacasteller.mp4"
@@ -40746,7 +40732,7 @@
       "id": 3082,
       "paraula": "POBRE",
       "so": "pobre.mp3",
-      "imatge": "",
+      "imatge": "pobre.png",
       "repeticio": "DINERS",
       "videos": [
         "pobreeconomic.mp4"
@@ -40762,7 +40748,7 @@
       "id": 2280,
       "paraula": "POBRE",
       "so": "pobre.mp3",
-      "imatge": "pobre.png",
+      "imatge": "",
       "repeticio": "SENTIMENTS",
       "videos": [
         "pobresentimnts.mp4"
@@ -41623,7 +41609,7 @@
       "paraula": "PRENDRE",
       "so": "pendre.mp3",
       "imatge": "prendre_beure.png",
-      "repeticio": "ALIMENT",
+      "repeticio": "BEGUDA",
       "videos": [
         "prendredebeguda.mp4"
       ],
@@ -41639,7 +41625,7 @@
       "id": 2330,
       "paraula": "PRENDRE",
       "so": "pendre.mp3",
-      "imatge": "prendre.png",
+      "imatge": "",
       "repeticio": "ROBAR",
       "videos": [
         "pendredagafar.mp4"
@@ -47604,7 +47590,7 @@
       "id": 3391,
       "paraula": "SOL",
       "so": "sol.mp3",
-      "imatge": "sol_2.png",
+      "imatge": "",
       "repeticio": "PERSONA",
       "videos": [
         "soldefamilia.mp4"
@@ -49349,7 +49335,7 @@
       "paraula": "TENDRE",
       "so": "tendre.mp3",
       "imatge": "tendre_aliment.png",
-      "repeticio": "ADJECTIU",
+      "repeticio": "ALIMENT",
       "videos": [
         "tendre.mp4"
       ],
@@ -49508,7 +49494,7 @@
       "id": 3571,
       "paraula": "TENYIR",
       "so": "tenyir_el_cabell.mp3",
-      "imatge": "tenyir.png",
+      "imatge": "",
       "repeticio": "CABELL",
       "videos": [
         "tenyirpelor.mp4"
@@ -50550,7 +50536,7 @@
       "paraula": "TOU",
       "so": "tou.mp3",
       "imatge": "tou.png",
-      "repeticio": "ALIMENT",
+      "repeticio": "OBJECTE",
       "videos": [
         "toualim.mp4"
       ],
@@ -51438,8 +51424,8 @@
       "id": 2882,
       "paraula": "TRUITA",
       "so": "truita.mp3",
-      "imatge": "truita.png",
-      "repeticio": "ANIMAL",
+      "imatge": "",
+      "repeticio": "PEIX",
       "videos": [
         "truitariu.mp4"
       ],

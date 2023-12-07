@@ -37,9 +37,9 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           clearButton
           id="select-paraula"
           multiple={false}
-          labelKey="paraula"
+          labelKey="label"
           onChange={values => setParaula(values && values.length > 0 ? values[0] : null)}
-          options={paraules.filter(p => !familia || p.families.includes(familia))}
+          options={paraules.filter(p => !familia || p.families.includes(familia)).map(p => p)}
           placeholder="..."
           emptyLabel="No hi ha res amb aquest text"
           paginationText="Més paraules..."
