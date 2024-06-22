@@ -21,6 +21,13 @@ This application is intended for:
 - Special education teachers and speech therapists.
 - Parents and guardians.
 
+## List of all media used in the app
+
+All media used in the app is located on the folder `public/data`. Unused images and sounds are also stored in `public/data/unused`.
+
+The complete list of all words and media ca be consulted in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing).
+
+
 ## Building the app
 
 ### Prerequisites
@@ -49,7 +56,7 @@ $ cd path/to/signes
 $ npm start
 ```
 Runs the app in the development mode.<br>
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+Open [http://localhost:9001](http://localhost:9001) to view it in the browser.
 
 The page will reload if you make edits.<br>
 

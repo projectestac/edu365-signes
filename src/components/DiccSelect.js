@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Typeahead } from 'react-bootstrap-typeahead';
+import { ClearButton, Typeahead } from 'react-bootstrap-typeahead';
 import Form from 'react-bootstrap/Form';
 
 function DiccSelect({ data: { classificacions, families, paraules }, setParaula }) {
@@ -11,19 +11,17 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
     <div className="dicc-select">
       <Form.Group controlId="classificacions">
         <Form.Label>Selecciona una classificació:</Form.Label>
-        <Form.Control
-          as="select"
+        <Form.Select
           value={classificacio}
           onChange={ev => setClassificacio(Number(ev.target.value))}
         >
           <option key={0} value={0}>TOTES LES CLASSIFICACIONS</option>
           {classificacions.map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
-        </Form.Control>
+        </Form.Select>
       </Form.Group>
       <Form.Group controlId="families">
         <Form.Label>Selecciona una família:</Form.Label>
-        <Form.Control
-          as="select"
+        <Form.Select
           value={familia}
           onChange={ev => setFamilia(Number(ev.target.value))}
         >
@@ -31,7 +29,7 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           {families
             .filter(f => classificacio === 0 || f.classificacio === classificacio)
             .map(({ id, nom }) => <option key={id} value={id}>{nom}</option>)}
-        </Form.Control>
+        </Form.Select>
       </Form.Group>
       <Form.Group controlId="paraula">
         <Form.Label>Selecciona o escriu una paraula:</Form.Label>
@@ -39,9 +37,9 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           clearButton
           id="select-paraula"
           multiple={false}
-          labelKey="paraula"
+          labelKey="label"
           onChange={values => setParaula(values && values.length > 0 ? values[0] : null)}
-          options={paraules.filter(p => !familia || p.families.includes(familia))}
+          options={paraules.filter(p => !familia || p.families.includes(familia)).map(p => p)}
           placeholder="..."
           emptyLabel="No hi ha res amb aquest text"
           paginationText="Més paraules..."

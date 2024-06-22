@@ -60,7 +60,16 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-        <InputGroup.Append className="recordem-input-random">
+        <InputGroup.Text className="recordem-input-random">
+          <Button
+            variant="outline-primary"
+            onClick={getRandom}
+            title="Escull una paraula a l'atzar"
+          >
+          </Button>
+        </InputGroup.Text>
+        {/*
+        <div className="recordem-input-random">
           <Button
             variant="outline-primary"
             onClick={getRandom}
@@ -68,7 +77,8 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
           >
             <div style={{ width: '1rem' }} />
           </Button>
-        </InputGroup.Append>
+        </div>
+        */}
       </InputGroup>
       <Button
         className="recordem-select-button"

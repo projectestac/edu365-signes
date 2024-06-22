@@ -23,7 +23,13 @@ function App() {
     setLoading(true);
     fetch(`${DATA_PATH}/data.json`)
       .then(checkFetchJsonResponse)
-      .then(data => setData(data))
+      .then(data => setData({
+        ...data,
+        paraules: data.paraules.map(p => ({
+          ...p,
+          label: `${p.paraula}${p.repeticio ? ` (${p.repeticio})` : ''}`
+        }))
+      }))
       .catch(err => setError(err?.toString() || 'Error'))
       .finally(() => setLoading(false));
   }, []);

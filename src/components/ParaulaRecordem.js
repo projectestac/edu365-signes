@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
@@ -11,6 +11,8 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
   const [ok, setOk] = useState(false);
   const [pistes, setPistes] = useState(0);
   const [intents, setIntents] = useState(0);
+  const okRef = useRef(null);
+  const errRef = useRef(null);
 
   const handleKeyDown = ev => {
     if (ev.keyCode == 13) {
@@ -35,9 +37,16 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
         setCheckRespostaEnabled(false);
       }
       else
-        setError('No és correcte. Torna a provar');
+        setError('No és correcte. Torna a provar-ho!');
     }
   }
+
+  useEffect(() => {
+    if (ok && okRef.current)
+      okRef.current.scrollIntoView();
+    else if (error && errRef.current)
+      errRef.current.scrollIntoView();
+  }, [ok, error]);
 
   const handleImatge = () => {
     setImatgeVisible(!imatgeVisible);
@@ -85,17 +94,17 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
             onClick={checkResposta}
           >
             COMPROVA-HO
-        </Button>
+          </Button>
         </div>
       </Form.Group>
       <div style={{ minHeight: '50px' }}>
         {error &&
-          <Alert variant="danger">
+          <Alert variant="danger" ref={errRef}>
             {error}
           </Alert>
         }
         {ok &&
-          <Alert variant="success">
+          <Alert variant="success" ref={okRef}>
             {`Molt bé! Has endevinat la resposta correcta ${intents === 1 ? 'a la primera' : `en ${intents} intents`}, ${pistes === 0 ? 'sense cap pista' : pistes === 3 ? 'amb dues pistes' : 'amb només una pista'}!`}
           </Alert>
         }

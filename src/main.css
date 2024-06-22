@@ -39,22 +39,28 @@
 }
 
 .recordem-input-random {
-  margin-bottom: 1rem;
-  background-image: url(assets/dau-blau.png);
+  background-image: url(./assets/dau-blau.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.recordem-input-random :hover {
+  background-image: url(./assets/dau-blanc.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.recordem-input-random :hover {
-  background-image: url(assets/dau-blanc.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.recordem-input-random .btn {
+  width: 3rem;
+  height: 100%;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
 }
 
 .recordem-select-button {
   align-self: flex-end;
   white-space: nowrap;
-  margin-bottom: 1rem;
 }
 
 .recordem-select-error {
@@ -146,4 +152,8 @@
 .ajuda h2 {
   color: #004085;
   margin: 2rem 0;
+}
+
+.rbt-close-content {
+  display: none;
 }
