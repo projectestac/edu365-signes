@@ -146,7 +146,7 @@
       "id": 1,
       "paraula": "0",
       "so": "0.mp3",
-      "imatge": "",
+      "imatge": "0.svg",
       "repeticio": "",
       "videos": [
         "0.mp4"
@@ -161,7 +161,7 @@
       "id": 2,
       "paraula": "1",
       "so": "1.mp3",
-      "imatge": "",
+      "imatge": "1.svg",
       "repeticio": "",
       "videos": [
         "1proc.mp4"
@@ -191,7 +191,7 @@
       "id": 8,
       "paraula": "1.000.000",
       "so": "1000000.mp3",
-      "imatge": "",
+      "imatge": "1000000.svg",
       "repeticio": "",
       "videos": [
         "1milioproc.mp4"
@@ -206,7 +206,7 @@
       "id": 4,
       "paraula": "10",
       "so": "10.mp3",
-      "imatge": "",
+      "imatge": "10.svg",
       "repeticio": "",
       "videos": [
         "10proc.mp4"
@@ -221,7 +221,7 @@
       "id": 5,
       "paraula": "100",
       "so": "100.mp3",
-      "imatge": "",
+      "imatge": "100.svg",
       "repeticio": "",
       "videos": [
         "100proc.mp4"
@@ -236,7 +236,7 @@
       "id": 6,
       "paraula": "1000",
       "so": "1000.mp3",
-      "imatge": "",
+      "imatge": "1000.svg",
       "repeticio": "",
       "videos": [
         "1000proc.mp4"
@@ -251,7 +251,7 @@
       "id": 7,
       "paraula": "10000",
       "so": "10000.mp3",
-      "imatge": "",
+      "imatge": "10000.svg",
       "repeticio": "",
       "videos": [
         "10000proc.mp4"
@@ -266,7 +266,7 @@
       "id": 9,
       "paraula": "101",
       "so": "101.mp3",
-      "imatge": "",
+      "imatge": "101.svg",
       "repeticio": "",
       "videos": [
         "101proc.mp4"
@@ -281,7 +281,7 @@
       "id": 10,
       "paraula": "101 DÀLMATES",
       "so": "101_dalmates.mp3",
-      "imatge": "",
+      "imatge": "10.svg",
       "repeticio": "",
       "videos": [
         "101dalmatesproc.mp4"
@@ -295,7 +295,7 @@
       "id": 11,
       "paraula": "11",
       "so": "11.mp3",
-      "imatge": "",
+      "imatge": "11.svg",
       "repeticio": "",
       "videos": [
         "11proc.mp4"
@@ -310,7 +310,7 @@
       "id": 12,
       "paraula": "111",
       "so": "111.mp3",
-      "imatge": "",
+      "imatge": "111.svg",
       "repeticio": "",
       "videos": [
         "111proc.mp4"
@@ -325,7 +325,7 @@
       "id": 13,
       "paraula": "12",
       "so": "12.mp3",
-      "imatge": "",
+      "imatge": "12.svg",
       "repeticio": "",
       "videos": [
         "12proc.mp4"
@@ -340,7 +340,7 @@
       "id": 3292,
       "paraula": "12000",
       "so": "12000.mp3",
-      "imatge": "",
+      "imatge": "12000.svg",
       "repeticio": "",
       "videos": [
         "12000.mp4"
@@ -355,7 +355,7 @@
       "id": 14,
       "paraula": "126",
       "so": "126.mp3",
-      "imatge": "",
+      "imatge": "126.svg",
       "repeticio": "",
       "videos": [
         "126proc.mp4"
@@ -370,7 +370,7 @@
       "id": 15,
       "paraula": "13",
       "so": "13.mp3",
-      "imatge": "",
+      "imatge": "13.svg",
       "repeticio": "",
       "videos": [
         "13proc.mp4"
@@ -385,7 +385,7 @@
       "id": 16,
       "paraula": "14",
       "so": "14.mp3",
-      "imatge": "",
+      "imatge": "14.svg",
       "repeticio": "",
       "videos": [
         "14proc.mp4"
@@ -400,7 +400,7 @@
       "id": 17,
       "paraula": "15",
       "so": "15.mp3",
-      "imatge": "",
+      "imatge": "15.svg",
       "repeticio": "",
       "videos": [
         "15proc.mp4"
@@ -415,7 +415,7 @@
       "id": 3293,
       "paraula": "15000",
       "so": "15000.mp3",
-      "imatge": "",
+      "imatge": "15000.svg",
       "repeticio": "",
       "videos": [
         "15000proc.mp4"
@@ -430,7 +430,7 @@
       "id": 18,
       "paraula": "16",
       "so": "setze.mp3",
-      "imatge": "",
+      "imatge": "16.svg",
       "repeticio": "",
       "videos": [
         "16proc.mp4"
@@ -445,7 +445,7 @@
       "id": 19,
       "paraula": "167",
       "so": "167.mp3",
-      "imatge": "",
+      "imatge": "167.svg",
       "repeticio": "",
       "videos": [
         "167proc.mp4"
@@ -460,7 +460,7 @@
       "id": 20,
       "paraula": "17",
       "so": "17.mp3",
-      "imatge": "",
+      "imatge": "17.svg",
       "repeticio": "",
       "videos": [
         "17proc.mp4"
@@ -475,7 +475,7 @@
       "id": 21,
       "paraula": "18",
       "so": "18.mp3",
-      "imatge": "",
+      "imatge": "18.svg",
       "repeticio": "",
       "videos": [
         "18proc.mp4"
@@ -490,7 +490,7 @@
       "id": 22,
       "paraula": "19",
       "so": "19.mp3",
-      "imatge": "",
+      "imatge": "19.svg",
       "repeticio": "",
       "videos": [
         "19proc.mp4"
@@ -505,7 +505,7 @@
       "id": 23,
       "paraula": "2",
       "so": "2.mp3",
-      "imatge": "",
+      "imatge": "2.svg",
       "repeticio": "",
       "videos": [
         "2proc.mp4"
@@ -520,7 +520,7 @@
       "id": 24,
       "paraula": "20",
       "so": "20.mp3",
-      "imatge": "",
+      "imatge": "20.svg",
       "repeticio": "",
       "videos": [
         "20proc.mp4"
@@ -535,7 +535,7 @@
       "id": 3294,
       "paraula": "200",
       "so": "200.mp3",
-      "imatge": "",
+      "imatge": "200.svg",
       "repeticio": "",
       "videos": [
         "200proc.mp4"
@@ -550,7 +550,7 @@
       "id": 3295,
       "paraula": "2000",
       "so": "2000.mp3",
-      "imatge": "",
+      "imatge": "2000.svg",
       "repeticio": "",
       "videos": [
         "2000proc.mp4"
@@ -565,7 +565,7 @@
       "id": 3296,
       "paraula": "21",
       "so": "21.mp3",
-      "imatge": "",
+      "imatge": "21.svg",
       "repeticio": "",
       "videos": [
         "21proc.mp4"
@@ -580,7 +580,7 @@
       "id": 25,
       "paraula": "3",
       "so": "3.mp3",
-      "imatge": "",
+      "imatge": "3.svg",
       "repeticio": "",
       "videos": [
         "3proc.mp4"
@@ -595,7 +595,7 @@
       "id": 26,
       "paraula": "30",
       "so": "30.mp3",
-      "imatge": "",
+      "imatge": "30.svg",
       "repeticio": "",
       "videos": [
         "30proc.mp4"
@@ -610,7 +610,7 @@
       "id": 3297,
       "paraula": "300",
       "so": "300.mp3",
-      "imatge": "",
+      "imatge": "300.svg",
       "repeticio": "",
       "videos": [
         "300proc.mp4"
@@ -625,7 +625,7 @@
       "id": 3298,
       "paraula": "3000",
       "so": "3000.mp3",
-      "imatge": "",
+      "imatge": "3000.svg",
       "repeticio": "",
       "videos": [
         "3000proc.mp4"
@@ -640,7 +640,7 @@
       "id": 27,
       "paraula": "4",
       "so": "4.mp3",
-      "imatge": "",
+      "imatge": "4.svg",
       "repeticio": "",
       "videos": [
         "4proc.mp4"
@@ -669,7 +669,7 @@
       "id": 29,
       "paraula": "40",
       "so": "40.mp3",
-      "imatge": "",
+      "imatge": "40.svg",
       "repeticio": "",
       "videos": [
         "40proc.mp4"
@@ -684,7 +684,7 @@
       "id": 3299,
       "paraula": "400",
       "so": "400.mp3",
-      "imatge": "",
+      "imatge": "400.svg",
       "repeticio": "",
       "videos": [
         "400proc.mp4"
@@ -699,7 +699,7 @@
       "id": 3300,
       "paraula": "4000",
       "so": "4000.mp3",
-      "imatge": "",
+      "imatge": "4000.svg",
       "repeticio": "",
       "videos": [
         "4000proc.mp4"
@@ -714,7 +714,7 @@
       "id": 30,
       "paraula": "5",
       "so": "5.mp3",
-      "imatge": "",
+      "imatge": "5.svg",
       "repeticio": "",
       "videos": [
         "5proc.mp4"
@@ -729,7 +729,7 @@
       "id": 31,
       "paraula": "50",
       "so": "50.mp3",
-      "imatge": "",
+      "imatge": "50.svg",
       "repeticio": "",
       "videos": [
         "50proc.mp4"
@@ -744,7 +744,7 @@
       "id": 3301,
       "paraula": "500",
       "so": "500.mp3",
-      "imatge": "",
+      "imatge": "500.svg",
       "repeticio": "",
       "videos": [
         "500proc.mp4"
@@ -774,7 +774,7 @@
       "id": 32,
       "paraula": "6",
       "so": "6.mp3",
-      "imatge": "",
+      "imatge": "6.svg",
       "repeticio": "",
       "videos": [
         "6proc.mp4"
@@ -789,7 +789,7 @@
       "id": 33,
       "paraula": "60",
       "so": "60.mp3",
-      "imatge": "",
+      "imatge": "60.svg",
       "repeticio": "",
       "videos": [
         "60proc.mp4"
@@ -804,7 +804,7 @@
       "id": 34,
       "paraula": "600",
       "so": "600.mp3",
-      "imatge": "",
+      "imatge": "600.svg",
       "repeticio": "",
       "videos": [
         "600proc.mp4"
@@ -819,7 +819,7 @@
       "id": 3303,
       "paraula": "6000",
       "so": "6000.mp3",
-      "imatge": "",
+      "imatge": "6000.svg",
       "repeticio": "",
       "videos": [
         "6000proc.mp4"
@@ -834,7 +834,7 @@
       "id": 35,
       "paraula": "7",
       "so": "7.mp3",
-      "imatge": "",
+      "imatge": "7.svg",
       "repeticio": "",
       "videos": [
         "7proc.mp4"
@@ -849,7 +849,7 @@
       "id": 36,
       "paraula": "70",
       "so": "70.mp3",
-      "imatge": "",
+      "imatge": "70.svg",
       "repeticio": "",
       "videos": [
         "70proc.mp4"
@@ -864,7 +864,7 @@
       "id": 3304,
       "paraula": "700",
       "so": "700.mp3",
-      "imatge": "",
+      "imatge": "700.svg",
       "repeticio": "",
       "videos": [
         "700proc.mp4"
@@ -879,7 +879,7 @@
       "id": 3305,
       "paraula": "7000",
       "so": "7000.mp3",
-      "imatge": "",
+      "imatge": "7000.svg",
       "repeticio": "",
       "videos": [
         "7000b.mp4"
@@ -894,7 +894,7 @@
       "id": 37,
       "paraula": "8",
       "so": "8.mp3",
-      "imatge": "",
+      "imatge": "8.svg",
       "repeticio": "",
       "videos": [
         "8proc.mp4"
@@ -909,7 +909,7 @@
       "id": 38,
       "paraula": "80",
       "so": "80.mp3",
-      "imatge": "",
+      "imatge": "80.svg",
       "repeticio": "",
       "videos": [
         "80proc.mp4"
@@ -924,7 +924,7 @@
       "id": 3306,
       "paraula": "800",
       "so": "800.mp3",
-      "imatge": "",
+      "imatge": "800.svg",
       "repeticio": "",
       "videos": [
         "800proc.mp4"
@@ -939,7 +939,7 @@
       "id": 3323,
       "paraula": "8000",
       "so": "vuitmil.mp3",
-      "imatge": "",
+      "imatge": "8000.svg",
       "repeticio": "",
       "videos": [
         "8000proc.mp4"
@@ -954,7 +954,7 @@
       "id": 39,
       "paraula": "9",
       "so": "9.mp3",
-      "imatge": "",
+      "imatge": "9.svg",
       "repeticio": "",
       "videos": [
         "9proc.mp4"
@@ -969,7 +969,7 @@
       "id": 40,
       "paraula": "90",
       "so": "90.mp3",
-      "imatge": "",
+      "imatge": "90.svg",
       "repeticio": "",
       "videos": [
         "90proc.mp4"
@@ -984,7 +984,7 @@
       "id": 3307,
       "paraula": "900",
       "so": "900.mp3",
-      "imatge": "",
+      "imatge": "900.svg",
       "repeticio": "",
       "videos": [
         "900proc.mp4"
@@ -999,7 +999,7 @@
       "id": 3314,
       "paraula": "9000",
       "so": "noumil.mp3",
-      "imatge": "",
+      "imatge": "9000.svg",
       "repeticio": "",
       "videos": [
         "9000proc.mp4"
