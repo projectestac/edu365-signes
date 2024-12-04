@@ -32453,6 +32453,20 @@
       ]
     },
     {
+      "id": 4356,
+      "paraula": "METAL·LÒFON",
+      "so": "metalofon.mp3",
+      "imatge": "metalofon.png",
+      "repeticio": "",
+      "videos": [
+        "metalofon.mp4"
+      ],
+      "families": [
+        19,
+        41
+      ]
+    },
+    {
       "id": 4091,
       "paraula": "METALL",
       "so": "metallofon.mp3",
