@@ -54567,6 +54567,148 @@
         35,
         45
       ]
+    },
+    {
+      "id": 4358,
+      "paraula": "ANXOVA ",
+      "so": "anxova.mp3",
+      "imatge": "anxova.png",
+      "repeticio": "",
+      "videos": [
+        "anxova.mp4"
+      ],
+      "families": [
+        19,
+        35
+      ]
+    },
+    {
+      "id": 4359,
+      "paraula": "AMASSAR",
+      "so": "amassar.mp3",
+      "imatge": "amassar.png",
+      "repeticio": "",
+      "videos": [
+        "amassar.mp4"
+      ],
+      "families": [
+        21,
+        36,
+        34
+      ]
+    },
+    {
+      "id": 4360,
+      "paraula": "APRIMAR",
+      "so": "aprimar.mp3",
+      "imatge": "aprimar.png",
+      "repeticio": "",
+      "videos": [
+        "aprimar.mp4"
+      ],
+      "families": [
+        21,
+        40
+      ]
+    },
+    {
+      "id": 4361,
+      "paraula": "COET",
+      "so": "coet_espacial.mp3",
+      "imatge": "coet_espacial.png",
+      "repeticio": "ESPAI",
+      "videos": [
+        "coet_espacial.mp4"
+      ],
+      "families": [
+        19,
+        38
+      ]
+    },
+    {
+      "id": 4362,
+      "paraula": "GERMANASTRE",
+      "so": "germanastre.mp3",
+      "imatge": "germanastre.png",
+      "repeticio": "",
+      "videos": [
+        "germanastre.mp4"
+      ],
+      "families": [
+        19,
+        46
+      ]
+    },
+    {
+      "id": 4363,
+      "paraula": "MASSA",
+      "so": "massa_quantitat.mp3",
+      "imatge": "massa_quant.png",
+      "repeticio": "QUANTITAT",
+      "videos": [
+        "massa_quant.mp4"
+      ],
+      "families": [
+        48,
+        47
+      ]
+    },
+    {
+      "id": 4364,
+      "paraula": "MÉS",
+      "so": "mes_quantit.mp3",
+      "imatge": "mes_quantit.png",
+      "repeticio": "QUANTITAT",
+      "videos": [
+        "mes_quant.mp4"
+      ],
+      "families": [
+        48,
+        47
+      ]
+    },
+    {
+      "id": 4365,
+      "paraula": "PARELLA HOMOSEXUAL",
+      "so": "parella_homosexual_masc.mp3",
+      "imatge": "parella_homosexual_masc.png",
+      "repeticio": "MASCULINA",
+      "videos": [
+        "parella_homesex_masc.mp4"
+      ],
+      "families": [
+        19,
+        46
+      ]
+    },
+    {
+      "id": 4366,
+      "paraula": "PERRUCA",
+      "so": "perruca.mp3",
+      "imatge": "perruca.png",
+      "repeticio": "",
+      "videos": [
+        "perruca.mp4"
+      ],
+      "families": [
+        19,
+        36,
+        44
+      ]
+    },
+    {
+      "id": 4367,
+      "paraula": "POTA DE CAVALL",
+      "so": "pota_cavall.mp3",
+      "imatge": "pota_cavall.png",
+      "repeticio": "",
+      "videos": [
+        "pota_cavall.mp4"
+      ],
+      "families": [
+        19,
+        35
+      ]
     }
   ]
 }
