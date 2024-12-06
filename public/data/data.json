@@ -54709,6 +54709,104 @@
         19,
         35
       ]
+    },
+    {
+      "id": 4368,
+      "paraula": "ACOMPANYAR",
+      "so": "acompanyar_persona.mp3",
+      "imatge": "acompanyar_persona.png",
+      "repeticio": "PERSONES",
+      "videos": [
+        "acompanyar_persona.mp4",
+        "acompanyar_persona_1.mp4"
+      ],
+      "families": [
+        21,
+        46
+      ]
+    },
+    {
+      "id": 4369,
+      "paraula": "ALETES",
+      "so": "aletes.mp3",
+      "imatge": "aletes.png",
+      "repeticio": "BUSSEIG",
+      "videos": [
+        "aletes.mp4"
+      ],
+      "families": [
+        19,
+        29
+      ]
+    },
+    {
+      "id": 4370,
+      "paraula": "CAP",
+      "so": "cap_cos.mp3",
+      "imatge": "cap_cos.png",
+      "repeticio": "COS",
+      "videos": [
+        "cap_cos.mp4"
+      ],
+      "families": [
+        19,
+        48
+      ]
+    },
+    {
+      "id": 4371,
+      "paraula": "GUIXETA",
+      "so": "guixeta_tiquets.mp3",
+      "imatge": "guixeta_tiquets.png",
+      "repeticio": "TIQUETS",
+      "videos": [
+        "guixeta_tiquets.mp4"
+      ],
+      "families": [
+        19,
+        36
+      ]
+    },
+    {
+      "id": 4372,
+      "paraula": "PINYA",
+      "so": "pinya_fruita.mp3",
+      "imatge": "pinya_fruita.png",
+      "repeticio": "FRUITA",
+      "videos": [
+        "pinya_fruita.mp4"
+      ],
+      "families": [
+        19,
+        34
+      ]
+    },
+    {
+      "id": 4373,
+      "paraula": "SALDO",
+      "so": "saldo_roba.mp3",
+      "imatge": "saldo_roba.png",
+      "repeticio": "ROBA",
+      "videos": [
+        "saldo_roba.mp4"
+      ],
+      "families": [
+        19,
+        32
+      ]
+    },
+    {
+      "id": 4374,
+      "paraula": "SOBRE",
+      "so": "sobre_adv.mp3",
+      "imatge": "sobre_adv.png",
+      "repeticio": "ADVBERVI",
+      "videos": [
+        "sobre_adv.mp4"
+      ],
+      "families": [
+        46
+      ]
     }
   ]
 }
