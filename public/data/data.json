@@ -4384,7 +4384,7 @@
     {
       "id": 3496,
       "paraula": "ÀSIA",
-      "so": "_sia.mp3",
+      "so": "asia.mp3",
       "imatge": "asia.png",
       "repeticio": "",
       "videos": [
@@ -8339,7 +8339,7 @@
       "imatge": "ce_trencada.png",
       "repeticio": "",
       "videos": [
-        "_cproc.mp4"
+        "ce_trencada.mp4"
       ],
       "families": [
         19,
@@ -24912,20 +24912,6 @@
       ]
     },
     {
-      "id": 1402,
-      "paraula": "GERMANASTRA",
-      "so": "germanastre.mp3",
-      "imatge": "",
-      "repeticio": "",
-      "videos": [
-        "germanastre.mp4"
-      ],
-      "families": [
-        19,
-        37
-      ]
-    },
-    {
       "id": 4362,
       "paraula": "GERMANASTRE",
       "so": "germanastre.mp3",
@@ -29977,7 +29963,7 @@
       "id": 3080,
       "paraula": "LLUMS AVET",
       "so": "llums.mp3",
-      "imatge": "",
+      "imatge": "llums_davet.png",
       "repeticio": "",
       "videos": [
         "llumsavet.mp4"
@@ -43025,7 +43011,7 @@
       "paraula": "RATOLÍ",
       "so": "ratoli_informatic.mp3",
       "imatge": "ratoli_informatic.png",
-      "repeticio": "ANIMAL",
+      "repeticio": "INFORMÀTICA",
       "videos": [
         "ratoli_informatic.mp4"
       ],
@@ -43039,7 +43025,7 @@
       "paraula": "RATOLÍ",
       "so": "ratoli.mp3",
       "imatge": "ratoli.png",
-      "repeticio": "INFORMÀTICA",
+      "repeticio": "ANIMAL",
       "videos": [
         "ratoli.mp4"
       ],
