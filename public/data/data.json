@@ -1299,26 +1299,6 @@
       ]
     },
     {
-      "id": 56,
-      "paraula": "ACOMPANYAR",
-      "so": "acompanyar.mp3",
-      "imatge": "acompanyar.png",
-      "repeticio": "FAMÍLIA",
-      "videos": [
-        "acompanyardefamili.mp4"
-      ],
-      "families": [
-        21,
-        28,
-        30,
-        36,
-        38,
-        40,
-        44,
-        46
-      ]
-    },
-    {
       "id": 4368,
       "paraula": "ACOMPANYAR",
       "so": "acompanyar_persona.mp3",
@@ -1326,7 +1306,8 @@
       "repeticio": "PERSONES",
       "videos": [
         "acompanyar_persona.mp4",
-        "acompanyar_persona_1.mp4"
+        "acompanyar_persona_1.mp4",
+        "acompanyardefamili.mp4"
       ],
       "families": [
         21,
@@ -2495,25 +2476,11 @@
       ]
     },
     {
-      "id": 4369,
-      "paraula": "ALETES",
-      "so": "aletes.mp3",
-      "imatge": "aletes.png",
-      "repeticio": "BUSSEIG",
-      "videos": [
-        "aletes.mp4"
-      ],
-      "families": [
-        19,
-        29
-      ]
-    },
-    {
       "id": 110,
       "paraula": "ALETES",
       "so": "aletes.mp3",
       "imatge": "aletes.png",
-      "repeticio": "PEIX",
+      "repeticio": "",
       "videos": [
         "aletes.mp4"
       ],
@@ -2976,7 +2943,7 @@
       "id": 139,
       "paraula": "AMPLE",
       "so": "ample.mp3",
-      "imatge": "ample.png",
+      "imatge": "ample_roba.png",
       "repeticio": "ROBA",
       "videos": [
         "ampleroba.mp4"
@@ -5544,20 +5511,6 @@
         40,
         41,
         44
-      ]
-    },
-    {
-      "id": 288,
-      "paraula": "BALONMÀ",
-      "so": "balonma.mp3",
-      "imatge": "balonma.png",
-      "repeticio": "",
-      "videos": [
-        "balonma.mp4"
-      ],
-      "families": [
-        19,
-        29
       ]
     },
     {
@@ -28325,27 +28278,11 @@
       ]
     },
     {
-      "id": 3714,
-      "paraula": "JUST",
-      "so": "just.mp3",
-      "imatge": "just_mida.png",
-      "repeticio": "MIDA",
-      "videos": [
-        "justroba.mp4"
-      ],
-      "families": [
-        17,
-        32,
-        40,
-        42
-      ]
-    },
-    {
       "id": 1568,
       "paraula": "JUST",
       "so": "just.mp3",
       "imatge": "just.png",
-      "repeticio": "PERSONA",
+      "repeticio": "",
       "videos": [
         "just.mp4"
       ],
