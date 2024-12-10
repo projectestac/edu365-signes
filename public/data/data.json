@@ -2253,7 +2253,7 @@
       "id": 100,
       "paraula": "AL COSTAT",
       "so": "al_costat.mp3",
-      "imatge": "al costat.png",
+      "imatge": "al_costat.png",
       "repeticio": "",
       "videos": [
         "alcostat.mp4"
@@ -3385,7 +3385,7 @@
       "id": 165,
       "paraula": "ANY NOU",
       "so": "anynou.mp3",
-      "imatge": "any nou.png",
+      "imatge": "any_nou.png",
       "repeticio": "",
       "videos": [
         "anynou.mp4"
@@ -4545,7 +4545,7 @@
       "id": 230,
       "paraula": "ASSISTENT SOCIAL",
       "so": "assintent_social.mp3",
-      "imatge": "assistent social.png",
+      "imatge": "assistent_social.png",
       "repeticio": "",
       "videos": [
         "assistentsocialproc.mp4"
@@ -5941,7 +5941,7 @@
     {
       "id": 312,
       "paraula": "BARRA DE PA",
-      "so": "barra_de_ pa.mp3",
+      "so": "barra_de_pa.mp3",
       "imatge": "barra_de_pa.png",
       "repeticio": "",
       "videos": [
@@ -6976,7 +6976,7 @@
       "id": 368,
       "paraula": "BLAT DE MORO",
       "so": "blat_de_moro.mp3",
-      "imatge": "blat de moro.png",
+      "imatge": "blat_de_moro.png",
       "repeticio": "",
       "videos": [
         "blatdemoro.mp4"
@@ -7516,7 +7516,7 @@
       "id": 400,
       "paraula": "BOSSA D'ESCOMBRARIES",
       "so": "bossa_descombreries.mp3",
-      "imatge": "bossa per a escombraries.png",
+      "imatge": "bossa_per_a_escombraries.png",
       "repeticio": "",
       "videos": [
         "bossabrosaproc.mp4"
@@ -8397,7 +8397,7 @@
       "id": 3751,
       "paraula": "CABELL LLARG",
       "so": "cabell_larg.mp3",
-      "imatge": "cabells blancs.png",
+      "imatge": "cabells_blancs.png",
       "repeticio": "",
       "videos": [
         "llargcabellproc.mp4"
@@ -8569,7 +8569,7 @@
       "id": 3203,
       "paraula": "CADIRA DE RODES",
       "so": "cadira_de_rodes.mp3",
-      "imatge": "cadira de rodes.png",
+      "imatge": "cadira_de_rodes.png",
       "repeticio": "",
       "videos": [
         "cadirarodesproc.mp4"
@@ -8700,7 +8700,7 @@
       "id": 3032,
       "paraula": "CAIXA XINESA",
       "so": "caixa_xinesa.mp3",
-      "imatge": "caixa xinesa.png",
+      "imatge": "caixa_xinesa.png",
       "repeticio": "",
       "videos": [
         "caixaxinesaproc.mp4"
@@ -8822,7 +8822,7 @@
       "id": 478,
       "paraula": "CALAMARS A LA ROMANA",
       "so": "calamars_a_la_romana.mp3",
-      "imatge": "calamars a la romana.png",
+      "imatge": "calamars_a_la_romana.png",
       "repeticio": "",
       "videos": [
         "calamarsromana.mp4"
@@ -9282,7 +9282,7 @@
       "id": 504,
       "paraula": "CAMISOLA",
       "so": "camisola.mp3",
-      "imatge": "camisa de dormir.png",
+      "imatge": "camisa_de_dormir.png",
       "repeticio": "",
       "videos": [
         "camisola.mp4"
@@ -9311,7 +9311,7 @@
       "id": 506,
       "paraula": "CAMP DE FUTBOL",
       "so": "camp_de_futbol.mp3",
-      "imatge": "camp de futbol.png",
+      "imatge": "camp_de_futbol.png",
       "repeticio": "",
       "videos": [
         "campdefutbol.mp4"
@@ -9850,7 +9850,7 @@
       "id": 531,
       "paraula": "CAPUTXETA",
       "so": "caputxeta.mp3",
-      "imatge": "caputxeta vermella.png",
+      "imatge": "caputxeta_vermella.png",
       "repeticio": "",
       "videos": [
         "caputxetavermellaproc.mp4"
@@ -10089,7 +10089,7 @@
     {
       "id": 547,
       "paraula": "CARN CREMADA",
-      "so": "carn cremada.mp3",
+      "so": "carn_cremada.mp3",
       "imatge": "carn_cremada.png",
       "repeticio": "",
       "videos": [
@@ -10235,7 +10235,7 @@
       "id": 555,
       "paraula": "CARPA",
       "so": "carpa.mp3",
-      "imatge": "carpa de circ.png",
+      "imatge": "carpa_de_circ.png",
       "repeticio": "",
       "videos": [
         "carpalnt.mp4"
@@ -10864,7 +10864,7 @@
       "id": 592,
       "paraula": "CASTELL DE SORRA",
       "so": "castell_de_sorra.mp3",
-      "imatge": "castell de sorra.png",
+      "imatge": "castell_de_sorra.png",
       "repeticio": "",
       "videos": [
         "castelldesorra.mp4",
@@ -10908,7 +10908,7 @@
       "id": 3520,
       "paraula": "CASTELLA LA MANXA",
       "so": "castella_la_manxa.mp3",
-      "imatge": "castella la manxa.png",
+      "imatge": "castella_la_manxa.png",
       "repeticio": "",
       "videos": [
         "castillalamancha2.mp4"
@@ -12237,7 +12237,7 @@
       "id": 676,
       "paraula": "CODI DE BARRES",
       "so": "codi_de_barres.mp3",
-      "imatge": "codi de barres.png",
+      "imatge": "codi_de_barres.png",
       "repeticio": "",
       "videos": [
         "codidebarresproc.mp4"
@@ -13913,7 +13913,7 @@
       "id": 766,
       "paraula": "COTXE DE BOMBERS",
       "so": "cotxe_de_bombers.mp3",
-      "imatge": "cotxe bombers joguina.png",
+      "imatge": "cotxe_bombers_joguina.png",
       "repeticio": "",
       "videos": [
         "cotxebombersjoc.mp4"
@@ -13930,7 +13930,7 @@
       "id": 767,
       "paraula": "COTXE DE POLICIA",
       "so": "cotxe_de_policia.mp3",
-      "imatge": "cotxe policia.png",
+      "imatge": "cotxe_policia.png",
       "repeticio": "",
       "videos": [
         "cotxepoliciaproc.mp4",
@@ -14163,7 +14163,7 @@
       "id": 781,
       "paraula": "CREMA HIDRATANT",
       "so": "crema_hidratant.mp3",
-      "imatge": "crema de mans.png",
+      "imatge": "crema_de_mans.png",
       "repeticio": "",
       "videos": [
         "cremarocremaproc.mp4",
@@ -15334,7 +15334,7 @@
       "id": 843,
       "paraula": "DEPENDENTA",
       "so": "dependenta.mp3",
-      "imatge": "dependenta de merceria_1.png",
+      "imatge": "dependenta_de_merceria_1.png",
       "repeticio": "",
       "videos": [
         "dependentaproc.mp4"
@@ -16061,7 +16061,7 @@
       "id": 880,
       "paraula": "DIA DE LA MARE",
       "so": "dia_mare.mp3",
-      "imatge": "dia de la mare.png",
+      "imatge": "dia_de_la_mare.png",
       "repeticio": "",
       "videos": [
         "diadelamare.mp4"
@@ -16109,7 +16109,7 @@
       "id": 882,
       "paraula": "DIA DEL PARE",
       "so": "dia_pare.mp3",
-      "imatge": "dia del pare.png",
+      "imatge": "dia_del_pare.png",
       "repeticio": "",
       "videos": [
         "diadelpare.mp4"
@@ -18140,7 +18140,7 @@
       "id": 1007,
       "paraula": "EM TOCA",
       "so": "em_toca.mp3",
-      "imatge": "em toca a mi.png",
+      "imatge": "em_toca_a_mi.png",
       "repeticio": "",
       "videos": [
         "emtocajoc1.mp4",
@@ -20702,7 +20702,7 @@
       "id": 1159,
       "paraula": "ESTAR MALALT",
       "so": "estar_malalt.mp3",
-      "imatge": "estar malalt.png",
+      "imatge": "estar_malalt.png",
       "repeticio": "",
       "videos": [
         "estarmalalt.mp4"
@@ -21147,7 +21147,7 @@
     {
       "id": 1184,
       "paraula": "ET TOCA",
-      "so": "et toca.mp3",
+      "so": "et_toca.mp3",
       "imatge": "et_1.png",
       "repeticio": "",
       "videos": [
@@ -21166,7 +21166,7 @@
       "id": 1185,
       "paraula": "ETIQUETA",
       "so": "etiqueta.mp3",
-      "imatge": "etiqueta de preu.png",
+      "imatge": "etiqueta_de_preu.png",
       "repeticio": "",
       "videos": [
         "etiquetaproc.mp4"
@@ -22593,7 +22593,7 @@
     {
       "id": 1268,
       "paraula": "FILL MITJÀ",
-      "so": "fill_mitjà.mp3",
+      "so": "fill_mitja.mp3",
       "imatge": "fill_mitja.png",
       "repeticio": "",
       "videos": [
@@ -23060,7 +23060,7 @@
       "id": 1294,
       "paraula": "FOCS ARTIFICIALS",
       "so": "focs_artificials.mp3",
-      "imatge": "focs artificials.png",
+      "imatge": "focs_artificials.png",
       "repeticio": "",
       "videos": [
         "focsartificials.mp4",
@@ -23315,7 +23315,7 @@
       "id": 1310,
       "paraula": "FORMATGE RATLLAT",
       "so": "formatge_ratllat.mp3",
-      "imatge": "formatge ratllat.png",
+      "imatge": "formatge_ratllat.png",
       "repeticio": "",
       "videos": [
         "formatgeratllatbo.mp4"
@@ -25750,7 +25750,7 @@
       "id": 1455,
       "paraula": "GUANTS DE BOXA",
       "so": "guans_boxa.mp3",
-      "imatge": "guants de boxa.png",
+      "imatge": "guants_de_boxa.png",
       "repeticio": "",
       "videos": [
         "guantsdeboxaproc.mp4"
@@ -25780,7 +25780,7 @@
     {
       "id": 1458,
       "paraula": "GUANYAR",
-      "so": "guanyar .mp3",
+      "so": "guanyar.mp3",
       "imatge": "guanyar.png",
       "repeticio": "",
       "videos": [
@@ -25944,7 +25944,7 @@
       "id": 1468,
       "paraula": "GUIX",
       "so": "guix.mp3",
-      "imatge": "guix i esborrany.png",
+      "imatge": "guix_i_esborrany.png",
       "repeticio": "",
       "videos": [
         "guixproc.mp4"
@@ -27404,7 +27404,7 @@
       "id": 3019,
       "paraula": "INSTRUMENT",
       "so": "instrument.mp3",
-      "imatge": "instrument musical_10.png",
+      "imatge": "instrument_musical_10.png",
       "repeticio": "",
       "videos": [
         "instrumentmusicalproc.mp4"
@@ -27906,7 +27906,7 @@
       "id": 3613,
       "paraula": "JOC DE CONSTRUCCIÓ",
       "so": "joc_de_construcci_.mp3",
-      "imatge": "joc de construccions.png",
+      "imatge": "joc_de_construccions.png",
       "repeticio": "",
       "videos": [
         "construccions.mp4"
@@ -28414,7 +28414,7 @@
     {
       "id": 1576,
       "paraula": "LA BELLA I LA BÈSTIA",
-      "so": "la_bella_i_la_ bestia.mp3",
+      "so": "la_bella_i_la_bestia.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -28472,7 +28472,7 @@
       "id": 1579,
       "paraula": "LA TERRA",
       "so": "la_terra.mp3",
-      "imatge": "la terra.png",
+      "imatge": "la_terra.png",
       "repeticio": "",
       "videos": [
         "terraplaneta.mp4"
@@ -29367,7 +29367,7 @@
       "id": 1628,
       "paraula": "LLESCA DE PA",
       "so": "llesca_de_pa.mp3",
-      "imatge": "llesca de pa.png",
+      "imatge": "llesca_de_pa.png",
       "repeticio": "",
       "videos": [
         "llescadepa.mp4"
@@ -30054,7 +30054,7 @@
       "id": 1668,
       "paraula": "LOTERIA DE NADAL",
       "so": "loteria_de_nadal.mp3",
-      "imatge": "loteria nacional.png",
+      "imatge": "loteria_nacional.png",
       "repeticio": "",
       "videos": [
         "lotrianadlinvents.mp4"
@@ -33171,7 +33171,7 @@
       "id": 1842,
       "paraula": "MONGETA TENDRA",
       "so": "mongeta_tendra.mp3",
-      "imatge": "mongeta tendra.png",
+      "imatge": "mongeta_tendra.png",
       "repeticio": "",
       "videos": [
         "mongetaverda.mp4"
@@ -34074,7 +34074,7 @@
       "id": 1905,
       "paraula": "NAU ESPACIAL",
       "so": "nau.mp3",
-      "imatge": "nau espacial.png",
+      "imatge": "nau_espacial.png",
       "repeticio": "",
       "videos": [
         "nauproc.mp4"
@@ -34577,7 +34577,7 @@
       "id": 1934,
       "paraula": "NIT DE NADAL",
       "so": "nit_nadal.mp3",
-      "imatge": "nit de nadal.png",
+      "imatge": "nit_de_nadal.png",
       "repeticio": "",
       "videos": [
         "nitdenadal.mp4"
@@ -34657,7 +34657,7 @@
     {
       "id": 1941,
       "paraula": "NO M'AGRADA",
-      "so": "no magrada.mp3",
+      "so": "no_magrada.mp3",
       "imatge": "",
       "repeticio": "",
       "videos": [
@@ -35523,7 +35523,7 @@
       "id": 3596,
       "paraula": "OLIVA NEGRA",
       "so": "oliva_negra.mp3",
-      "imatge": "oliva negra.png",
+      "imatge": "oliva_negra.png",
       "repeticio": "",
       "videos": [
         "olivanegra.mp4"
@@ -35996,7 +35996,7 @@
       "id": 2015,
       "paraula": "OU DE PASQUA",
       "so": "ou_pasqua.mp3",
-      "imatge": "ou de xocolata.png",
+      "imatge": "ou_de_xocolata.png",
       "repeticio": "",
       "videos": [
         "oudepasqua.mp4"
@@ -36012,7 +36012,7 @@
       "id": 3108,
       "paraula": "OU DUR",
       "so": "ou_dur.mp3",
-      "imatge": "ou dur.png",
+      "imatge": "ou_dur.png",
       "repeticio": "",
       "videos": [
         "ouduralim.mp4"
@@ -36026,7 +36026,7 @@
       "id": 3109,
       "paraula": "OU FERRAT",
       "so": "ou_ferrat.mp3",
-      "imatge": "ou ferrat.png",
+      "imatge": "ou_ferrat.png",
       "repeticio": "",
       "videos": [
         "ouferrat.mp4"
@@ -36110,7 +36110,7 @@
       "id": 3597,
       "paraula": "PA DE BARRA",
       "so": "pa_de_barra.mp3",
-      "imatge": "pa blanc.png",
+      "imatge": "pa_blanc.png",
       "repeticio": "",
       "videos": [
         "padebarra.mp4"
@@ -36124,7 +36124,7 @@
       "id": 2019,
       "paraula": "PA DE MOTLLE",
       "so": "pa_de_motllo.mp3",
-      "imatge": "pa de motllo.png",
+      "imatge": "pa_de_motllo.png",
       "repeticio": "",
       "videos": [
         "pademotllo.mp4"
@@ -37388,7 +37388,7 @@
       "id": 2087,
       "paraula": "PAS DE VIANANTS",
       "so": "pasdevianants.mp3",
-      "imatge": "pas zebra.png",
+      "imatge": "pas_zebra.png",
       "repeticio": "",
       "videos": [
         "pasdevianant.mp4",
@@ -37545,7 +37545,7 @@
       "id": 2098,
       "paraula": "PASTA DE DENTS",
       "so": "pastadents.mp3",
-      "imatge": "pasta de dents.png",
+      "imatge": "pasta_de_dents.png",
       "repeticio": "",
       "videos": [
         "pastadents.mp4"
@@ -37740,7 +37740,7 @@
       "id": 3758,
       "paraula": "PATATES DE BOSSA",
       "so": "patates_de_bossa.mp3",
-      "imatge": "patates fregides_1.png",
+      "imatge": "patates_fregides_1.png",
       "repeticio": "",
       "videos": [
         "patatafregidebossa.mp4"
@@ -37754,7 +37754,7 @@
       "id": 2111,
       "paraula": "PATATES FREGIDES",
       "so": "patates_fregides.mp3",
-      "imatge": "patates fregides.png",
+      "imatge": "patates_fregides.png",
       "repeticio": "",
       "videos": [
         "patatafregida.mp4"
@@ -37843,7 +37843,7 @@
       "id": 3316,
       "paraula": "PATINATGE SOBRE GEL",
       "so": "patinatge_gel.mp3",
-      "imatge": "patinar sobre gel.png",
+      "imatge": "patinar_sobre_gel.png",
       "repeticio": "",
       "videos": [
         "patinatgegel1proc.mp4",
@@ -37979,7 +37979,7 @@
       "id": 2122,
       "paraula": "PEBROT VERD",
       "so": "pebrot_vert.mp3",
-      "imatge": "pebrot verd.png",
+      "imatge": "pebrot_verd.png",
       "repeticio": "",
       "videos": [
         "pebrotverd.mp4"
@@ -37993,7 +37993,7 @@
       "id": 2123,
       "paraula": "PEBROT VERMELL",
       "so": "pebrot_vermell.mp3",
-      "imatge": "pebrot vermell.png",
+      "imatge": "pebrot_vermell.png",
       "repeticio": "",
       "videos": [
         "pebrotvermell.mp4"
@@ -38202,7 +38202,7 @@
     {
       "id": 2140,
       "paraula": "PELL ROJA",
-      "so": "pell roja.mp3",
+      "so": "pell_roja.mp3",
       "imatge": "pellroja.png",
       "repeticio": "",
       "videos": [
@@ -38403,7 +38403,7 @@
       "id": 3686,
       "paraula": "PER QUI",
       "so": "per_qui.mp3",
-      "imatge": "per a.png",
+      "imatge": "per_a.png",
       "repeticio": "",
       "videos": [
         "pqeraquig.mp4"
@@ -39341,7 +39341,7 @@
       "id": 2204,
       "paraula": "PILOTA DE FUTBOL",
       "so": "pilota_de_futbol.mp3",
-      "imatge": "pilota de futbol.png",
+      "imatge": "pilota_de_futbol.png",
       "repeticio": "",
       "videos": [
         "pilotafutbolproc.mp4"
@@ -39375,7 +39375,7 @@
       "id": 2206,
       "paraula": "PILOTA DE TENIS",
       "so": "pilota_de_tenis.mp3",
-      "imatge": "pilota de tennis.png",
+      "imatge": "pilota_de_tennis.png",
       "repeticio": "",
       "videos": [
         "pilotatenisproc.mp4"
@@ -39577,7 +39577,7 @@
       "id": 2216,
       "paraula": "PINTAR-SE LES UNGLES",
       "so": "pintarse_les_ungles.mp3",
-      "imatge": "pintar les ungles.png",
+      "imatge": "pintar_les_ungles.png",
       "repeticio": "",
       "videos": [
         "pintaungles.mp4"
@@ -41316,7 +41316,7 @@
       "id": 2322,
       "paraula": "POTA DE PAL",
       "so": "pota_de_pal.mp3",
-      "imatge": "pota de pal.png",
+      "imatge": "pota_de_pal.png",
       "repeticio": "",
       "videos": [
         "potadepalproc.mp4"
@@ -41751,7 +41751,7 @@
       "id": 2349,
       "paraula": "PRIMER PLAT",
       "so": "primer_plat.mp3",
-      "imatge": "primer plat.png",
+      "imatge": "primer_plat.png",
       "repeticio": "",
       "videos": [
         "primerplat.mp4"
@@ -42796,7 +42796,7 @@
       "id": 2410,
       "paraula": "RAQUETA DE TENIS",
       "so": "raqueta_de_tennis.mp3",
-      "imatge": "raqueta de tennis.png",
+      "imatge": "raqueta_de_tennis.png",
       "repeticio": "",
       "videos": [
         "raquetapingpong.mp4"
@@ -42813,7 +42813,7 @@
       "id": 2412,
       "paraula": "RAQUETES DE PING-PONG",
       "so": "raquetes_de_ping_pong.mp3",
-      "imatge": "raqueta de ping-pong.png",
+      "imatge": "raqueta_de_ping-pong.png",
       "repeticio": "",
       "videos": [
         "raquetapingpong.mp4"
@@ -42889,7 +42889,7 @@
       "id": 2416,
       "paraula": "RASPALL DE DENTS",
       "so": "raspall_de_dents.mp3",
-      "imatge": "raspall de dents.png",
+      "imatge": "raspall_de_dents.png",
       "repeticio": "",
       "videos": [
         "raspalldedents.mp4"
@@ -43483,7 +43483,7 @@
       "id": 2449,
       "paraula": "REIS D'ORIENT",
       "so": "reis_d_orient.mp3",
-      "imatge": "reis mags.png",
+      "imatge": "reis_mags.png",
       "repeticio": "",
       "videos": [
         "reis1.mp4"
@@ -43613,7 +43613,7 @@
       "id": 2456,
       "paraula": "RELLOTGE DIGITAL",
       "so": "rellotge_digital.mp3",
-      "imatge": "rellotge despertador.png",
+      "imatge": "rellotge_despertador.png",
       "repeticio": "",
       "videos": [
         "rellotgedigitalproc.mp4",
@@ -43779,7 +43779,7 @@
       "id": 2466,
       "paraula": "RENTAR LA ROBA",
       "so": "rentar_la_roba.mp3",
-      "imatge": "rentar la roba.png",
+      "imatge": "rentar_la_roba.png",
       "repeticio": "",
       "videos": [
         "rentarproc.mp4"
@@ -43813,7 +43813,7 @@
       "id": 2467,
       "paraula": "RENTAR-SE LA CARA",
       "so": "rentarse_la_cara.mp3",
-      "imatge": "rentar la cara.png",
+      "imatge": "rentar_la_cara.png",
       "repeticio": "",
       "videos": [
         "rentarcaraproc.mp4"
@@ -43847,7 +43847,7 @@
       "id": 2469,
       "paraula": "RENTAR-SE LES MANS",
       "so": "rentarse_les_mans.mp3",
-      "imatge": "rentar les mans.png",
+      "imatge": "rentar_les_mans.png",
       "repeticio": "",
       "videos": [
         "rentarmansproc.mp4"
@@ -45324,7 +45324,7 @@
       "id": 2539,
       "paraula": "SAC DE DORMIR",
       "so": "sac_de_dormir.mp3",
-      "imatge": "sac de dormir.png",
+      "imatge": "sac_de_dormir.png",
       "repeticio": "",
       "videos": [
         "sacdedormir.mp4"
@@ -45578,7 +45578,7 @@
       "id": 3605,
       "paraula": "SALSA",
       "so": "salsa.mp3",
-      "imatge": "salsa ketchup.png",
+      "imatge": "salsa_ketchup.png",
       "repeticio": "ALIMENT",
       "videos": [
         "salsaalim.mp4"
@@ -45812,7 +45812,7 @@
       "id": 3639,
       "paraula": "SAMARRETA SENSE MÀNIGUES",
       "so": "samarrsnsmng.mp3",
-      "imatge": "samarreta de tirants.png",
+      "imatge": "samarreta_de_tirants.png",
       "repeticio": "",
       "videos": [
         "sensemaniga.mp4"
@@ -45924,7 +45924,7 @@
       "id": 2568,
       "paraula": "SANT JOSEP",
       "so": "sant_josep.mp3",
-      "imatge": "sant josep.png",
+      "imatge": "sant_josep.png",
       "repeticio": "",
       "videos": [
         "santjosep.mp4"
@@ -46346,7 +46346,7 @@
       "id": 2591,
       "paraula": "SEGON PLAT",
       "so": "segon_plat.mp3",
-      "imatge": "segon plat.png",
+      "imatge": "segon_plat.png",
       "repeticio": "",
       "videos": [
         "segonplat.mp4"
@@ -46976,7 +46976,7 @@
       "id": 2636,
       "paraula": "SETMANA SANTA",
       "so": "setmana_santa.mp3",
-      "imatge": "setmana santa.png",
+      "imatge": "setmana_santa.png",
       "repeticio": "",
       "videos": [
         "setmanasantarectf.mp4",
@@ -48256,7 +48256,7 @@
       "id": 1545,
       "paraula": "TALLER DE JARDINERIA",
       "so": "taller_de_jardineria.mp3",
-      "imatge": "taller de jardineria.png",
+      "imatge": "taller_de_jardineria.png",
       "repeticio": "",
       "videos": [
         "jardineriaproc.mp4"
@@ -48749,7 +48749,7 @@
       "id": 2731,
       "paraula": "TAULA DE PLANXAR",
       "so": "taula_de_planxar.mp3",
-      "imatge": "taula de planxar.png",
+      "imatge": "taula_de_planxar.png",
       "repeticio": "",
       "videos": [
         "taulaplanxarproc.mp4"
@@ -49127,7 +49127,7 @@
       "id": 2756,
       "paraula": "TENDA D'ACAMPAR",
       "so": "tenda_acampar.mp3",
-      "imatge": "tenda de campanya.png",
+      "imatge": "tenda_de_campanya.png",
       "repeticio": "",
       "videos": [
         "tendaacamplnt.mp4"
@@ -49821,7 +49821,7 @@
       "id": 2802,
       "paraula": "TISORES DE PODAR",
       "so": "tisores_de_podar.mp3",
-      "imatge": "tisora de podar.png",
+      "imatge": "tisora_de_podar.png",
       "repeticio": "",
       "videos": [
         "tisoresdepodarproc.mp4",
@@ -49837,7 +49837,7 @@
       "id": 2803,
       "paraula": "TITELLES",
       "so": "titelles.mp3",
-      "imatge": "teatre de marionetes.png",
+      "imatge": "teatre_de_marionetes.png",
       "repeticio": "",
       "videos": [
         "titelles.mp4"
@@ -49961,7 +49961,7 @@
       "id": 3056,
       "paraula": "TOCAR UN INSTRUMENT",
       "so": "tocar_instrument.mp3",
-      "imatge": "tocar el piano.png",
+      "imatge": "tocar_el_piano.png",
       "repeticio": "",
       "videos": [
         "tocarinstrumnter.mp4"
@@ -50847,7 +50847,7 @@
       "id": 2866,
       "paraula": "TRES EN RATLLA",
       "so": "tres_en_ratlla.mp3",
-      "imatge": "tres en ratlla.png",
+      "imatge": "tres_en_ratlla.png",
       "repeticio": "",
       "videos": [
         "tresenratlla.mp4",
@@ -50879,7 +50879,7 @@
       "id": 2868,
       "paraula": "TRES QUARTS",
       "so": "tres_quarts.mp3",
-      "imatge": "tres quarts.png",
+      "imatge": "tres_quarts.png",
       "repeticio": "",
       "videos": [
         "tresquartsproc.mp4",
@@ -51427,7 +51427,7 @@
       "id": 3623,
       "paraula": "ULLERES DE BUSSEIG",
       "so": "ulleres_de_buceig.mp3",
-      "imatge": "ulleres de bussejar.png",
+      "imatge": "ulleres_de_bussejar.png",
       "repeticio": "",
       "videos": [
         "ulleresbuzo.mp4"
@@ -51442,7 +51442,7 @@
       "id": 3251,
       "paraula": "ULLERES DE SOL",
       "so": "ulleres_de_sol.mp3",
-      "imatge": "ulleres de sol.png",
+      "imatge": "ulleres_de_sol.png",
       "repeticio": "",
       "videos": [
         "ulleresdesolproc.mp4"
@@ -51499,7 +51499,7 @@
       "id": 2893,
       "paraula": "UN QUART",
       "so": "unquart.mp3",
-      "imatge": "una part.png",
+      "imatge": "una_part.png",
       "repeticio": "",
       "videos": [
         "unquartproc.mp4",
@@ -54123,7 +54123,7 @@
     {
       "id": 3005,
       "paraula": "XOCOLATA DESFETA",
-      "so": "xocolata desfeta.mp3",
+      "so": "xocolata_desfeta.mp3",
       "imatge": "xocolata_1.png",
       "repeticio": "",
       "videos": [
