@@ -37,7 +37,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
             const discardableUrl = videoObj.getAttribute('src');
             videoObj.setAttribute('src', url);
             if (discardableUrl)
-              URL.revokeObjectURL(discardableUrl);
+              URL.revokeObjectURL(discardableUrl);            
             window.setTimeout(() => videoObj.play(), 0);
           })
           .catch(err => console.log(err));
@@ -73,7 +73,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
       {paraulaVisible &&
         <div className="paraula-text-box">
           <Alert variant="info" className="paraula-text">
-            {paraula}
+            {paraula}{repeticio ? ` (${repeticio})` : ''}
           </Alert>
           {(videos || so) &&
             <Button
@@ -128,6 +128,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
       }
       {so &&
         <audio
+          id={so}
           className="paraula-audio"
           src={`${SO_BASE}/${so}`}
           autoPlay={audioOn}

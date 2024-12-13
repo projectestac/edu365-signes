@@ -15,21 +15,28 @@ function App() {
   const [error, setError] = useState(null);
   const [data, setData] = useState(true);
   const [mode, setMode] = useState('diccionari');
+  const [paraulaInicial, setParaulaInicial] = useState(null);
 
   useEffect(() => {
-    const qp = getQueryParam('mode');
-    if (qp === 'diccionari' || qp === 'recordem')
-      setMode(qp);
+    const pMode = getQueryParam('mode');
+    if (pMode === 'diccionari' || pMode === 'recordem')
+      setMode(pMode);
     setLoading(true);
     fetch(`${DATA_PATH}/data.json`)
       .then(checkFetchJsonResponse)
-      .then(data => setData({
-        ...data,
-        paraules: data.paraules.map(p => ({
-          ...p,
-          label: `${p.paraula}${p.repeticio ? ` (${p.repeticio})` : ''}`
-        }))
-      }))
+      .then(data => {
+        const fullData = {
+          ...data,
+          paraules: data.paraules.map(p => ({
+            ...p,
+            label: `${p.paraula}${p.repeticio ? ` (${p.repeticio})` : ''}`
+          }))
+        }
+        setData(fullData);
+        const pParaula = getQueryParam('paraula').toUpperCase();
+        if (pParaula)
+          setParaulaInicial(fullData.paraules.find(p => p.label === pParaula));
+      })
       .catch(err => setError(err?.toString() || 'Error'))
       .finally(() => setLoading(false));
   }, []);
@@ -59,10 +66,10 @@ function App() {
           onSelect={setMode}
         >
           <Tab eventKey="diccionari" title="DICCIONARI">
-            <Diccionari {...{ data }} />
+            <Diccionari {...{ data, paraulaInicial: mode === 'diccionari' ? paraulaInicial : null }} />
           </Tab>
           <Tab eventKey="recordem" title="RECORDEM">
-            <Recordem {...{ data }} />
+            <Recordem {...{ data, paraulaInicial: mode === 'recordem' ? paraulaInicial : null }} />
           </Tab>
           <Tab eventKey="credits" title="AJUDA">
             <Ajuda />

@@ -81,6 +81,10 @@
   white-space: nowrap;
 }
 
+.paraula-pistes {
+  flex-basis: 100%;
+}
+
 .paraula-pistes label {
   display: block;
   margin-bottom: 0.5rem;
@@ -90,18 +94,31 @@
   margin-right: 1rem;
 }
 
+.paraula-comprova {
+  flex-basis: 100%;
+}
+
+.paraula-notificacio {
+  flex-basis: 100%;
+  min-height: 50px;
+}
+
 .tab-pane {
   border: 1px solid #dee2e6;
   border-radius: 0 0 .25rem .25rem;
   border-top: none;
 }
 
-.paraula-area > div {
-  margin: 1rem;
+.paraula-area {
+  display: flex;
+  flex-flow: wrap;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .paraula-text-box {
-  grid-column: 1 / span 2;
+  flex-basis: 100%;
+  /* grid-column: 1 / span 2; */
   display: flex;
 }
 
@@ -130,9 +147,13 @@
   width: fit-content;
 }
 
+.paraula-audio {
+  display: none;
+}
+
 .img-box {
   display: inline-flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .paraula-imatge {

@@ -3,17 +3,9 @@ import { getQueryParam } from '../utils/utils';
 import DiccSelect from './DiccSelect';
 import Paraula, { DICCIONARI } from './Paraula';
 
-function Diccionari({ data }) {
+function Diccionari({ data, paraulaInicial }) {
 
-  const [paraula, setParaula] = useState(null);
-
-  useEffect(() => {
-    const qp = getQueryParam('paraula').toUpperCase();
-    if (!paraula && qp) {
-      setParaula(data.paraules.find(p => p.paraula === qp));
-    }
-  })
-
+  const [paraula, setParaula] = useState(paraulaInicial);
   return (
     <main>
       <DiccSelect {...{ data, setParaula }} />

@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import RecordemSelect from './RecordemSelect';
 import Paraula, { RECORDEM } from './Paraula';
 
-function Recordem({ data }) {
-
-  const [paraula, setParaula] = useState(null);
+function Recordem({ data, paraulaInicial }) {
+  
+  const [paraula, setParaula] = useState(paraulaInicial);
 
   return (
     <main>

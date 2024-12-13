@@ -75,7 +75,7 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
           }
         </div>
       }
-      <Form.Group>
+      <Form.Group className="paraula-comprova">
         <Form.Label>Saps què estic dient? Escriu-ho aquí i comprova si ho has encertat:</Form.Label>
         <div className="resposta">
           <Form.Control
@@ -97,7 +97,7 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
           </Button>
         </div>
       </Form.Group>
-      <div style={{ minHeight: '50px' }}>
+      <div className="paraula-notificacio">
         {error &&
           <Alert variant="danger" ref={errRef}>
             {error}
