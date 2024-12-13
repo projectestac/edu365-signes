@@ -12,8 +12,8 @@ const IMG_BASE = 'data/imatges';
 export const DICCIONARI = 'diccionari';
 export const RECORDEM = 'recordem';
 
-let currentVideoPath = null;
-let currentMode = null;
+// let currentVideoPath = null;
+// let currentMode = null;
 
 function Paraula({ paraula: paraulaObj, mode }) {
 
@@ -25,13 +25,21 @@ function Paraula({ paraula: paraulaObj, mode }) {
   const videoRef = useRef(null);
   const audioRef = useRef(null);
 
-  const loadVideoBlob = (videoIndex = currentVideo) => {
+  const loadVideo = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
+      const videoObj = videoRef.current;
       const videoPath = `${VIDEO_BASE}/${videos[videoIndex]}`;
+
+      // DIRECT LOADING OF THE VIDEO FILE
+      videoObj.setAttribute('src', videoPath);
+      window.setTimeout(() => videoObj.play(), 0);
+
+      // LOAD VIDEO VIA BLOB
+      // (Workaround for the old edu365.cat server, which did not declare the content type "video/mp4")
+      /*
       if (videoPath !== currentVideoPath || mode !== currentMode) {
         currentVideoPath = videoPath;
         currentMode = mode;
-        const videoObj = videoRef.current;
         fetchBinaryData(videoPath)
           .then(url => {
             const discardableUrl = videoObj.getAttribute('src');
@@ -42,15 +50,16 @@ function Paraula({ paraula: paraulaObj, mode }) {
           })
           .catch(err => console.log(err));
       }
+    */
     }
   }
 
   useEffect(() => {
     setCurrentVideo(0);
-    loadVideoBlob(0);
+    loadVideo(0);
   }, [videos]);
 
-  useEffect(loadVideoBlob, [currentVideo]);
+  useEffect(loadVideo, [currentVideo]);
 
   const replay = (audio = audioOn) => {
     if (videoRef?.current) {
