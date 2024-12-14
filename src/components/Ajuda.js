@@ -12,15 +12,15 @@ function Ajuda() {
       </p>
       <p>
         El vocabulari es pot consultar per ordre alfabètic o estructurat en diferents camps semàntics
-        o classificacions, on aquests, a la vegada s’estructuren en famílies.
+        o classificacions, on aquests, a la vegada s'estructuren en famílies.
       </p>
       <p className="bold">
         A cada paraula hi trobareu:
       </p>
       <ul>
-        <li>1 o més vídeos de la paraula representat en el llenguatge dels signes.</li>
-        <li>1 dibuix de la paraula</li>
-        <li>1 so (veu) de la paraula</li>
+        <li>Un o més vídeos de la paraula representat en el llenguatge dels signes.</li>
+        <li>Un dibuix de la paraula</li>
+        <li>Un so (veu) de la paraula</li>
       </ul>
       <p className="bold">
         Està destinat a:
@@ -33,8 +33,8 @@ function Ajuda() {
       </ul>
       <h2>Cercar una paraula</h2>
       <p>
-        En primer lloc s’haurà de seleccionar la classificació que desitja com a criteri de cerca.
-        En el cas que es vulgui cercar en totes les paraules del diccionari, és seleccionarà l’opció
+        En primer lloc s'haurà de seleccionar la classificació que desitja com a criteri de cerca.
+        En el cas que es vulgui cercar en totes les paraules del diccionari, és seleccionarà l'opció
         "TOTES LES CLASSIFICACIONS".
       </p>
       <p>
@@ -42,12 +42,12 @@ function Ajuda() {
         concretar els criteris de cerca.
       </p>
       <p>
-        Quan s’escrigui la primera lletra en el quadre de cerca, automàticament es posicionarà en la
-        llista de paraules, activant la paraula que s’està intentant cercar només escrivint alguna de
-        les lletres que contingui. Així si per exemple quan s’escrigui la lletra "A", el sistema es
+        Quan s'escrigui la primera lletra en el quadre de cerca, automàticament es posicionarà en la
+        llista de paraules, activant la paraula que s'està intentant cercar només escrivint alguna de
+        les lletres que contingui. Així si per exemple quan s'escrigui la lletra "A", el sistema es
         posicionarà en la primera paraula que contingui una "A", si continuem escrivint "AS" es
         posicionarà en la primera paraula que contingui "AS", i així fins que escrivim tota la paraula o
-        si la paraula que s’ha seleccionat es la que cercàvem. Fent clic en la paraula o prement la tecla ENTER
+        si la paraula que s'ha seleccionat es la que cercàvem. Fent clic en la paraula o prement la tecla ENTER
         ens mostrarà la informació de la paraula.
       </p>
       <p>
@@ -55,13 +55,13 @@ function Ajuda() {
         la paraula o desplaçant-se amb el cursos del teclat.
       </p>
       <p>
-        Un cop s’ha seleccionat una paraula apareixerà en pantalla:
+        Un cop s'ha seleccionat una paraula apareixerà en pantalla:
       </p>
       <ul>
         <li className="bold">La paraula.</li>
         <li>
           <span className="bold">El vídeo de la paraula representada en llenguatge de signes.</span>
-          En cas que existeixi mes d’un vídeo per aquella paraula, apareixerà una llista a sota del
+          En cas que existeixi mes d'un vídeo per aquella paraula, apareixerà una llista a sota del
           vídeo mostrant les variants disponibles.
         </li>
         <li className="bold">Una imatge de la paraula.</li>
@@ -79,12 +79,24 @@ function Ajuda() {
           mostrant tota la informació multimèdia.
         </li>
         <li>
-          La modalitat <span className="bold">Recordem</span>. La funcionalitat d’aquesta modalitat és avaluar a l’alumne. Mostra només
-          el vídeo de la paraula i l’alumne ha d’esbrinar de quina paraula es tracta. També pot donar pistes a l'alumne per ajudar-lo
+          La modalitat <span className="bold">Recordem</span>. La funcionalitat d'aquesta modalitat és avaluar a l'alumne. Mostra només
+          el vídeo de la paraula i l'alumne ha d'esbrinar de quina paraula es tracta. També pot donar pistes a l'alumne per ajudar-lo
           a esbrinar la paraula, activant el text, el so i/o la imatge polsant sobre els botons que apareixen a sobre del elements que
           volem mostrar.
         </li>
       </ul>
+      <h2>Vegeu també...</h2>
+      <p>
+        La llista de totes les paraules incloses a l'aplicació, així com la relació completa d'imatges, sons i vídeos es pot consultar 
+        en <a href="https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing" target="_blank">aquest
+        document en línia</a>.
+      </p>
+      <p>
+        L'aplicació <span className="bold">Mira Què Dic</span> és un projecte de programari lliure distribuït sota els termes de
+        la <a href="https://eupl.eu/1.2/en/" target="_blank">Llicència Pública de la Unió Europea v. 1.2</a>. El codi font de l'aplicació,
+        juntament amb tots els mitjans multimèdia utilitzats, es troba disponible
+        a: <a href="https://github.com/projectestac/edu365-signes" target="_blank">https://github.com/projectestac/edu365-signes</a>.
+      </p>
     </div>
   );
 }

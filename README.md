@@ -23,7 +23,7 @@ This application is intended for:
 
 ## List of all media used in the app
 
-All media used in the app is located on the folder `public/data`. Unused images and sounds are also stored in `public/data/unused`.
+All media used in the app is located on the folder `public/data`. Unused images and sounds are also stored in the GIT branch [`unused-media`](https://github.com/projectestac/edu365-signes/tree/unused-media).
 
 The complete list of all words and media ca be consulted in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing).
 
