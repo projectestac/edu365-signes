@@ -30,6 +30,16 @@
   grid-gap: 1rem;
 }
 
+.recordem-input-caixa {
+  display: flex;
+  flex-flow: wrap;
+  gap: 1rem;
+}
+
+.recordem-input-text {
+  max-width: 22rem;
+}
+
 .recordem-input-label {
   grid-column: 1 / span 2;
 }
@@ -69,14 +79,16 @@
 
 .resposta {
   display: flex;
+  flex-flow: wrap;
+  gap: 1rem;
 }
 
 .resposta input {
   font-weight: bold;
+  max-width: 22rem;
 }
 
 .resposta button {
-  margin-left: 1rem;
   align-self: center;
   white-space: nowrap;
 }
@@ -90,8 +102,10 @@
   margin-bottom: 0.5rem;
 }
 
-.paraula-pistes button {
-  margin-right: 1rem;
+.paraula-pistes div {
+  display: flex;
+  flex-flow: wrap;
+  gap: 1rem;
 }
 
 .paraula-comprova {
@@ -112,24 +126,24 @@
 .paraula-area {
   display: flex;
   flex-flow: wrap;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   gap: 1rem;
 }
 
 .paraula-text-box {
   flex-basis: 100%;
-  /* grid-column: 1 / span 2; */
   display: flex;
+  flex-flow: wrap;
+  gap: 0.5rem;
 }
 
 .paraula-text {
   flex-grow: 1;
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: unset;
 }
 
 .replay-button {
-  margin-left: 1rem;
   align-self: center;
 }
 
@@ -144,7 +158,15 @@
 }
 
 .paraula-video {
-  width: fit-content;
+  max-width: 100%;
+}
+
+.select-video {
+  overflow: auto;
+}
+
+.select-video button {
+  font-size: smaller;
 }
 
 .paraula-audio {
@@ -158,6 +180,7 @@
 
 .paraula-imatge {
   display: block;
+  max-width: 100%;
 }
 
 .bold {

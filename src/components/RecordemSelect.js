@@ -50,43 +50,34 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
     <div className="recordem-select">
       <label className="recordem-input-label">En aquesta activitat has d'endevinar la paraula amagada</label>
       <label htmlFor="recordem-enter-text" className="recordem-input-label">Demana a algú que t'escrigui una paraula o fes clic al dau per triar-ne una a l'atzar:</label>
-      <InputGroup className="recordem-input-text" >
-        <Form.Control
-          className="dotsfont"
-          id="recordem-enter-text"
-          type="text"
-          placeholder=""
-          value={text}
-          onChange={handleChange}
-          onKeyDown={handleKeyDown}
-        />
-        <InputGroup.Text className="recordem-input-random">
-          <Button
-            variant="outline-primary"
-            onClick={getRandom}
-            title="Escull una paraula a l'atzar"
-          >
-          </Button>
-        </InputGroup.Text>
-        {/*
-        <div className="recordem-input-random">
-          <Button
-            variant="outline-primary"
-            onClick={getRandom}
-            title="Escull una paraula a l'atzar"
-          >
-            <div style={{ width: '1rem' }} />
-          </Button>
-        </div>
-        */}
-      </InputGroup>
-      <Button
-        className="recordem-select-button"
-        variant="primary"
-        onClick={checkParaula}
-      >
-        ENDEVINA-HO!
-      </Button>
+      <div class="recordem-input-caixa">
+        <InputGroup className="recordem-input-text" >
+          <Form.Control
+            className="dotsfont"
+            id="recordem-enter-text"
+            type="text"
+            placeholder=""
+            value={text}
+            onChange={handleChange}
+            onKeyDown={handleKeyDown}
+          />
+          <InputGroup.Text className="recordem-input-random">
+            <Button
+              variant="outline-primary"
+              onClick={getRandom}
+              title="Escull una paraula a l'atzar"
+            >
+            </Button>
+          </InputGroup.Text>
+        </InputGroup>
+        <Button
+          className="recordem-select-button"
+          variant="primary"
+          onClick={checkParaula}
+        >
+          ENDEVINA-HO!
+        </Button>
+      </div>
       {error &&
         <Alert
           className="recordem-select-error"

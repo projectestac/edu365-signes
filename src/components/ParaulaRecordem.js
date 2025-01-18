@@ -63,16 +63,18 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
       {(imatge || so) &&
         <div className="paraula-pistes">
           <label>{`No saps què és? Aquí tens ${imatge && so ? 'dues pistes' : 'una pista'}:`}</label>
-          {imatge &&
-            <Button onClick={handleImatge}>
-              {imatgeVisible ? 'AMAGA LA' : 'MOSTRA UNA'} IMATGE
-            </Button>
-          }
-          {so &&
-            <Button onClick={handleVeu}>
-              DIGUES-HO AMB VEU
-            </Button>
-          }
+          <div>
+            {imatge &&
+              <Button onClick={handleImatge}>
+                {imatgeVisible ? 'AMAGA LA' : 'MOSTRA UNA'} IMATGE
+              </Button>
+            }
+            {so &&
+              <Button onClick={handleVeu}>
+                DIGUES-HO AMB VEU
+              </Button>
+            }
+          </div>
         </div>
       }
       <Form.Group className="paraula-comprova">

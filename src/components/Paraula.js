@@ -72,9 +72,12 @@ function Paraula({ paraula: paraulaObj, mode }) {
     }
   }
 
-  const changeCurrentVideo = (num) => {
+  const changeCurrentVideo = (num, audio = audioOn) => {
     setCurrentVideo(num);
-    replay();
+    if (audio && audioRef?.current) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play()
+    }
   }
 
   return (
@@ -109,7 +112,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
             <ButtonGroup
               className="select-video"
               aria-label="Selecciona un vídeo"
-              toggle={true}
+              toggle="true"
             >
               {videos.map((_v, n) =>
                 <Button
