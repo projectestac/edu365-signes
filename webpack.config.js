@@ -2,6 +2,7 @@ const path = require('path');
 const pkg = require('./package.json');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 const date = new Date();
 
 const banner = `
@@ -55,9 +56,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './public/index.html',
       filename: './index.html',
-    })
+    }),
+    new CopyPlugin({
+      patterns: [
+        './public/manifest.json',
+        { from: './public/ico', to: 'ico' },
+      ]
+    }),
   ],
   devServer: {
     host: 'localhost',

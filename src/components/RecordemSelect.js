@@ -50,7 +50,7 @@ function RecordemSelect({ data: { paraules }, setParaula }) {
     <div className="recordem-select">
       <label className="recordem-input-label">En aquesta activitat has d'endevinar la paraula amagada</label>
       <label htmlFor="recordem-enter-text" className="recordem-input-label">Demana a algú que t'escrigui una paraula o fes clic al dau per triar-ne una a l'atzar:</label>
-      <div class="recordem-input-caixa">
+      <div className="recordem-input-caixa">
         <InputGroup className="recordem-input-text" >
           <Form.Control
             className="dotsfont"
