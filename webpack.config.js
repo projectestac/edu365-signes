@@ -1,6 +1,5 @@
 const path = require('path');
 const pkg = require('./package.json');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 const date = new Date();
@@ -45,24 +44,18 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.html$/,
-        use: ['html-loader'],
-      },
-      {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
     ]
   },
   plugins: [
-    new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: './index.html',
-    }),
     new CopyPlugin({
       patterns: [
+        './public/index.html',
         './public/manifest.json',
         { from: './public/ico', to: 'ico' },
+        { from: './public/fonts', to: 'fonts' },
       ]
     }),
   ],
