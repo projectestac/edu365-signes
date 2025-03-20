@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import RecordemSelect from './RecordemSelect';
-import Paraula, { RECORDEM } from './Paraula';
+import RecordemSelect from './RecordemSelect.js';
+import Paraula, { RECORDEM } from './Paraula.js';
 
 function Recordem({ data, paraulaInicial }) {
-  
+
   const [paraula, setParaula] = useState(paraulaInicial);
 
   return (

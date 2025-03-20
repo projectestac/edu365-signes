@@ -1,19 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { fetchBinaryData } from '../utils/utils';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import { FaPlay as PlayIcon } from "react-icons/fa";
-import ParaulaRecordem from './ParaulaRecordem';
+import ParaulaRecordem from './ParaulaRecordem.js';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
 const IMG_BASE = 'data/imatges';
 export const DICCIONARI = 'diccionari';
 export const RECORDEM = 'recordem';
-
-// let currentVideoPath = null;
-// let currentMode = null;
 
 function Paraula({ paraula: paraulaObj, mode }) {
 

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { checkFetchJsonResponse, getQueryParam } from './utils/utils';
+import { checkFetchJsonResponse, getQueryParam } from './utils/utils.js';
 import Spinner from 'react-bootstrap/Spinner';
 import Alert from 'react-bootstrap/Alert';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import Diccionari from './components/Diccionari';
-import Recordem from './components/Recordem';
-import Ajuda from './components/Ajuda';
+import Diccionari from './components/Diccionari.js';
+import Recordem from './components/Recordem.js';
+import Ajuda from './components/Ajuda.js';
 
 const DATA_PATH = 'data';
 

@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { getQueryParam } from '../utils/utils';
-import DiccSelect from './DiccSelect';
-import Paraula, { DICCIONARI } from './Paraula';
+import React, { useState } from 'react';
+import DiccSelect from './DiccSelect.js';
+import Paraula, { DICCIONARI } from './Paraula.js';
 
 function Diccionari({ data, paraulaInicial }) {
 

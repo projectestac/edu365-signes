@@ -1,7 +1,9 @@
-const path = require('path');
-const pkg = require('./package.json');
-const TerserPlugin = require('terser-webpack-plugin');
-const CopyPlugin = require("copy-webpack-plugin");
+
+import path from 'node:path';
+import pkg from './package.json' with {type: 'json'};
+import TerserPlugin from 'terser-webpack-plugin';
+import CopyPlugin from 'copy-webpack-plugin';
+
 const date = new Date();
 
 const banner = `
@@ -30,10 +32,10 @@ WARNING: This is a compressed version of "${pkg.name}". Full source code is free
 ${pkg.repository.url}
 `;
 
-module.exports = {
+export default {
   entry: './src',
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, 'dist'),
     filename: 'main.js',
   },
   module: {
@@ -64,7 +66,7 @@ module.exports = {
     port: 9001,
     open: true,
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(import.meta.dirname, 'public'),
       watch: true,
     },
     client: {

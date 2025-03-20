@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ClearButton, Typeahead } from 'react-bootstrap-typeahead';
+import React, { useState } from 'react';
+import { Typeahead } from 'react-bootstrap-typeahead';
 import Form from 'react-bootstrap/Form';
 
 function DiccSelect({ data: { classificacions, families, paraules }, setParaula }) {
