@@ -103,6 +103,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
             autoPlay={true}
             ref={videoRef}
             controls={mode === RECORDEM}
+            crossOrigin="anonymous"
           />
           {videos.length > 1 &&
             <ButtonGroup
@@ -141,6 +142,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
           src={`${SO_BASE}/${so}`}
           autoPlay={audioOn}
           ref={audioRef}
+          crossOrigin="anonymous"
         />
       }
       {mode === RECORDEM &&

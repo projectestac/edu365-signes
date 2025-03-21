@@ -15,8 +15,16 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="MQDic!">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="module">
+    import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-window.prod.mjs';
+    if ('serviceWorker' in navigator) {
+      const wb = new Workbox('/service-worker.js');
+      wb.register();
+    }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
