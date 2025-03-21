@@ -13,14 +13,12 @@ export const DICCIONARI = 'diccionari';
 export const RECORDEM = 'recordem';
 const MEDIA_BLOBS = true;
 
-function Paraula({ paraula: paraulaObj, mode }) {
+function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, setAudioURL }) {
 
   const { paraula, so, imatge, repeticio, videos, families } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
   const paraulaVisible = mode === DICCIONARI;
   const [imatgeVisible, setImatgeVisible] = useState(mode === DICCIONARI);
-  const [videoArmed, setVideoArmed] = useState(false);
-  const [soundArmed, setSoundArmed] = useState(false);
   const [error, setError] = useState(null);
   const audioOn = mode === DICCIONARI;
   const videoRef = useRef(null);
@@ -33,29 +31,25 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
       if (!MEDIA_BLOBS) {
         // DIRECT LOADING OF THE VIDEO FILE
-        setVideoArmed(true);
         videoObj.setAttribute('src', videoPath);
-        window.setTimeout(() => videoObj.play(), 0);
+        setVideoURL(videoPath);
+        // window.setTimeout(() => videoObj.play(), 0);
       }
       else {
         // LOAD VIDEO VIA BLOB
-        setVideoArmed(false);
-        const discardableUrl = videoObj.getAttribute('src');
         videoObj.setAttribute('src', '');
-        if (discardableUrl) {
-          console.log(`Discarded URL: ${discardableUrl}`);
-          URL.revokeObjectURL(discardableUrl);
-        }
+        if (videoURL)
+          URL.revokeObjectURL(videoURL);
         fetchBinaryDataURL(videoPath)
           .then(url => {
-            setVideoArmed(true);
-            setError(null);
             videoObj.setAttribute('src', url);
-            // window.setTimeout(() => videoObj.play(), 0);
+            setVideoURL(url);
+            setError(null);
           })
           .catch(err => {
+            setVideoURL(null);
             setError('ERROR: No s\'ha pogut carregar el so o el vídeo. Comproveu la connexió!');
-            console.log(err);
+            console.error(err);
           });
       }
     }
@@ -68,27 +62,24 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
       if (!MEDIA_BLOBS) {
         // DIRECT LOADING OF THE AUDIO FILE
-        setSoundArmed(true);
         audioObj.setAttribute('src', audioPath);
+        setAudioURL(audioPath);
       }
       else {
         // LOAD AUDIO VIA BLOB
-        setSoundArmed(false);
-        const discardableUrl = audioObj.getAttribute('src');
         audioObj.setAttribute('src', '');
-        if (discardableUrl) {
-          console.log(`Discarded URL: ${discardableUrl}`);
-          URL.revokeObjectURL(discardableUrl);
-        }
+        if (audioURL)
+          URL.revokeObjectURL(audioURL);
         fetchBinaryDataURL(audioPath)
           .then(url => {
-            setSoundArmed(true);
-            setError(null);
             audioObj.setAttribute('src', url);
+            setAudioURL(url);
+            setError(null);
           })
           .catch(err => {
+            setAudioURL(null);
             setError('ERROR: No s\'ha pogut carregar el so o el vídeo. Comproveu la connexió!');
-            console.log(err);
+            console.error(err);
           });
       }
     }
@@ -96,7 +87,6 @@ function Paraula({ paraula: paraulaObj, mode }) {
 
   useEffect(() => {
     setCurrentVideo(0);
-    loadVideo(0);
   }, [videos]);
 
   useEffect(loadVideo, [currentVideo]);
@@ -128,7 +118,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
           <Alert variant="info" className="paraula-text">
             {paraula}{repeticio ? ` (${repeticio})` : ''}
           </Alert>
-          {(videoArmed || soundArmed) &&
+          {(videoURL || audioURL) &&
             <Button
               className="replay-button"
               variant="primary"
