@@ -4,12 +4,14 @@ import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import { FaPlay as PlayIcon } from "react-icons/fa";
 import ParaulaRecordem from './ParaulaRecordem.js';
+import { fetchBinaryData, fetchBinaryDataURL } from '../utils/utils.js';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
 const IMG_BASE = 'data/imatges';
 export const DICCIONARI = 'diccionari';
 export const RECORDEM = 'recordem';
+const MEDIA_BLOBS = true;
 
 function Paraula({ paraula: paraulaObj, mode }) {
 
@@ -17,6 +19,9 @@ function Paraula({ paraula: paraulaObj, mode }) {
   const [currentVideo, setCurrentVideo] = useState(0);
   const paraulaVisible = mode === DICCIONARI;
   const [imatgeVisible, setImatgeVisible] = useState(mode === DICCIONARI);
+  const [videoArmed, setVideoArmed] = useState(false);
+  const [soundArmed, setSoundArmed] = useState(false);
+  const [error, setError] = useState(null);
   const audioOn = mode === DICCIONARI;
   const videoRef = useRef(null);
   const audioRef = useRef(null);
@@ -26,27 +31,66 @@ function Paraula({ paraula: paraulaObj, mode }) {
       const videoObj = videoRef.current;
       const videoPath = `${VIDEO_BASE}/${videos[videoIndex]}`;
 
-      // DIRECT LOADING OF THE VIDEO FILE
-      videoObj.setAttribute('src', videoPath);
-      window.setTimeout(() => videoObj.play(), 0);
-
-      // LOAD VIDEO VIA BLOB
-      // (Workaround for the old edu365.cat server, which did not declare the content type "video/mp4")
-      /*
-      if (videoPath !== currentVideoPath || mode !== currentMode) {
-        currentVideoPath = videoPath;
-        currentMode = mode;
-        fetchBinaryData(videoPath)
-          .then(url => {
-            const discardableUrl = videoObj.getAttribute('src');
-            videoObj.setAttribute('src', url);
-            if (discardableUrl)
-              URL.revokeObjectURL(discardableUrl);            
-            window.setTimeout(() => videoObj.play(), 0);
-          })
-          .catch(err => console.log(err));
+      if (!MEDIA_BLOBS) {
+        // DIRECT LOADING OF THE VIDEO FILE
+        setVideoArmed(true);
+        videoObj.setAttribute('src', videoPath);
+        window.setTimeout(() => videoObj.play(), 0);
       }
-    */
+      else {
+        // LOAD VIDEO VIA BLOB
+        setVideoArmed(false);
+        const discardableUrl = videoObj.getAttribute('src');
+        videoObj.setAttribute('src', '');
+        if (discardableUrl) {
+          console.log(`Discarded URL: ${discardableUrl}`);
+          URL.revokeObjectURL(discardableUrl);
+        }
+        fetchBinaryDataURL(videoPath)
+          .then(url => {
+            setVideoArmed(true);
+            setError(null);
+            videoObj.setAttribute('src', url);
+            // window.setTimeout(() => videoObj.play(), 0);
+          })
+          .catch(err => {
+            setError('ERROR: No s\'ha pogut carregar el so o el vídeo. Comproveu la connexió!');
+            console.log(err);
+          });
+      }
+    }
+  }
+
+  const loadAudio = () => {
+    if (so && audioRef?.current) {
+      const audioObj = audioRef.current;
+      const audioPath = `${SO_BASE}/${so}`;
+
+      if (!MEDIA_BLOBS) {
+        // DIRECT LOADING OF THE AUDIO FILE
+        setSoundArmed(true);
+        audioObj.setAttribute('src', audioPath);
+      }
+      else {
+        // LOAD AUDIO VIA BLOB
+        setSoundArmed(false);
+        const discardableUrl = audioObj.getAttribute('src');
+        audioObj.setAttribute('src', '');
+        if (discardableUrl) {
+          console.log(`Discarded URL: ${discardableUrl}`);
+          URL.revokeObjectURL(discardableUrl);
+        }
+        fetchBinaryDataURL(audioPath)
+          .then(url => {
+            setSoundArmed(true);
+            setError(null);
+            audioObj.setAttribute('src', url);
+          })
+          .catch(err => {
+            setError('ERROR: No s\'ha pogut carregar el so o el vídeo. Comproveu la connexió!');
+            console.log(err);
+          });
+      }
     }
   }
 
@@ -56,13 +100,14 @@ function Paraula({ paraula: paraulaObj, mode }) {
   }, [videos]);
 
   useEffect(loadVideo, [currentVideo]);
+  useEffect(loadAudio, [so]);
 
   const replay = (audio = audioOn) => {
     if (videoRef?.current) {
       videoRef.current.currentTime = 0;
       videoRef.current.play()
     }
-    if (audio && audioRef?.current) {
+    if (audio && audioRef?.current?.getAttribute('src')) {
       audioRef.current.currentTime = 0;
       audioRef.current.play()
     }
@@ -83,7 +128,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
           <Alert variant="info" className="paraula-text">
             {paraula}{repeticio ? ` (${repeticio})` : ''}
           </Alert>
-          {(videos || so) &&
+          {(videoArmed || soundArmed) &&
             <Button
               className="replay-button"
               variant="primary"
@@ -95,6 +140,14 @@ function Paraula({ paraula: paraulaObj, mode }) {
             </Button>
           }
         </div>
+      }
+      {error &&
+        <Alert
+          className="paraula-error"
+          variant="danger"
+        >
+          {error}
+        </Alert>
       }
       {videos &&
         <div className="paraula-video-box">
@@ -132,6 +185,7 @@ function Paraula({ paraula: paraulaObj, mode }) {
             className="paraula-imatge"
             src={`${IMG_BASE}/${imatge}`}
             alt={paraula}
+            onError={ev => { ev.target.style.display = 'none'; }}
           />
         </div>
       }
@@ -139,7 +193,6 @@ function Paraula({ paraula: paraulaObj, mode }) {
         <audio
           id={so}
           className="paraula-audio"
-          src={`${SO_BASE}/${so}`}
           autoPlay={audioOn}
           ref={audioRef}
           crossOrigin="anonymous"

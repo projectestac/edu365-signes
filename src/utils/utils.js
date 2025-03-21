@@ -26,7 +26,12 @@ export function fetchBinaryData(url) {
       if (!response.ok)
         throw new Error(`"${response.status} ${response.statusText}" en intentar llegir ${response.url}`);
       return response.blob();
-    })
+    });
+}
+
+
+export function fetchBinaryDataURL(url) {
+  return fetchBinaryData(url)
     .then(blob => {
       return URL.createObjectURL(blob);
     });

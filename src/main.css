@@ -5,6 +5,10 @@
   padding: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .spinner {
   display: block;
   margin-bottom: 1rem;
@@ -91,6 +95,10 @@
 .resposta button {
   align-self: center;
   white-space: nowrap;
+}
+
+.paraula-error {
+  flex-basis: 100%;
 }
 
 .paraula-pistes {

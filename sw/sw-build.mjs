@@ -28,8 +28,8 @@ const GLOB_PATTERNS = [
   'manifest.json',
   '*.png',
   'fonts/*',
-  'ico/favicon.ico',
-  'ico/icon144.png',
+  'ico/*',
+  'screenshots/*',
   'data/data.json',
 ];
 

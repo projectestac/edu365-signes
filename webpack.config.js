@@ -57,6 +57,7 @@ export default {
         './public/index.html',
         './public/manifest.json',
         { from: './public/ico', to: 'ico' },
+        { from: './public/screenshots', to: 'screenshots' },
         { from: './public/fonts', to: 'fonts' },
       ]
     }),

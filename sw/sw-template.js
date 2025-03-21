@@ -2,7 +2,7 @@
 /* global importScripts */
 
 if ('function' === typeof importScripts) {
-  importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-sw.js');
+  importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.3.0/workbox-sw.js');
 
   // Catch possible "SKIP_WAITING" events
   self.addEventListener('message', event => {
@@ -62,7 +62,6 @@ if ('function' === typeof importScripts) {
     );
 
     // Cache for sounds
-    /*
     registerRoute(
       /\/data\/sons\//,
       new CacheFirst({
@@ -79,37 +78,8 @@ if ('function' === typeof importScripts) {
         ],
       }),
     );
-    */
-
-    // Cache for sounds
-    registerRoute(
-      /\/data\/sons\//,
-      /*
-      ({ request }) => {
-        const { destination } = request;
-        return destination === 'audio';
-      },
-      */
-      new CacheFirst({
-        cacheName: 'sounds',
-        plugins: [
-          new CacheableResponsePlugin({
-            statuses: [200]
-          }),
-          new RangeRequestsPlugin(),
-          /*
-          new ExpirationPlugin({
-            maxEntries: 100,
-            maxAgeSeconds: 60 * 60 * 24 * 90, // 90 Days
-            purgeOnQuotaError: true,
-          }),
-          */
-        ],
-      }),
-    );
 
     // Cache for videos
-    /*
     registerRoute(
       /\/data\/videos\//,
       new CacheFirst({
@@ -126,49 +96,10 @@ if ('function' === typeof importScripts) {
         ],
       }),
     );
-    */
-
-    // Cache for video
-    registerRoute(
-      /\/data\/videos\//,
-      /*
-      ({ request }) => {
-        const { destination } = request;
-        return destination === 'video';
-      },
-      */
-      new CacheFirst({
-        cacheName: 'videos',
-        plugins: [
-          new CacheableResponsePlugin({ statuses: [200] }),
-          new RangeRequestsPlugin(),
-          /*
-          new ExpirationPlugin({
-            maxEntries: 100,
-            maxAgeSeconds: 60 * 60 * 24 * 90, // 90 Days
-            purgeOnQuotaError: true,
-          }),
-          */
-        ],
-      }),
-    );
-
-    /*
-    registerRoute(
-      ({url}) => url.pathname.endsWith('.mp4'),
-      new CacheFirst({
-        cacheName: 'videos',
-        plugins: [
-          new RangeRequestsPlugin(),
-        ],
-      })
-    );
-    */
 
     // Use the recipe for Google Fonts in WorkBox 6, instead of the full pattern
     googleFontsCache();
 
   } else
     console.log('Workbox could not be loaded. No offline support!');
-
 }
