@@ -20,6 +20,11 @@ export function checkFetchJsonResponse(response) {
   return response.json();
 };
 
+/**
+ * Fetches a remote file, returning it as a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
+ * @param {string} url 
+ * @returns Blob
+ */
 export function fetchBinaryData(url) {
   return fetch(url, {})
     .then(response => {
@@ -29,7 +34,13 @@ export function fetchBinaryData(url) {
     });
 }
 
-
+/**
+ * Fetches a remote file, returning it as an object URL.
+ * IMPORTANT: Remember to manually clean the object URL when not needed, 
+ * calling [revokeObjectURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL_static).
+ * @param {string} url 
+ * @returns string
+ */
 export function fetchBinaryDataURL(url) {
   return fetchBinaryData(url)
     .then(blob => {

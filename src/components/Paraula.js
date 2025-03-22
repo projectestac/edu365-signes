@@ -93,7 +93,7 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
   useEffect(loadVideo, [currentVideo]);
   useEffect(() => {
     loadAudio();
-    catchFocusRef?.current?.focus();
+    window.setTimeout(() => { catchFocusRef?.current?.focus(); }, 100);
   }, [so]);
 
   const replay = (audio = audioOn) => {
