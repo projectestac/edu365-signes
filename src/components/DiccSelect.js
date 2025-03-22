@@ -38,7 +38,7 @@ function DiccSelect({ data: { classificacions, families, paraules }, setParaula 
           id="select-paraula"
           multiple={false}
           labelKey="label"
-          onChange={values => setParaula(values && values.length > 0 ? values[0] : null)}
+          onChange={(values) => { setParaula(values?.length > 0 ? values[0] : null); }}
           options={paraules.filter(p => !familia || p.families.includes(familia)).map(p => p)}
           placeholder="..."
           emptyLabel="No hi ha res amb aquest text"

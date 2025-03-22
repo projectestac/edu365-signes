@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import { FaPlay as PlayIcon } from "react-icons/fa";
 import ParaulaRecordem from './ParaulaRecordem.js';
-import { fetchBinaryData, fetchBinaryDataURL } from '../utils/utils.js';
+import { fetchBinaryDataURL } from '../utils/utils.js';
 
 const VIDEO_BASE = 'data/videos';
 const SO_BASE = 'data/sons';
@@ -23,6 +23,7 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
   const audioOn = mode === DICCIONARI;
   const videoRef = useRef(null);
   const audioRef = useRef(null);
+  const catchFocusRef = useRef(null);
 
   const loadVideo = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
@@ -90,7 +91,10 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
   }, [videos]);
 
   useEffect(loadVideo, [currentVideo]);
-  useEffect(loadAudio, [so]);
+  useEffect(() => {
+    loadAudio();
+    catchFocusRef?.current?.focus();
+  }, [so]);
 
   const replay = (audio = audioOn) => {
     if (videoRef?.current) {
@@ -124,6 +128,7 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
               variant="primary"
               color="primary"
               onClick={() => replay()}
+              ref={catchFocusRef}
             >
               <PlayIcon className="left-icon" />
               TORNA A DIR-HO
