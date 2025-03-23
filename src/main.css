@@ -197,8 +197,6 @@
 
 .ajuda {
   padding: 1rem;
-  max-height: 700px;
-  overflow-y: auto;
 }
 
 .ajuda h2 {
@@ -208,4 +206,28 @@
 
 .rbt-close-content {
   display: none;
+}
+
+.logo-petit {
+  max-height: 2.5rem;
+}
+
+.logo-gran {
+  max-height: 6rem;
+  max-width: 100%;
+}
+
+.titol {
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.botons {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { checkFetchJsonResponse, getQueryParam } from './utils/utils.js';
 import Spinner from 'react-bootstrap/Spinner';
+import Card from 'react-bootstrap/Card';
 import Alert from 'react-bootstrap/Alert';
-import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab';
+import Button from 'react-bootstrap/Button';
 import Diccionari from './components/Diccionari.js';
 import Recordem from './components/Recordem.js';
 import Ajuda from './components/Ajuda.js';
+import logoPetit from "./assets/logo-petit.svg";
+import logoGran from "./assets/logo-gran.svg";
 
 const DATA_PATH = 'data';
 
@@ -14,7 +16,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [data, setData] = useState(true);
-  const [mode, setMode] = useState('diccionari');
+  const [mode, setMode] = useState('');
   const [paraulaInicial, setParaulaInicial] = useState(null);
 
   useEffect(() => {
@@ -44,10 +46,14 @@ function App() {
   return (
     <div className="root">
       <header>
-        <Alert variant="primary">
-          <h2>MIRA QUÈ DIC!</h2>
-          Diccionari Multimèdia de Signes de Catalunya
-        </Alert>
+        {!mode &&
+          <Card onClick={() => setMode('')} className="titol">
+            <Card.Img src={logoGran} className="logo-gran"/>
+            <Card.Title>Diccionari Multimèdia de Signes de Catalunya</Card.Title>            
+          </Card>
+          ||
+          <Button onClick={() => setMode('')} variant="ligth"><img src={logoPetit} className="logo-petit" ></img></Button>
+        }
       </header>
       {loading &&
         <Alert variant="secondary">
@@ -61,22 +67,21 @@ function App() {
         </Alert>
       }
       {!loading && !error && data &&
-        <Tabs
-          activeKey={mode}
-          onSelect={setMode}
-        >
-          <Tab eventKey="diccionari" title="DICCIONARI">
-            <Diccionari {...{ data, paraulaInicial: mode === 'diccionari' ? paraulaInicial : null }} />
-          </Tab>
-          <Tab eventKey="recordem" title="RECORDEM">
-            <Recordem {...{ data, paraulaInicial: mode === 'recordem' ? paraulaInicial : null }} />
-          </Tab>
-          <Tab eventKey="credits" title="AJUDA">
-            <Ajuda />
-          </Tab>
-        </Tabs>
+        mode === 'diccionari' &&
+        <Diccionari {...{ data, paraulaInicial: mode === 'diccionari' ? paraulaInicial : null }} />
+        || mode === 'recordem' &&
+        <Recordem {...{ data, paraulaInicial: mode === 'recordem' ? paraulaInicial : null }} />
+        || mode === 'credits' &&
+        <Ajuda />
+        ||
+        <div className="botons">
+          <Button variant="primary" onClick={() => setMode('diccionari')}>Diccionari</Button>
+          <Button variant="primary" onClick={() => setMode('recordem')}>Recordem</Button>
+          <Button variant="primary" onClick={() => setMode('credits')}>Ajuda</Button>
+          <Button variant="success" >Instal·la l'app</Button>
+        </div>
       }
-    </div>
+    </div >
   );
 }
 
