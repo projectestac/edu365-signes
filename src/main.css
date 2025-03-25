@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 850px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .hidden {
@@ -14,12 +14,16 @@
   margin-bottom: 1rem;
 }
 
+.home-header {
+  margin-top: 20vh;
+}
+
 .dicc-select {
-  padding: 1rem;
   max-width: 30rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
+  margin: 1rem 0;
 }
 
 .dicc-select .form-group {
@@ -27,11 +31,11 @@
 }
 
 .recordem-select {
-  padding: 1rem;
+  margin: 1rem 0;
   display: grid;
   max-width: 40rem;
   grid-template-columns: 1fr auto;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
 }
 
 .recordem-input-caixa {
@@ -134,8 +138,8 @@
 .paraula-area {
   display: flex;
   flex-flow: wrap;
-  padding: 0 1rem 1rem 1rem;
   gap: 1rem;
+  margin: 1rem 0;
 }
 
 .paraula-text-box {
@@ -197,7 +201,7 @@
 }
 
 .ajuda {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .ajuda h2 {
@@ -211,6 +215,7 @@
 
 .logo-petit {
   max-height: 2.5rem;
+  margin-left: -0.8rem;
 }
 
 .logo-gran {
@@ -221,7 +226,8 @@
 .titol {
   text-align: center;
   padding: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 2rem;
+  max-width: 30rem;
 }
 
 .botons {
@@ -232,3 +238,4 @@
   align-items: center;
   gap: 1rem;
 }
+
