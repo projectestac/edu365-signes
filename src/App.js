@@ -64,21 +64,21 @@ function App() {
             <Card.Title>Diccionari Multimèdia de Signes de Catalunya</Card.Title>
           </Card>
           <div className="botons">
-            <Button variant="primary" onClick={() => setMode('diccionari')}>
+            <Button variant="primary" size="lg" onClick={() => setMode('diccionari')}>
               <FaBook className="left-icon" />
               Diccionari
             </Button>
-            <Button variant="primary" onClick={() => setMode('recordem')}>
+            <Button variant="primary" size="lg" onClick={() => setMode('recordem')}>
               <FaSpellCheck className="left-icon" />
               Recordem
             </Button>
-            <Button variant="primary" onClick={() => setMode('credits')}>
+            <Button variant="primary" size="lg" onClick={() => setMode('credits')}>
               <FaInfoCircle className="left-icon" />
               Informació
             </Button>
           </div >
           <div className="botons">
-            <Button variant="success" className={PWA_BTN_CLASSNAME} style={pwaButtonStyle()} onClick={installHandleClick}>
+            <Button variant="outline-primary" size="lg" className={PWA_BTN_CLASSNAME} style={pwaButtonStyle()} onClick={installHandleClick}>
               <FaCloudDownloadAlt className="left-icon" />
               Instal·la l'aplicació
             </Button>
@@ -86,7 +86,7 @@ function App() {
         </header>
         ||
         <header>
-          <Button onClick={() => setMode('')} variant="ligth"><img src={logoPetit} className="logo-petit" ></img></Button>
+          <Button onClick={() => setMode('')} variant="ligth"><img src={logoPetit} className="logo-petit" alt="Mira què dic!" title="Mira què dic!"></img></Button>
         </header>
       }
       {loading &&

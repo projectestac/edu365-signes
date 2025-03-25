@@ -85,19 +85,19 @@
     {
       "src": "/screenshots/wide01.png",
       "type": "image/png",
-      "sizes": "833x833",
+      "sizes": "833x680",
       "form_factor": "wide"
     },
     {
       "src": "/screenshots/wide02.png",
       "type": "image/png",
-      "sizes": "833x833",
+      "sizes": "833x735",
       "form_factor": "wide"
     },
     {
       "src": "/screenshots/wide03.png",
       "type": "image/png",
-      "sizes": "833x833",
+      "sizes": "833x712",
       "form_factor": "wide"
     },
     {
