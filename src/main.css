@@ -205,8 +205,17 @@
 }
 
 .ajuda h2 {
-  color: #004085;
-  margin: 2rem 0;
+  color: #004085;  
+}
+
+.ajuda li {
+  margin-bottom: 0.8rem;
+}
+
+.imatge-ajuda {
+  display: table;
+  margin: 1rem auto;
+  max-width: 100%;
 }
 
 .rbt-close-content {
@@ -238,4 +247,3 @@
   align-items: center;
   gap: 1rem;
 }
-

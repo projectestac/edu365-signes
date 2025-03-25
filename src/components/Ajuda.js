@@ -1,5 +1,9 @@
 import React from 'react';
 
+import ChromeInstall from '../assets/chrome-install.png';
+import InstallButton from '../assets/install-button.png';
+import PwaIos from '../assets/pwa-ios.png';
+
 function Ajuda() {
   return (
     <div className="ajuda">
@@ -68,7 +72,7 @@ function Ajuda() {
           <span className="bold">El so de la paraula parlada</span>, que podrem tornar a escoltar polsant el botó "Torna a dir-ho".
         </li>
       </ul>
-      <h2>Treballar en modalitat "Recordem"</h2>
+      <h2>Treballar en la modalitat "Recordem"</h2>
       <p>
         El "Mira Què Dic!" té dues modalitats de treball:
       </p>
@@ -107,18 +111,34 @@ function Ajuda() {
       </p>
       <ul>
         <li>
-          En sistemes <span className="bold">Android</span>, <span className="bold">Windows</span> i <span className="bold">Linux</span>: feu clic al botó "Instal·la l'aplicació" que surt a la pantalla d'inici. Us apareixerà una finestra
-          de diàleg on us preguntaran si voleu fer la instal·lació. Confirmeu-ho i tot seguit disposareu de la icona per engegar-la a l'escriptori
-          o al menú d'inici.
+          En sistemes <span className="bold">Android</span>, <span className="bold">Windows</span> i <span className="bold">Linux</span>: feu clic al botó "Instal·la l'aplicació"
+          que surt a la pantalla d'inici. Us apareixerà una finestra de diàleg on us preguntaran si voleu continuar. Confirmeu-ho i disposareu de la icona per engegar-la
+          a l'escriptori o al menú d'inici.
+          <img
+            className='imatge-ajuda'
+            src={InstallButton}
+            alt="Botó d'instal·lació de l'aplicació"
+          ></img>
+          Amb el navegador Chrome també podeu utilitzar la icona d'instal·lació que hi ha a la dreta de la barra d'adreces:
+          <img
+            className='imatge-ajuda'
+            src={ChromeInstall}
+            alt="Icona d'instal·lació a Google Chrome"
+          ></img>
         </li>
         <li>
           En sistemes <span className="bold">Apple iOS</span> (iPhone i iPad) heu d'utilitzar el navegador Safari per visitar la pàgina principal (no funciona amb altres navegadors).
           Feu clic al botó "Comparteix" que hi ha a la part inferior de la pantalla i, tot seguit, seleccioneu l'opció
-          "Envia a l'escriptori" per tal que aparegui la icona de l'aplicació a la pantalla del mòbil o la tauleta.
+          "Afegeix a l'escriptori" per tal que aparegui la icona de l'aplicació a la pantalla del mòbil o la tauleta.
+          <img
+            className='imatge-ajuda'
+            src={PwaIos}
+            alt="Captures de pantalla one s mostra la instal·lació en sistemes iOS"
+          ></img>
         </li>
       </ul>
       <p>
-        L'aplicació es pot desinstal·lar en qualsevol moment des del gestor de programari de cada sistema operatiu, com un programa més.
+        L'aplicació es pot desinstal·lar en qualsevol moment des del gestor de programari del dispositiu.
       </p>
       <h2>Vegeu també...</h2>
       <p>
