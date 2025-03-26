@@ -124,7 +124,9 @@ function Ajuda() {
             className='imatge-ajuda'
             src={ChromeInstall}
             alt="Icona d'instal·lació a Google Chrome"
-          ></img>
+          ></img>          
+          En Linkat i altres sistemes Linux, un cop instal·lada l'aplicació cal fer clic amb el botó dret a la icona que apareix a l'escriptori i
+          fer clic a l'opció "Permet que s'iniciï".
         </li>
         <li>
           En sistemes <span className="bold">Apple iOS</span> (iPhone i iPad) heu d'utilitzar el navegador Safari per visitar la pàgina principal (no funciona amb altres navegadors).
