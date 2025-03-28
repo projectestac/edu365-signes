@@ -15,7 +15,7 @@ const MEDIA_BLOBS = true;
 
 function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, setAudioURL }) {
 
-  const { paraula, so, imatge, repeticio, videos, families } = paraulaObj;
+  const { paraula, so, imatge, repeticio, videos, /*families*/ } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
   const paraulaVisible = mode === DICCIONARI;
   const [imatgeVisible, setImatgeVisible] = useState(mode === DICCIONARI);
@@ -164,7 +164,7 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
                   key={n}
                   value={n}
                   variant={currentVideo === n ? 'primary' : 'outline-primary'}
-                  onClick={ev => changeCurrentVideo(n)}
+                  onClick={(_ev) => changeCurrentVideo(n)}
                   aria-label={`Mostrar el vídeo #${n + 1}`}
                 >
                   {`VARIANT ${n + 1}`}

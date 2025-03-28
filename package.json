@@ -47,10 +47,14 @@
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.23.0",
     "babel-loader": "^10.0.0",
     "copy-webpack-plugin": "^13.0.0",
     "css-loader": "^7.1.2",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react": "^7.37.4",
     "file-loader": "^6.2.0",
+    "globals": "^16.0.0",
     "style-loader": "^4.0.0",
     "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.98.0",
@@ -70,7 +74,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "rm -r dist && webpack --mode production && ln -sfn ../public/data dist/data && node ./sw/sw-build.mjs"
+    "build": "rm -r dist && webpack --mode production && ln -sfn ../public/data dist/data && node ./sw/sw-build.mjs",
+    "lint": "eslint src/**/*.js"
   },
   "browserslist": "> 0.25%, not dead"
 }

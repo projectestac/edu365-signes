@@ -86,7 +86,7 @@ export function webAppInstallInit(options = {}) {
  * To be called when the user hits the A2HS button
  * @param {event} clickEv
  */
-export function installHandleClick(clickEv) {
+export function installHandleClick(_clickEv) {
 
   console.log('INFO: User clicked on "Add to home screen"');
 
