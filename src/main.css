@@ -1,4 +1,10 @@
 .root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+}
+
+.content {
   width: 100%;
   max-width: 850px;
   margin: 0 auto;
@@ -14,8 +20,35 @@
   margin-bottom: 1rem;
 }
 
-.home-header {
-  margin-top: 20vh;
+.logo-top {
+  margin-bottom: 15vh;
+  text-align: right;
+}
+
+.logo-top img {
+  max-height: 8vh;
+}
+
+footer {
+  background-color: #eee;
+  padding: 0.5rem;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+
+}
+
+.logos img {
+  max-height: 4rem;
 }
 
 .dicc-select {
