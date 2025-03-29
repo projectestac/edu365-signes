@@ -110,17 +110,14 @@ function Ajuda() {
       <p>
         L'aplicació es pot desinstal·lar en qualsevol moment des del gestor de programari del dispositiu.
       </p>
-      <h2>Vegeu també...</h2>
-      <p>
-        La llista de totes les paraules incloses en l'aplicació, així com la relació completa d'imatges, sons i vídeos es pot consultar
-        en <a href="https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing" target="_blank" rel="noreferrer">aquest
-          document en línia</a>.
-      </p>
+      <h2>Programari lliure</h2>
       <p>
         L'aplicació <span className="bold">Mira Què Dic</span> és un projecte de programari lliure distribuït sota els termes de
-        la <a href="https://eupl.eu/1.2/en/" target="_blank" rel="noreferrer">Llicència Pública de la Unió Europea v. 1.2</a>. El codi font de l'aplicació,
-        juntament amb tots els mitjans multimèdia utilitzats, es troba disponible
-        a: <a href="https://github.com/projectestac/edu365-signes" target="_blank" rel="noreferrer">https://github.com/projectestac/edu365-signes</a>.
+        la <a href="https://eupl.eu/1.2/en/" target="_blank" rel="noreferrer">Llicència Pública de la Unió Europea v. 1.2</a>.
+      </p>
+      <p>
+        El codi font de l'aplicació, juntament amb tots els mitjans multimèdia utilitzats, es troba disponible a:<br />
+        <a href="https://github.com/projectestac/edu365-signes" target="_blank" rel="noreferrer">https://github.com/projectestac/edu365-signes</a>.
       </p>
     </div>
   );
