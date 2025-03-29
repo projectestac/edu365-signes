@@ -11,7 +11,7 @@ import Ajuda from './components/Ajuda.js';
 import logoPetit from './assets/logo-petit.svg';
 import logoGran from './assets/logo-gran.svg';
 import logoAigues from './assets/logo_les_aigues.png';
-// import eduLogo from './assets/edu_logo.png';
+import eduLogo from './assets/edu_logo.png';
 import { FaSpellCheck } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
@@ -62,9 +62,6 @@ function App() {
       <div className="content">
         {!mode &&
           <header className="home-header">
-            <div className="logo-top">
-              <Button href="https://agora.xtec.cat/ceelesaigues/" target="_blank" variant="ligth"><img src={logoAigues} className="logo-aigues" alt="CEE Les Aigües"></img></Button>
-            </div>
             <Card onClick={() => setMode('')} className="titol">
               <Card.Img src={logoGran} className="logo-gran" />
               <Card.Title>Diccionari Multimèdia de Llengua de Signes en català</Card.Title>
@@ -115,14 +112,14 @@ function App() {
           <Ajuda />
         }
       </div>
-      {/* !mode &&
+      {(!mode || mode === 'credits')  &&
         <footer>
           <div className="logos">
             <Button href="https://agora.xtec.cat/ceelesaigues/" target="_blank" variant="ligth"><img src={logoAigues} alt="CEE Les Aigües"></img></Button>
             <Button href="https://edu365.cat/" target="_blank" variant="ligth"><img src={eduLogo} alt="edu365"></img></Button>
           </div>
         </footer>
-      */}
+      }
     </div >
   );
 }

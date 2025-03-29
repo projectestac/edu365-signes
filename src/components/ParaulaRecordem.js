@@ -81,8 +81,7 @@ function ParaulaRecordem({ paraulaObj: { paraula, so, imatge }, imatgeVisible, s
         <Form.Label>Saps què estic dient? Escriu-ho aquí i comprova si ho has encertat:</Form.Label>
         <div className="resposta">
           <Form.Control
-            type="text"
-            placeholder="Crec que dius..."
+            type="text"            
             value={resposta}
             disabled={!checkRespostaEnabled}
             onChange={handleResposta}

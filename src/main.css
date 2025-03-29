@@ -9,6 +9,11 @@
   max-width: 850px;
   margin: 0 auto;
   padding: 0.5rem 1rem;
+  align-self: center;
+}
+
+.content:has(.home-header) {
+  margin: auto auto;
 }
 
 .hidden {
@@ -20,22 +25,13 @@
   margin-bottom: 1rem;
 }
 
-.logo-top {
-  margin-bottom: 15vh;
-  text-align: right;
-}
-
-.logo-top img {
-  max-height: 8vh;
-}
-
 footer {
-  background-color: #eee;
+  background-color: #ecf3fd;
   padding: 0.5rem;
-  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
 .logos {
@@ -48,7 +44,7 @@ footer {
 }
 
 .logos img {
-  max-height: 4rem;
+  max-height: 6rem;
 }
 
 .dicc-select {
