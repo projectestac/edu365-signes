@@ -233,8 +233,14 @@ footer {
   padding: 1rem 0;
 }
 
+@media (min-width: 400px) {
+  .ajuda *:not(:is(h2)) {
+    text-align: justify;
+  }  
+}
+
 .ajuda h2 {
-  color: #004085;  
+  color: #004085;
 }
 
 .ajuda li {
@@ -245,6 +251,10 @@ footer {
   display: table;
   margin: 1rem auto;
   max-width: 100%;
+}
+
+.gray {
+  color: gray;
 }
 
 .rbt-close-content {

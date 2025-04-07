@@ -1,13 +1,14 @@
-
 import path from 'node:path';
 import pkg from './package.json' with {type: 'json'};
 import TerserPlugin from 'terser-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin';
+import webpack from 'webpack';
 
 const date = new Date();
+const idStr = `${pkg.name} v${pkg.version} (${date.toISOString().substring(0, 10)})`;
 
 const banner = `
-${pkg.name} version ${pkg.version} (${date.toISOString().substring(0, 10)})
+${idStr}
 ${pkg.description}
 ${pkg.homepage}
  
@@ -64,6 +65,9 @@ export default {
         { from: './public/screenshots', to: 'screenshots' },
         { from: './public/fonts', to: 'fonts' },
       ]
+    }),
+    new webpack.DefinePlugin({
+      __PKGID__: JSON.stringify(idStr),
     }),
   ],
   devServer: {
