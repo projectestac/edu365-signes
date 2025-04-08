@@ -74,7 +74,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "rm -r dist && webpack --mode production && ln -sfn ../public/data dist/data && node ./sw/sw-build.mjs",
+    "build": "rm -rf dist && webpack --mode production && ln -sfn ../public/data dist/data && node ./sw/sw-build.mjs",
     "lint": "eslint src/**/*.js"
   },
   "browserslist": "> 0.25%, not dead"
