@@ -64,7 +64,7 @@ function App() {
           <header className="home-header">
             <Card onClick={() => setMode('')} className="titol">
               <Card.Img src={logoGran} className="logo-gran" />
-              <Card.Title>Diccionari Multimèdia de Llengua de Signes en català</Card.Title>
+              <Card.Title>Diccionari multimèdia de llengua de signes catalana</Card.Title>
             </Card>
             <div className="botons">
               <Button variant="primary" size="lg" onClick={() => setMode('diccionari')}>
