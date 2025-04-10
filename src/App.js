@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { checkFetchJsonResponse, getQueryParam } from './utils/utils.js';
+import { checkFetchJsonResponse, getQueryParams } from './utils/utils.js';
 import { webAppInstallInit, PWA_BTN_CLASSNAME, installHandleClick, pwaButtonStyle } from './utils/webAppInstall.js';
 import Spinner from 'react-bootstrap/Spinner';
 import Card from 'react-bootstrap/Card';
@@ -28,14 +28,23 @@ webAppInstallInit();
 function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [data, setData] = useState(true);
+  const [data, setData] = useState(null);
   const [mode, setMode] = useState('');
   const [paraulaInicial, setParaulaInicial] = useState(null);
 
+  const processQueryParams = (queryStr = '') => {
+    const params = getQueryParams(queryStr);
+    if (params.paraula) {
+      const paraula = params.paraula.toUpperCase();
+      const p = data?.paraules?.find(p => p.label === paraula)
+      if (p) {
+        setParaulaInicial(p);
+        setMode(params.mode === 'recordem' ? 'recordem' : 'diccionari');
+      }
+    }
+  }
+
   useEffect(() => {
-    const pMode = getQueryParam('mode');
-    if (pMode === 'diccionari' || pMode === 'recordem')
-      setMode(pMode);
     setLoading(true);
     fetch(`${DATA_PATH}/data.json`)
       .then(checkFetchJsonResponse)
@@ -48,23 +57,29 @@ function App() {
           }))
         }
         setData(fullData);
-        const pParaula = getQueryParam('paraula').toUpperCase();
-        if (pParaula)
-          setParaulaInicial(fullData.paraules.find(p => p.label === pParaula));
       })
       .catch(err => setError(err?.toString() || 'Error'))
       .finally(() => setLoading(false));
   }, []);
 
+  useEffect(() => {
+    if (data) {
+      if (window.self !== window.top) {
+        console.log('Som en un iframe!');
+      } else {
+        processQueryParams();
+      }
+    }
+  }, [data]);
 
   return (
     <div className="root">
       <div className="content">
         {!mode &&
           <header className="home-header">
-            <Card onClick={() => setMode('')} className="titol">
+            <Card className="titol">
               <Card.Img src={logoGran} className="logo-gran" />
-              <Card.Title>Diccionari multimèdia de llengua de signes catalana</Card.Title>
+              <Card.Title>Diccionari multimèdia de la llengua de signes catalana</Card.Title>
             </Card>
             <div className="botons">
               <Button variant="primary" size="lg" onClick={() => setMode('diccionari')}>
@@ -89,7 +104,9 @@ function App() {
           </header>
           ||
           <header>
-            <Button onClick={() => setMode('')} variant="ligth"><img src={logoPetit} className="logo-petit" alt="Mira què dic!" title="Mira què dic!"></img></Button>
+            <Button onClick={() => {setMode(''); setParaulaInicial(null);}} variant="ligth">
+              <img src={logoPetit} className="logo-petit" alt="Mira què dic!" title="Mira què dic!"></img>
+            </Button>
           </header>
         }
         {loading &&
@@ -105,14 +122,14 @@ function App() {
         }
         {!loading && !error && data &&
           mode === 'diccionari' &&
-          <Diccionari {...{ data, paraulaInicial}} />
+          <Diccionari {...{ data, paraulaInicial }} />
           || mode === 'recordem' &&
-          <Recordem {...{ data, paraulaInicial}} />
+          <Recordem {...{ data, paraulaInicial }} />
           || mode === 'credits' &&
           <Ajuda />
         }
       </div>
-      {(!mode || mode === 'credits')  &&
+      {(!mode || mode === 'credits') &&
         <footer>
           <div className="logos">
             <Button href="https://agora.xtec.cat/ceelesaigues/" target="_blank" variant="ligth"><img src={logoAigues} alt="CEE Les Aigües"></img></Button>

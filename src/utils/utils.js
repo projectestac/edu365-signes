@@ -1,17 +1,20 @@
 import queryString from 'query-string';
 
 /**
- * Gets the value associated to the given key on the query section of current location
- * @param {string} key - The key to search for
- * @returns {string} - The value associated to the given key, or an empty string if none
+ * Parse a query string into an object
+ * @param {string} query - The query string. When _null_, window.location.search is used (if available)
+ * @returns object
  */
-export function getQueryParam(key) {
-  try {
-    const result = queryString.parse(parent.window.location.search)[key] || '';
-    return result;
-  } catch (_err) {
-    return '';
+export function getQueryParams(query) {
+  if (!query) {
+    // Avoid same-site CORS errors in iframes
+    try {
+      query = window.top.location.search;
+    } catch (_err) {
+      return (Object.create(null));
+    }
   }
+  return queryString.parse(query || '');
 }
 
 /**
