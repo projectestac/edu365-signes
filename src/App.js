@@ -105,9 +105,9 @@ function App() {
         }
         {!loading && !error && data &&
           mode === 'diccionari' &&
-          <Diccionari {...{ data, paraulaInicial: mode === 'diccionari' ? paraulaInicial : null }} />
+          <Diccionari {...{ data, paraulaInicial}} />
           || mode === 'recordem' &&
-          <Recordem {...{ data, paraulaInicial: mode === 'recordem' ? paraulaInicial : null }} />
+          <Recordem {...{ data, paraulaInicial}} />
           || mode === 'credits' &&
           <Ajuda />
         }

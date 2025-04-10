@@ -6,7 +6,12 @@ import queryString from 'query-string';
  * @returns {string} - The value associated to the given key, or an empty string if none
  */
 export function getQueryParam(key) {
-  return queryString.parse((parent ? parent.window.location : window.location).search)[key] || '';
+  try {
+    const result = queryString.parse(parent.window.location.search)[key] || '';
+    return result;
+  } catch (_err) {
+    return '';
+  }
 }
 
 /**
