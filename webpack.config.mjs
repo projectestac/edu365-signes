@@ -61,6 +61,7 @@ export default {
       patterns: [
         './public/index.html',
         './public/manifest.json',
+        { from: './public/iframeHelper.js', info: { minimized: true } },
         { from: './public/ico', to: 'ico' },
         { from: './public/screenshots', to: 'screenshots' },
         { from: './public/fonts', to: 'fonts' },

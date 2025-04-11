@@ -65,7 +65,11 @@ function App() {
   useEffect(() => {
     if (data) {
       if (window.self !== window.top) {
-        console.log('Som en un iframe!');
+        window.addEventListener('message', (event) => {
+          if (event?.data?.type === 'locationSearch' && event?.data?.value)
+            processQueryParams(event.data.value);
+        });
+        window.top.postMessage('getLocationSearch', '*');
       } else {
         processQueryParams();
       }
@@ -104,7 +108,7 @@ function App() {
           </header>
           ||
           <header>
-            <Button onClick={() => {setMode(''); setParaulaInicial(null);}} variant="ligth">
+            <Button onClick={() => { setMode(''); setParaulaInicial(null); }} variant="ligth">
               <img src={logoPetit} className="logo-petit" alt="Mira què dic!" title="Mira què dic!"></img>
             </Button>
           </header>
