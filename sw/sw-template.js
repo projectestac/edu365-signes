@@ -23,13 +23,13 @@ if ('function' === typeof importScripts) {
     // Import statements
     const {
       core: { setCacheNameDetails, clientsClaim },
-      precaching: { precacheAndRoute, createHandlerBoundToURL },
-      routing: { NavigationRoute, registerRoute },
-      strategies: { StaleWhileRevalidate, CacheFirst },
+      precaching: { precacheAndRoute, /* createHandlerBoundToURL, */ },
+      routing: { registerRoute, /* NavigationRoute, */ },
+      strategies: { CacheFirst, /* StaleWhileRevalidate, */ },
       expiration: { ExpirationPlugin },
       cacheableResponse: { CacheableResponsePlugin },
       recipes: { googleFontsCache },
-      rangeRequests: { RangeRequestsPlugin },
+      /* rangeRequests: { RangeRequestsPlugin }, */
     } = workbox;
 
     // Set a specific prefix for this SW, used in cache names
@@ -42,6 +42,24 @@ if ('function' === typeof importScripts) {
 
     // Injection point for manifest files
     precacheAndRoute(self.__WB_MANIFEST || []);
+
+    // Cache for icons
+    registerRoute(
+      /\/ico\//,
+      new CacheFirst({
+        cacheName: 'icons',
+        plugins: [
+          new CacheableResponsePlugin({
+            statuses: [200],
+          }),
+          new ExpirationPlugin({
+            maxEntries: 100,
+            maxAgeSeconds: 60 * 60 * 24 * 90, // 90 Days
+            purgeOnQuotaError: true,
+          }),
+        ],
+      }),
+    );
 
     // Cache for images
     registerRoute(

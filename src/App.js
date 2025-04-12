@@ -8,8 +8,8 @@ import Button from 'react-bootstrap/Button';
 import Diccionari from './components/Diccionari.js';
 import Recordem from './components/Recordem.js';
 import Ajuda from './components/Ajuda.js';
-import logoPetit from './assets/logo-petit.svg';
-import logoGran from './assets/logo-gran.svg';
+import LogoPetit from './assets/logo-petit.svg';
+import LogoGran from './assets/logo-gran.svg';
 import logoAigues from './assets/logo_les_aigues.png';
 import eduLogo from './assets/edu_logo.png';
 import { FaSpellCheck } from "react-icons/fa";
@@ -82,7 +82,8 @@ function App() {
         {!mode &&
           <header className="home-header">
             <Card className="titol">
-              <Card.Img src={logoGran} className="logo-gran" />
+              {/* <Card.Img src={logoGran} className="logo-gran" />*/}
+              <LogoGran className="logo-gran" />
               <Card.Title>Diccionari multimèdia de la llengua de signes catalana</Card.Title>
             </Card>
             <div className="botons">
@@ -109,7 +110,7 @@ function App() {
           ||
           <header>
             <Button onClick={() => { setMode(''); setParaulaInicial(null); }} variant="ligth">
-              <img src={logoPetit} className="logo-petit" alt="Mira què dic!" title="Mira què dic!"></img>
+              <LogoPetit className="logo-petit" alt="Mira què dic!" title="Mira què dic!" />
             </Button>
           </header>
         }
@@ -136,8 +137,12 @@ function App() {
       {(!mode || mode === 'credits') &&
         <footer>
           <div className="logos">
-            <Button href="https://agora.xtec.cat/ceelesaigues/" target="_blank" variant="ligth"><img src={logoAigues} alt="CEE Les Aigües"></img></Button>
-            <Button href="https://edu365.cat/" target="_blank" variant="ligth"><img src={eduLogo} alt="edu365"></img></Button>
+            <Button href="https://agora.xtec.cat/ceelesaigues/" target="_blank" variant="ligth">
+              <img src={logoAigues} alt="CEE Les Aigües"></img>
+            </Button>
+            <Button href="https://edu365.cat/" target="_blank" variant="ligth">
+              <img src={eduLogo} alt="edu365"></img>
+            </Button>
           </div>
         </footer>
       }

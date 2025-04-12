@@ -1,10 +1,10 @@
 {
   "lang": "ca",
-  "id": "MiraQueDicApp-V01.03.07",
+  "id": "MiraQueDicApp-V01.03.08",
   "name": "Mira què dic!",
   "short_name": "MQDic!",
   "start_url": "/index.html",
-  "description": "Aplicació interactiva per aprendre i practicar la llengua de signes catalana, amb vídeos, imatges i sons.",
+  "description": "Aplicació interactiva per aprendre i practicar la llengua de signes catalana amb vídeos, imatges i sons.",
   "categories": [
     "education",
     "communication",

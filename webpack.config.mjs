@@ -33,11 +33,34 @@ WARNING: This is a compressed version of "${pkg.name}". Full source code is free
 ${pkg.repository.url}
 `;
 
+/**
+ * Inline assets as raw text or Base64 URIs
+ * See: https://webpack.js.org/guides/asset-modules/
+ */
+const assetRules = [
+  {
+    test: /\.svg$/,
+    use: ['@svgr/webpack'],
+  },
+  {
+    test: /\.png$/,
+    type: 'asset/inline',
+  },
+  {
+    test: /\.css$/,
+    use: ['style-loader', 'css-loader'],
+  },
+  {
+    test: /\.(ttf|eot|woff)$/,
+    type: 'asset/inline',
+  },
+];
+
 export default {
-  entry: './src',
+  entry: './src/index.js',
   output: {
     path: path.resolve(import.meta.dirname, 'dist'),
-    filename: 'main.js',
+    filename: 'signes.js',
   },
   module: {
     rules: [
@@ -46,14 +69,7 @@ export default {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.(png|svg)$/,
-        type: 'asset',
-      }
+      ... assetRules,
     ]
   },
   plugins: [
@@ -64,7 +80,6 @@ export default {
         { from: './public/iframeHelper.js', info: { minimized: true } },
         { from: './public/ico', to: 'ico' },
         { from: './public/screenshots', to: 'screenshots' },
-        { from: './public/fonts', to: 'fonts' },
       ]
     }),
     new webpack.DefinePlugin({

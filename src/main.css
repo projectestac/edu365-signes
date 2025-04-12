@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'dotsfont';
+  src: url('./assets/dotsfont.woff');
+}
+
 .root {
   min-height: 100vh;
   display: flex;
@@ -264,6 +269,7 @@ footer {
 .logo-petit {
   max-height: 2.5rem;
   margin-left: -0.8rem;
+  max-width: fit-content;
 }
 
 .logo-gran {
