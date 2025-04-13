@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="./ico/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
-  
+
   <meta name="theme-color" content="#1967d2" />
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="MQDic!">
@@ -21,14 +21,22 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  
+
+  <script type="module">
+    import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/7.3.0/workbox-window.prod.mjs';
+    if ('serviceWorker' in navigator) {
+      const url = new URL(location.href);
+      const debug = url.searchParams.has('debug');
+      const wb = new Workbox(`/service-worker.js${debug ? '?debug' : ''}`);
+      wb.register();
+    }
+  </script>
   <script defer="defer" src="signes.js"></script>
 </head>
 
 <body>
-  <div id="container"></div>
+  <div id="mqdic-container"></div>
 </body>
 
 </html>

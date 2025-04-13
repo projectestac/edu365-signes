@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 /* global importScripts */
 
 if ('function' === typeof importScripts) {
