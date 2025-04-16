@@ -17,15 +17,15 @@ import { FaBook } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
 
-const DATA_PATH = 'data';
-
 /**
  * Initialize the PWA installer
  * See: https://developers.google.com/web/fundamentals/app-install-banners/
  */
 webAppInstallInit();
 
-function App() {
+function App({ settings }) {
+  const { mediaSrc } = settings;
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${DATA_PATH}/data.json`)
+    fetch(`${mediaSrc}/data.json`)
       .then(checkFetchJsonResponse)
       .then(data => {
         const fullData = {
@@ -127,9 +127,9 @@ function App() {
         }
         {!loading && !error && data &&
           mode === 'diccionari' &&
-          <Diccionari {...{ data, paraulaInicial }} />
+          <Diccionari {...{ settings, data, paraulaInicial }} />
           || mode === 'recordem' &&
-          <Recordem {...{ data, paraulaInicial }} />
+          <Recordem {...{ settings, data, paraulaInicial }} />
           || mode === 'credits' &&
           <Ajuda />
         }

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import RecordemSelect from './RecordemSelect.js';
 import Paraula, { RECORDEM } from './Paraula.js';
 
-function Recordem({ data, paraulaInicial }) {
+function Recordem({ settings, data, paraulaInicial }) {
 
   const [paraula, setParaula] = useState(paraulaInicial);
   const [videoURL, setVideoURL] = useState(null);
@@ -12,7 +12,7 @@ function Recordem({ data, paraulaInicial }) {
   return (
     <main>
       <RecordemSelect {...{ data, setParaula }} />
-      {paraula && <Paraula {...{ paraula, mode: RECORDEM, videoURL, setVideoURL, audioURL, setAudioURL }} />}
+      {paraula && <Paraula {...{ settings, paraula, mode: RECORDEM, videoURL, setVideoURL, audioURL, setAudioURL }} />}
     </main>
   );
 }

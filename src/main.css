@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'dotsfont';
-  src: url('./assets/dotsfont.woff');
-}
-
 .root {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .content {

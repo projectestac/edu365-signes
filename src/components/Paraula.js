@@ -6,14 +6,12 @@ import { FaPlay as PlayIcon } from "react-icons/fa";
 import ParaulaRecordem from './ParaulaRecordem.js';
 import { fetchBinaryDataURL } from '../utils/utils.js';
 
-const VIDEO_BASE = 'data/videos';
-const SO_BASE = 'data/sons';
-const IMG_BASE = 'data/imatges';
 export const DICCIONARI = 'diccionari';
 export const RECORDEM = 'recordem';
-const MEDIA_BLOBS = true;
 
-function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, setAudioURL }) {
+function Paraula({ settings, paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, setAudioURL }) {
+
+  const { mediaSrc, mediaBlobs } = settings;
 
   const { paraula, so, imatge, repeticio, videos, /*families*/ } = paraulaObj;
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -28,9 +26,9 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
   const loadVideo = (videoIndex = currentVideo) => {
     if (videos && videoRef?.current) {
       const videoObj = videoRef.current;
-      const videoPath = `${VIDEO_BASE}/${videos[videoIndex]}`;
+      const videoPath = `${mediaSrc}/videos/${videos[videoIndex]}`;
 
-      if (!MEDIA_BLOBS) {
+      if (!mediaBlobs) {
         // DIRECT LOADING OF THE VIDEO FILE
         videoObj.setAttribute('src', videoPath);
         setVideoURL(videoPath);
@@ -59,9 +57,9 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
   const loadAudio = () => {
     if (so && audioRef?.current) {
       const audioObj = audioRef.current;
-      const audioPath = `${SO_BASE}/${so}`;
+      const audioPath = `${mediaSrc}/sons/${so}`;
 
-      if (!MEDIA_BLOBS) {
+      if (!mediaBlobs) {
         // DIRECT LOADING OF THE AUDIO FILE
         audioObj.setAttribute('src', audioPath);
         setAudioURL(audioPath);
@@ -178,7 +176,7 @@ function Paraula({ paraula: paraulaObj, mode, videoURL, setVideoURL, audioURL, s
         <div className="img-box">
           <img
             className="paraula-imatge"
-            src={`${IMG_BASE}/${imatge}`}
+            src={`${mediaSrc}/imatges/${imatge}`}
             alt={paraula}
             onError={ev => { ev.target.style.display = 'none'; }}
           />

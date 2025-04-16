@@ -47,10 +47,6 @@ const assetRules = [
     type: 'asset/inline',
   },
   {
-    test: /\.css$/,
-    use: ['style-loader', 'css-loader'],
-  },
-  {
     test: /\.(ttf|eot|woff)$/,
     type: 'asset/inline',
   },
@@ -69,7 +65,14 @@ export default {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
-      ... assetRules,
+      {
+        test: /\.css$/,
+        loader: 'css-loader',
+        options: {
+          exportType: 'string',
+        }
+      },
+      ...assetRules,
     ]
   },
   plugins: [
