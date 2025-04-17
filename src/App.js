@@ -77,7 +77,7 @@ function App({ settings }) {
   }, [data]);
 
   return (
-    <div className="root">
+    <div className="mqdic-root">
       <div className="content">
         {!mode &&
           <header className="home-header">

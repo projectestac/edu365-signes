@@ -6,7 +6,7 @@ import merge from 'deepmerge';
 
 // Import CSS
 import bootstrapCSS from 'bootstrap/dist/css/bootstrap.min.css' with {type: 'css'};
-import typeAheadCSS from 'react-bootstrap-typeahead/css/Typeahead.css' with {type: 'css'};
+import typeAheadCSS from 'react-bootstrap-typeahead/css/Typeahead.min.css' with {type: 'css'};
 import mainCSS from './main.css' with {type: 'css'};
 import fontsCSS from './fonts.css' with {type: 'css'};
 
@@ -16,7 +16,7 @@ const CSSFonts = [fontsCSS];
 const insertStyles = (styles, target, replaceBody = false) => {  
   styles.forEach(css => {
     const styleTag = document.createElement('style');
-    styleTag.innerHTML = replaceBody ? css.replace('}body{', '}.root{').replace(':root','.root') : css;
+    styleTag.innerHTML = replaceBody ? css.replaceAll('}body{', '}.mqdic-root{').replaceAll(':root','.mqdic-root') : css;
     target.appendChild(styleTag);
   });
 }
