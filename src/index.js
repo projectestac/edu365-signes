@@ -1,3 +1,5 @@
+/* global process */
+
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.js';
@@ -22,8 +24,8 @@ const insertStyles = (styles, target, replaceBody = false) => {
 }
 
 const DEFAULT_SETTINGS = {
-  mediaSrc: 'data',
-  mediaBlobs: true,
+  mediaSrc: process.env.MEDIA_SRC,
+  mediaBlobs: process.env.MEDIA_BLOBS === 'true',
 };
 
 // Direct React render to container div, if exists
@@ -46,14 +48,14 @@ class MQDicApp extends HTMLElement {
   }
 
   connectedCallback() {
-
+    // Create a mount point into the shadow DOM
     this.mountPoint = document.createElement('div');
     this.shadowRoot.appendChild(this.mountPoint);
 
     // Parse the "data-" props passed to the web component, and set the 'isWebComponent' flag
     const dataSettings = { ...parseStringSettings(this.dataset), isWebComponent: true };
 
-    // Transfer our `style` attribute to the mountPoint
+    // Transfer our `style` attribute to the mount point
     const styleAttr = this.getAttribute('style');
     if (styleAttr) {
       this.mountPoint.setAttribute('style', styleAttr);
@@ -69,7 +71,7 @@ class MQDicApp extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ['data-data-path', 'data-use-blobs'];
+    return ['data-media-src', 'data-media-blobs'];
   }
 
   attributeChangedCallback(_name, _oldValue, _newValue) {
