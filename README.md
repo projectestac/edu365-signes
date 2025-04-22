@@ -16,16 +16,16 @@ For each word there are:
 The app also incorporates a game of guessing a hidden word. The first clue presented to the player is the video where the word is represented in sign language. If only watching the video the player does not guess it can ask for two more clues: the image and / or the locution of the word.
 
 This application is intended for:
-- Girls and boys who use hand signs as a communication medium.
-- Deaf girls and boys who need to learn Sign Language.
-- Special education teachers and speech therapists.
-- Parents and guardians.
+- Children who use hand signs as a communication medium
+- Deaf children who need to learn Sign Language
+- Special education teachers and speech therapists
+- Parents and guardians
 
 ## List of all media used in the app
 
 All media used in the app is located on the folder `public/data`. Unused images and sounds are also stored in the GIT branch [`unused-media`](https://github.com/projectestac/edu365-signes/tree/unused-media).
 
-The complete list of all words and media ca be consulted in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing).
+The complete list of all words and media can be consulted in this [Google spreadsheet](https://docs.google.com/spreadsheets/d/1lKUyOrmFfTzWKyLfTNXI4sLX2d-e9ONCyMBFGGi9zxY/edit?usp=sharing).
 
 
 ## Building the app
@@ -55,20 +55,20 @@ From here, the most usual operations are:
 $ cd path/to/signes
 $ npm start
 ```
-Runs the app in the development mode.<br>
+This launches the app in development mode.<br>
 Open [http://localhost:9001](http://localhost:9001) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will automatically reload when you make edits.<br>
 
 #### Build the main application:
 ```bash
 $ cd path/to/signes
 $ npm run build
 ```
-Builds the app for production to the `dist` folder.<br>
+Builds the app for production into the `dist` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-All the contents of `/public` should be copied or symlinked in `/build`, thus allowing the media assets to be found.
+The contents of `/public/data` are symlinked into `/build`, thus allowing the media assets to be found by the app.
 
 ## License
 "Signes" is an open source development made by the Department of Education of the Government of Catalonia, released under the terms of the [European Union Public Licence v. 1.2](https://eupl.eu/1.2/en/).

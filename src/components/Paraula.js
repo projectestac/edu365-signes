@@ -1,3 +1,32 @@
+/*!
+ *  File    : components/Paraula.js
+ *  Created : 01/04/2025
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  Mira què dic! - Diccionari multimèdia de la llengua de signes catalana
+ *  https://mqdic.edigital.cat
+ *
+ *  @source https://github.com/projectestac/edu365-signes
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2021 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.2 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ */
+
 import React, { useState, useEffect, useRef } from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
@@ -32,10 +61,9 @@ function Paraula({ settings, paraula: paraulaObj, mode, videoURL, setVideoURL, a
         // DIRECT LOADING OF THE VIDEO FILE
         videoObj.setAttribute('src', videoPath);
         setVideoURL(videoPath);
-        // window.setTimeout(() => videoObj.play(), 0);
       }
       else {
-        // LOAD VIDEO VIA BLOB
+        // LOAD THE VIDEO FILE AS A BLOB
         videoObj.setAttribute('src', '');
         if (videoURL)
           URL.revokeObjectURL(videoURL);
@@ -65,7 +93,7 @@ function Paraula({ settings, paraula: paraulaObj, mode, videoURL, setVideoURL, a
         setAudioURL(audioPath);
       }
       else {
-        // LOAD AUDIO VIA BLOB
+        // LOAD THE AUDIO FILE AS A BLOB
         audioObj.setAttribute('src', '');
         if (audioURL)
           URL.revokeObjectURL(audioURL);

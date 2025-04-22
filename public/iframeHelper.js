@@ -1,5 +1,5 @@
 /**
- * Wait to receive a 'getLocationQuery' message request from the iframe, and reply
+ * Wait to receive a 'getLocationSearch' message request from the iframe, and reply
  * it with the current value of "window.location.search".
  */
 if (window.location.search) {

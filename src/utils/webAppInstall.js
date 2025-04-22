@@ -1,16 +1,16 @@
 /*!
  *  File    : utils/webAppInstall.js
- *  Created : 10/06/2019
+ *  Created : 01/04/2025
  *  By      : Francesc Busquets <francesc@gmail.com>
  *
- *  Map of pedagogical innovation in Catalonia 
- *  https://innovacio.xtec.gencat.cat
+ *  Mira què dic! - Diccionari multimèdia de la llengua de signes catalana
+ *  https://mqdic.edigital.cat
  *
- *  @source https://github.com/projectestac/mapa-innovacio-edu
+ *  @source https://github.com/projectestac/edu365-signes
  *
  *  @license EUPL-1.2
  *  @licstart
- *  (c) 2019 Educational Telematic Network of Catalonia (XTEC)
+ *  (c) 2021 Educational Telematic Network of Catalonia (XTEC)
  *
  *  Licensed under the EUPL, Version 1.2 or -as soon they will be approved by
  *  the European Commission- subsequent versions of the EUPL (the "Licence");
@@ -26,7 +26,6 @@
  *  under the Licence.
  *  @licend
  */
-
 
 /**
  * Miscellaneous utilities related to the "Add to Home Screen" (A2HS) functionality

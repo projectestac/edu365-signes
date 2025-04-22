@@ -2,7 +2,7 @@ import path from 'node:path';
 import pkg from './package.json' with {type: 'json'};
 import TerserPlugin from 'terser-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin';
-import  Dotenv from 'dotenv-webpack';
+import Dotenv from 'dotenv-webpack';
 import webpack from 'webpack';
 
 const date = new Date();

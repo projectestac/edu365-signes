@@ -1,3 +1,32 @@
+/*!
+ *  File    : App.js
+ *  Created : 01/04/2025
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  Mira què dic! - Diccionari multimèdia de la llengua de signes catalana
+ *  https://mqdic.edigital.cat
+ *
+ *  @source https://github.com/projectestac/edu365-signes
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2021 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.2 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ */
+
 import React, { useState, useEffect } from 'react';
 import { checkFetchJsonResponse, getQueryParams } from './utils/utils.js';
 import { webAppInstallInit, PWA_BTN_CLASSNAME, installHandleClick, pwaButtonStyle } from './utils/webAppInstall.js';
@@ -23,6 +52,11 @@ import { FaInfoCircle } from "react-icons/fa";
  */
 webAppInstallInit();
 
+/**
+ * This is the app main function
+ * @param {object} settings 
+ * @returns 
+ */
 function App({ settings }) {
   const { mediaSrc } = settings;
 
@@ -44,6 +78,7 @@ function App({ settings }) {
     }
   }
 
+  // Load `data.json` and fill-in the `data` variable
   useEffect(() => {
     setLoading(true);
     fetch(`${mediaSrc}/data.json`)
@@ -62,9 +97,11 @@ function App({ settings }) {
       .finally(() => setLoading(false));
   }, []);
 
+  // Process the query params
   useEffect(() => {
     if (data) {
       if (window.self !== window.top) {
+        // Cannot directly get `location` from iframes, so ask `window.top` to send the query params.
         window.addEventListener('message', (event) => {
           if (event?.data?.type === 'locationSearch' && event?.data?.value)
             processQueryParams(event.data.value);
@@ -82,7 +119,6 @@ function App({ settings }) {
         {!mode &&
           <header className="home-header">
             <Card className="titol">
-              {/* <Card.Img src={logoGran} className="logo-gran" />*/}
               <LogoGran className="logo-gran" />
               <Card.Title>Diccionari multimèdia de la llengua de signes catalana</Card.Title>
             </Card>
