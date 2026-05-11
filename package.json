@@ -61,7 +61,7 @@
     "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3",
-    "workbox-build": "^7.4.0"
+    "workbox-build": "^7.4.1"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
