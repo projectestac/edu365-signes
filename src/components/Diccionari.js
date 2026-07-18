@@ -27,7 +27,7 @@
  *  @licend
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DiccSelect from './DiccSelect.js';
 import Paraula, { DICCIONARI } from './Paraula.js';
 

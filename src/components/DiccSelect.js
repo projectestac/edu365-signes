@@ -27,7 +27,7 @@
  *  @licend
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import Form from 'react-bootstrap/Form';
 

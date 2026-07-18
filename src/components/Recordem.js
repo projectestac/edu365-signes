@@ -27,7 +27,7 @@
  *  @licend
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import RecordemSelect from './RecordemSelect.js';
 import Paraula, { RECORDEM } from './Paraula.js';

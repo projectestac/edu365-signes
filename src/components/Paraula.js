@@ -27,7 +27,10 @@
  *  @licend
  */
 
-import React, { useState, useEffect, useRef } from 'react';
+/* eslint-disable @eslint-react/exhaustive-deps */
+/* eslint-disable @eslint-react/set-state-in-effect */
+
+import { useState, useEffect, useRef } from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
@@ -119,7 +122,8 @@ function Paraula({ settings, paraula: paraulaObj, mode, videoURL, setVideoURL, a
   useEffect(loadVideo, [currentVideo]);
   useEffect(() => {
     loadAudio();
-    window.setTimeout(() => { catchFocusRef?.current?.focus(); }, 100);
+    const timeoutHandler = window.setTimeout(() => { catchFocusRef?.current?.focus(); }, 100);
+    return () => window.clearTimeout(timeoutHandler);
   }, [so]);
 
   const replay = (audio = audioOn) => {
@@ -185,9 +189,9 @@ function Paraula({ settings, paraula: paraulaObj, mode, videoURL, setVideoURL, a
               aria-label="Selecciona un vídeo"
               toggle="true"
             >
-              {videos.map((_v, n) =>
+              {videos.map((video, n) =>
                 <Button
-                  key={n}
+                  key={video}
                   value={n}
                   variant={currentVideo === n ? 'primary' : 'outline-primary'}
                   onClick={(_ev) => changeCurrentVideo(n)}

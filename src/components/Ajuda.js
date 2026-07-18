@@ -27,8 +27,6 @@
  *  @licend
  */
 
-import React from 'react';
-
 import ChromeInstall from '../assets/chrome-install.png';
 import InstallButton from '../assets/install-button.png';
 import PwaIos from '../assets/pwa-ios.png';
